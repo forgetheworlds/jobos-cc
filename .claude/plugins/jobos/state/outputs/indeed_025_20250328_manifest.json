@@ -1,0 +1,28 @@
+{
+  "job_id": "indeed_025_20250328",
+  "title": "SU 26 - Retention Study Coordinator (Student Success Mentor Lead)",
+  "company": "York University",
+  "generated_at": "2026-03-28T21:20:00Z",
+  "materials": {
+    "resume": {
+      "path": ".claude/plugins/jobos/state/outputs/resumes/indeed_025_20250328_resume.md",
+      "word_count": 320,
+      "lane": "student_success",
+      "emphasis": "Retention, peer mentoring, student success"
+    },
+    "cover_letter": {
+      "path": ".claude/plugins/jobos/state/outputs/cover_letters/indeed_025_20250328_cover_letter.md",
+      "word_count": 265,
+      "institution": "York University",
+      "mission_referenced": true
+    }
+  },
+  "quality_check": {
+    "resume": "passed",
+    "cover_letter": "passed",
+    "no_banned_phrases": true,
+    "facts_verified": true
+  },
+  "next_step": "review",
+  "notes": "High priority - prior York University connection as Community Scholar. Score 8.8."
+}

@@ -1,0 +1,12 @@
+{
+  "name": "jobos",
+  "version": "2.0.0",
+  "description": "JobOS-CC: Higher-education job search system for Dr. Mohamed Sambul. Discovers, scores, tailors, reviews, and executes job applications with route-aware pipeline, state machines, and modular agent loading.",
+  "author": {
+    "name": "Dr. Mohamed Sambul"
+  },
+  "commands": ["commands"],
+  "agents": ["agents"],
+  "skills": ["skills"],
+  "hooks": "hooks/hooks.json"
+}

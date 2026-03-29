@@ -1,0 +1,2 @@
+# Canonical job index
+# Format: {"canonical_id": "...", "title": "...", "institution": "...", "source_urls": [...], "first_seen": "ISO-8601 timestamp"}

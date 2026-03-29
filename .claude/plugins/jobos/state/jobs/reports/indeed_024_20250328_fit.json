@@ -1,0 +1,15 @@
+{
+  "job_id": "indeed_024_20250328",
+  "lane": "student_success",
+  "score": 6.0,
+  "rationale": "Auto-classified as student_success. Score based on title keywords and institution type.",
+  "cluster_match": "student_success",
+  "exclusion_triggered": null,
+  "confidence": 0.75,
+  "next_step": "review",
+  "verdict": "borderline",
+  "scoring_factors": {
+    "role_alignment": 6,
+    "institution_type": 6
+  }
+}

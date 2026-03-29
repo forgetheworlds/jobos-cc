@@ -1,0 +1,18 @@
+{
+  "job_id": "indeed_022_20250328",
+  "lane": "student_success",
+  "score": 8.5,
+  "rationale": "Strong match for Dr. Sambul's recruitment and student success experience. Director-level title appropriate for doctoral credentials. International student recruitment aligns with his multicultural background and community partnership experience. Large-scale strategy development matches his program coordination expertise.",
+  "cluster_match": "student_success",
+  "exclusion_triggered": null,
+  "confidence": 0.88,
+  "next_step": "tailor",
+  "verdict": "approved",
+  "scoring_factors": {
+    "role_alignment": 9,
+    "seniority_match": 8,
+    "credentials": 9,
+    "domain_knowledge": 8,
+    "mission_fit": 9
+  }
+}

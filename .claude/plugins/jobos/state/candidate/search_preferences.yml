@@ -1,0 +1,278 @@
+# =====================================================================
+# SEARCH PREFERENCES — Where and How to Look for Jobs
+# =====================================================================
+#
+# This file tells JobOS where to search for jobs, what locations to consider,
+# what keywords to use, and which job sites to check.
+#
+# During setup (Phase 6), you'll discuss your search preferences.
+# Update this file anytime to refine where JobOS looks for opportunities.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# DEFAULT SEARCH SETTINGS
+# ----------------------------------------------------------------------------
+
+defaults:
+  location: Remote          # Default location if none specified
+  distance: 0               # Miles from preferred locations (0 = exact match only)
+  hours_old: 72             # Only show jobs posted in the last 72 hours (3 days)
+  results_per_site: 50      # Maximum results to pull from each job site per search
+  country_indeed: canada    # Country for Indeed searches (us, canada, uk, etc.)
+
+# ----------------------------------------------------------------------------
+# LOCATIONS — Where You Want to Work
+# ----------------------------------------------------------------------------
+# Add specific cities or "Remote" for work-from-home opportunities.
+# JobOS will search for jobs in these locations.
+
+locations:
+- location: Remote
+  remote: true
+  label: remote
+  # Fully remote positions — can work from anywhere
+
+- location: Toronto
+  remote: false
+  label: toronto
+  # Toronto, Ontario area
+
+- location: Mississauga
+  remote: false
+  label: mississauga
+  # Mississauga, Ontario area
+
+- location: Waterloo
+  remote: false
+  label: waterloo
+  # Waterloo, Ontario area
+
+- location: Hamilton
+  remote: false
+  label: hamilton
+  # Hamilton, Ontario area
+
+- location: Oakville
+  remote: false
+  label: oakville
+  # Oakville, Ontario area
+
+# Add more locations as needed. Format:
+# - location: [City Name]
+#   remote: false
+#   label: [city_name_lowercase]
+
+# ----------------------------------------------------------------------------
+# SEARCH QUERIES — What Job Titles to Search For
+# ----------------------------------------------------------------------------
+# These are the job titles and keywords JobOS will search for.
+# TIER 1 = Top priority — closest match to what you want
+# TIER 2 = Interested — good matches but slightly different focus
+# TIER 3 = Maybe — worth considering but not perfect fit
+
+queries:
+- query: Academic Program Coordinator
+  tier: 1
+  # Direct match to core expertise
+
+- query: Academic Program Manager
+  tier: 1
+  # Direct match to core expertise
+
+- query: Academic Affairs Coordinator
+  tier: 1
+  # Direct match to core expertise
+
+- query: Director of Student Success
+  tier: 1
+  # Direct match to student success focus
+
+- query: Student Success Manager
+  tier: 1
+  # Direct match to student success focus
+
+- query: First-Year Experience Director
+  tier: 1
+  # Direct match to first-year program expertise
+
+- query: Retention Coordinator higher education
+  tier: 1
+  # Direct match to retention work
+
+- query: Academic Advisor university
+  tier: 2
+  # Interested but advising-focused, not program leadership
+
+- query: Director of Academic Advising
+  tier: 2
+  # Interested but advising-focused
+
+- query: Curriculum Development Specialist higher education
+  tier: 2
+  # Interested but curriculum-specific
+
+- query: Faculty Development Coordinator
+  tier: 2
+  # Interested but faculty development focus
+
+- query: Assessment Coordinator university
+  tier: 2
+  # Interested but assessment-specific
+
+- query: Associate Dean
+  tier: 2
+  # Interested but higher administrative level
+
+- query: Director of Academic Affairs
+  tier: 2
+  # Interested but higher administrative level
+
+- query: Education Program Manager
+  tier: 3
+  # Maybe — program management but outside traditional higher ed
+
+- query: Continuing Education Director
+  tier: 3
+  # Maybe — continuing education rather than academic programs
+
+- query: Accreditation Coordinator
+  tier: 3
+  # Maybe — specialized compliance role
+
+# Add more queries as needed. Format:
+# - query: [Job title or keywords]
+#   tier: [1|2|3]
+
+# ----------------------------------------------------------------------------
+# HIGHER EDUCATION KEYWORDS — Terms That Signal Higher Ed Jobs
+# ----------------------------------------------------------------------------
+# These keywords help JobOS identify higher education jobs versus other sectors.
+# Jobs containing these words are more likely to be relevant.
+
+higher_ed_keywords:
+- higher education
+- university
+- college
+- postsecondary
+- academic
+- student success
+- retention
+- first-year experience
+- curriculum
+- faculty
+- advising
+
+# Add more keywords that are relevant to your target roles.
+
+# ----------------------------------------------------------------------------
+# JOB SITES TO SEARCH — Where to Look for Jobs
+# ----------------------------------------------------------------------------
+# These are the job boards and sites JobOS will search.
+
+sites:
+- indeed      # Indeed.com (or Indeed.ca for Canada)
+- linkedin    # LinkedIn Jobs
+
+# Available options:
+# - indeed     # Indeed (most jobs)
+# - linkedin   # LinkedIn Jobs (good for networking)
+# - google     # Google Jobs (aggregates multiple sources)
+# - higheredjobs  # HigherEdJobs.com (higher ed specific)
+# - chronicle   # Chronicle of Higher Education (academic jobs)
+
+# Add more sites as needed. Currently, just searching Indeed and LinkedIn.
+
+# ----------------------------------------------------------------------------
+# INSTITUTION PREFERENCES — Types of Organizations to Target
+# ----------------------------------------------------------------------------
+
+institution_preferences:
+  preferred:
+    - 4-year university
+    # Traditional universities and colleges
+
+    - state university
+    # Public university systems
+
+    - community college
+    # Two-year colleges and community colleges
+
+    - liberal arts college
+    # Private liberal arts colleges
+
+  acceptable:
+    - education nonprofit
+    # Nonprofits focused on education (e.g., College Board, ETS)
+
+    - higher ed consortium
+    # Organizations serving multiple institutions
+
+    - accreditation body
+    # Accreditation agencies and quality assurance organizations
+
+  avoid:
+    - for-profit college
+    # For-profit institutions (typically different mission/structure)
+
+    - test prep company
+    # Test preparation and tutoring companies (K-12 focused)
+
+    - ed-tech startup (sales-focused)
+    # Educational technology companies with sales roles
+
+# ----------------------------------------------------------------------------
+# PORTAL AWARENESS — Common Application Systems
+# ----------------------------------------------------------------------------
+# These are the applicant tracking systems (ATS) that universities use.
+# JobOS recognizes these and knows how to navigate them.
+
+portal_awareness:
+  common_university_portals:
+    - Workday
+    # Many large universities use Workday for hiring
+
+    - PeopleAdmin
+    # Common for academic and higher education positions
+
+    - PageUp
+    # Used by some university systems
+
+    - Greenhouse
+    # Growing in higher ed, originally tech companies
+
+    - Taleo
+    # Oracle's ATS, used by some universities
+
+  note: Many universities use Workday or PeopleAdmin — portal classifier skill handles these
+  # JobOS has specialized knowledge for navigating these systems.
+
+# ----------------------------------------------------------------------------
+# SEARCH SCHEDULE — How Often to Search for Jobs
+# ----------------------------------------------------------------------------
+
+schedule:
+  frequency: daily
+  # How often to run searches: daily, weekly, or specific days
+
+  tiers_per_run:
+    - 1
+    - 2
+    # Which tiers to search for in each run. Searches Tier 1 and Tier 2 jobs each time.
+    # Remove Tier 2 from this list if you only want top-priority jobs.
+
+  full_crawl_frequency: weekly
+  # How often to do a comprehensive search across all sites
+
+  max_results_per_run: 200
+  # Maximum total jobs to return in a single search run
+
+# =====================================================================
+# HOW TO UPDATE
+# =====================================================================
+# Run /setup and choose Phase 6 to update search preferences.
+# Or edit this file directly:
+# - Add locations to the locations list
+# - Add queries to the queries list
+# - Add or remove job sites
+# - Adjust the schedule (frequency, tiers_per_run)
+# =====================================================================

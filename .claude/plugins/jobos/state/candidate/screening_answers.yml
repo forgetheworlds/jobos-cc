@@ -1,0 +1,121 @@
+# Screening Answers — Dr. Mohamed Sambul
+# Answer seeds for common screening question archetypes.
+# The Screening Question Writer skill uses these as starting points,
+# adapting for each specific role and institution context.
+
+archetypes:
+  interest_in_role:
+    pattern: "Why are you interested in this role/position?"
+    seed: >
+      My interest stems from my deep commitment to student success in higher education.
+      With over 20 years of experience in academic program coordination, first-year
+      student transitions, and faculty development, I have seen firsthand how
+      well-designed programs and intentional support structures transform student
+      outcomes. This role aligns directly with my expertise and my passion for
+      building inclusive, effective educational environments.
+    adapt_for: ["specific institution mission", "department focus", "role requirements"]
+
+  student_support_philosophy:
+    pattern: "Describe your approach to student support/success"
+    seed: >
+      I take a holistic, student-centered approach that recognizes each student
+      brings unique strengths and challenges. My work has consistently focused on
+      creating structured support systems — from orientation programs to ongoing
+      advising — that help students navigate the transition to higher education.
+      I believe in proactive outreach, culturally responsive practices, and
+      data-informed decision-making to identify and support at-risk students early.
+    adapt_for: ["specific student populations", "institutional context", "program type"]
+
+  program_coordination:
+    pattern: "Describe your experience coordinating academic programs"
+    seed: >
+      I have extensive experience coordinating academic programs in postsecondary
+      settings, including designing and implementing first-year experience programs,
+      coordinating faculty across departments, managing program logistics, and
+      conducting program assessment. My approach combines clear communication with
+      faculty and staff, structured processes, and continuous improvement based on
+      student outcomes data.
+    adapt_for: ["program type", "scale", "stakeholders involved"]
+
+  faculty_collaboration:
+    pattern: "How do you work with faculty?"
+    seed: >
+      I have a collaborative approach to faculty relationships built on mutual
+      respect and shared commitment to student learning. I have coordinated faculty
+      across departments, facilitated professional development workshops, and
+      supported curriculum development initiatives. I understand the importance of
+      faculty autonomy while also ensuring program coherence and institutional alignment.
+    adapt_for: ["faculty type (adjunct/full-time)", "department structure", "development focus"]
+
+  dei_commitment:
+    pattern: "Describe your commitment to diversity, equity, and inclusion"
+    seed: >
+      Diversity, equity, and inclusion are central to my professional practice.
+      My experience in multicultural education has taught me that inclusive
+      environments require intentional design — from curriculum that reflects
+      diverse perspectives to support structures that address systemic barriers.
+      I have worked with diverse student populations and developed programming
+      that honors cultural differences while building community.
+    adapt_for: ["institutional DEI framework", "specific populations", "program context"]
+
+  program_improvement:
+    pattern: "Give an example of improving a program or process"
+    seed: >
+      In my role coordinating first-year programming, I identified that student
+      retention rates dropped significantly after the first semester. I redesigned
+      the transition program to include extended orientation activities, peer
+      mentoring connections, and mid-semester check-ins with academic advisors.
+      These changes contributed to measurable improvements in student persistence.
+    adapt_for: ["specific metrics from resume_facts", "relevant program type", "institutional context"]
+
+  advising_approach:
+    pattern: "Describe your advising philosophy or approach"
+    seed: >
+      My advising philosophy centers on empowering students to take ownership of
+      their educational journey while providing the structure and support they need
+      to succeed. I practice developmental advising, helping students connect their
+      academic choices to their personal and career goals. I believe in accessibility,
+      proactive outreach, and creating a welcoming environment where students
+      feel comfortable seeking help.
+    adapt_for: ["advising model", "student population", "institutional priorities"]
+
+  curriculum_development:
+    pattern: "Describe your experience with curriculum development"
+    seed: >
+      I have contributed to curriculum development at the program level, including
+      course design, learning outcomes alignment, assessment design, and program
+      review processes. My approach to curriculum work is collaborative — working
+      with faculty to ensure that curricula are rigorous, relevant, and responsive
+      to student needs and workforce demands.
+    adapt_for: ["specific curriculum area", "accreditation context", "assessment framework"]
+
+  policy_quality_assurance:
+    pattern: "Experience with academic policy or quality assurance"
+    seed: >
+      I have experience implementing institutional policies and contributing to
+      quality assurance processes, including program reviews, accreditation
+      preparation, and compliance reporting. I understand the importance of
+      clear documentation, consistent processes, and transparent communication
+      when implementing policy changes that affect faculty and students.
+    adapt_for: ["accrediting body", "policy type", "institutional level"]
+
+  leadership_style:
+    pattern: "Describe your leadership style"
+    seed: >
+      I lead through collaboration, clear communication, and a commitment to
+      shared goals. I believe in empowering team members, providing clear
+      expectations and support, and modeling the inclusive, student-centered
+      values I expect from the programs I lead. I am comfortable both leading
+      initiatives and supporting the work of others.
+    adapt_for: ["team size", "organizational culture", "specific leadership challenges"]
+
+# Common yes/no questions with defaults
+boolean_answers:
+  authorized_to_work: true       # To be confirmed during /setup
+  require_sponsorship: false     # To be confirmed during /setup
+  willing_to_relocate: true      # To be confirmed during /setup
+  have_doctorate: true
+  years_experience_5_plus: true
+  higher_ed_experience: true
+  supervisory_experience: true   # To be confirmed during /setup
+  bilingual: true                # To be confirmed during /setup

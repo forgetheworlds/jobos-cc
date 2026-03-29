@@ -1,0 +1,147 @@
+# =====================================================================
+# CONSTRAINTS — What Jobs to Avoid
+# =====================================================================
+#
+# This file tells JobOS what types of jobs to skip. It has two parts:
+#
+# 1. HARD EXCLUSIONS: Jobs to NEVER apply to. These are deal-breakers.
+# 2. SOFT EXCLUSIONS: Jobs to avoid unless they're an amazing fit.
+#
+# During setup (Phase 5), you'll discuss what to avoid. You can update
+# this file anytime by running /setup again or editing directly.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# HARD EXCLUSIONS — Deal-Breakers (Never Apply)
+# ----------------------------------------------------------------------------
+
+hard_exclusions:
+
+  # Role Types to Skip
+  # These job titles or patterns mean "don't apply, no matter what"
+  role_types:
+  - pattern: sales
+    reason: Sales-heavy roles are outside candidate's professional profile
+    # Example: "Education Sales Representative", "Learning Solutions Sales"
+
+  - pattern: business development
+    reason: BD roles require sales orientation not aligned with candidate
+    # Example: "Business Development Manager", "Education Consultant" (sales-focused)
+
+  - pattern: marketing manager
+    reason: Marketing management is not in candidate's skill set
+    # Example: "Higher Education Marketing Manager"
+
+  - pattern: IT support
+    reason: Technical support roles are not aligned
+    # Example: "IT Help Desk", "Educational Technology Support" (technical)
+
+  - pattern: software engineer
+    reason: Software engineering is not candidate's domain
+    # Example: "Software Engineer", "Full Stack Developer"
+
+  - pattern: data scientist
+    reason: Data science is not candidate's domain
+    # Example: "Data Scientist", "Learning Analytics Engineer" (technical)
+
+  # Sectors or Industries to Skip
+  sectors:
+  - pattern: K-12
+    condition: unless_leadership
+    reason: K-12 roles without significant leadership component not aligned
+    # K-12 teaching is excluded, but K-12 administration (Principal, Director) might be okay
+
+  - pattern: corporate training
+    reason: Corporate L&D is outside higher-ed focus
+    # Corporate training departments, not higher education
+
+  - pattern: real estate
+    reason: Unrelated industry
+
+  - pattern: insurance
+    reason: Unrelated industry
+
+  - pattern: pharmaceutical sales
+    reason: Unrelated industry
+
+  # Red Flag Phrases — If these appear in a job posting, skip it
+  # These phrases usually indicate the job isn't what it seems
+  red_flag_phrases:
+  - commission-based           # Pay is based on sales, not salary
+  - quota-driven               # Must meet sales quotas
+  - cold calling               # Sales tactic
+  - door to door               # Sales tactic
+  - MLM                        # Multi-level marketing
+  - franchise opportunity      # Buy-in required, not a job
+  - no experience needed       # Entry-level when you have advanced experience
+  - make money from home        # Often a scam or sales role
+  - unlimited income potential # Sales commission role
+
+# ----------------------------------------------------------------------------
+# SOFT EXCLUSIONS — Avoid Unless Great Fit
+# ----------------------------------------------------------------------------
+# These are "maybe, but probably not" — Jobs to skip unless they're
+# exceptional in some way (perfect location, amazing mission, great salary).
+# ----------------------------------------------------------------------------
+
+soft_exclusions:
+
+  # Under-leveled Roles — Jobs that don't match your experience level
+  under_leveled:
+    - pattern: "entry level"
+      condition: "unless_leadership"
+      reason: "Entry-level role underutilizing 20+ years experience"
+      # Exception: "Entry-Level Director" might actually be appropriate
+
+    - pattern: "junior"
+      condition: "unless_senior"
+      reason: "Junior-level role"
+      # Exception: "Junior Dean" might be entry-level administration
+
+    - pattern: "assistant"
+      condition: "unless_leadership"
+      reason: "Assistant-level without leadership scope"
+      # Exception: "Assistant Director" might have real leadership
+
+  # Licensing Requirements — Jobs requiring credentials you don't have
+  licensing_requirements:
+    - pattern: "LCSW"
+      reason: "Requires Licensed Clinical Social Worker"
+      # If job requires social work license, skip
+
+    - pattern: "registered nurse"
+      reason: "Requires RN license"
+
+    - pattern: "licensed counselor"
+      reason: "Requires professional counseling license"
+
+  # Geography — Locations you won't consider
+  geography:
+    excluded_regions:
+      - "Saudi Arabia"
+      - "India"
+      - "Philippines"
+      - "Nigeria"
+    remote_acceptable: true
+    # Even if a job is in an excluded region, remote work might be okay
+
+# ----------------------------------------------------------------------------
+# COMPENSATION — Salary Minimums
+# ----------------------------------------------------------------------------
+
+compensation:
+  minimum_salary: 50000
+  currency: USD
+  note: If posting states salary below minimum, flag but don't auto-reject (negotiable)
+  # $50,000 is the floor. Below this, flag for review but don't auto-skip.
+  # Salary negotiation might bring it up.
+
+# =====================================================================
+# HOW TO UPDATE
+# =====================================================================
+# Run /setup and choose Phase 5 to update these settings through a
+# friendly conversation. Or edit this file directly:
+# - Add new patterns to exclude
+# - Remove patterns you no longer want to exclude
+# - Adjust minimum_salary as needed
+# =====================================================================

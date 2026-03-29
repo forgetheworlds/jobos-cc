@@ -1,0 +1,425 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774719694579,
+  "projectRoot": "/Users/muadhsambul/Downloads/Job copy/.claude/plugins/jobos",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "init": "bun run scripts/init-jobos.ts",
+      "validate-state": "bun run scripts/validate-state.ts",
+      "queue-advance": "bun run scripts/queue-advance.ts",
+      "merge-discoveries": "bun run scripts/merge-discoveries.ts",
+      "log-event": "bun run scripts/log-event.ts",
+      "route-job": "bun run scripts/route-job.ts",
+      "validate-packet": "bun run scripts/validate-packet.ts",
+      "generate-report": "bun run scripts/generate-report.ts"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "scripts"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "agents": {
+      "path": "agents",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774719694525,
+      "keyFiles": []
+    },
+    "commands": {
+      "path": "commands",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774719694527,
+      "keyFiles": []
+    },
+    "hooks": {
+      "path": "hooks",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774719694559,
+      "keyFiles": [
+        "hooks.json"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 8,
+      "lastAccessed": 1774719694562,
+      "keyFiles": [
+        "generate-report.ts",
+        "init-jobos.ts",
+        "log-event.ts",
+        "merge-discoveries.ts",
+        "queue-advance.ts"
+      ]
+    },
+    "skills": {
+      "path": "skills",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774719694563,
+      "keyFiles": []
+    },
+    "state": {
+      "path": "state",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774719694566,
+      "keyFiles": []
+    },
+    "hooks/scripts": {
+      "path": "hooks/scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 4,
+      "lastAccessed": 1774719694569,
+      "keyFiles": [
+        "post-action-log.sh",
+        "pre-submit-guard.sh",
+        "session-start.sh"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "skills/higher-ed-resume-tailor/SKILL.md",
+      "accessCount": 4,
+      "lastAccessed": 1774729614331,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/candidate_profile.yml",
+      "accessCount": 3,
+      "lastAccessed": 1774729561711,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/target_roles.yml",
+      "accessCount": 3,
+      "lastAccessed": 1774729579990,
+      "type": "file"
+    },
+    {
+      "path": "skills/execution-gate/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729593536,
+      "type": "file"
+    },
+    {
+      "path": "skills/cover-letter-crafter/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729614733,
+      "type": "file"
+    },
+    {
+      "path": "skills/academic-fit-scorer/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729615243,
+      "type": "file"
+    },
+    {
+      "path": "skills/screening-answer-writer/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729630449,
+      "type": "file"
+    },
+    {
+      "path": "skills/reviewer-higher-ed/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729630644,
+      "type": "file"
+    },
+    {
+      "path": "skills/discovery-orchestrator/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729651867,
+      "type": "file"
+    },
+    {
+      "path": "skills/route-classifier/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729652099,
+      "type": "file"
+    },
+    {
+      "path": "skills/email-application-preparer/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729652303,
+      "type": "file"
+    },
+    {
+      "path": "commands/setup.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729936927,
+      "type": "file"
+    },
+    {
+      "path": "commands/review.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729937137,
+      "type": "file"
+    },
+    {
+      "path": "commands/discover.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729937342,
+      "type": "file"
+    },
+    {
+      "path": "commands/inspect.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729937546,
+      "type": "file"
+    },
+    {
+      "path": "commands/shortlist.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729960883,
+      "type": "file"
+    },
+    {
+      "path": "commands/prepare.md",
+      "accessCount": 3,
+      "lastAccessed": 1774729961156,
+      "type": "file"
+    },
+    {
+      "path": "skills/setup-orchestrator/SKILL.md",
+      "accessCount": 2,
+      "lastAccessed": 1774729600856,
+      "type": "file"
+    },
+    {
+      "path": "skills/setup-orchestrator/references/interview-blueprint.md",
+      "accessCount": 1,
+      "lastAccessed": 1774719984302,
+      "type": "file"
+    },
+    {
+      "path": "skills/academic-fit-scorer/references/lane-taxonomy.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720041218,
+      "type": "file"
+    },
+    {
+      "path": "skills/academic-fit-scorer/references/scoring-rubric.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720041357,
+      "type": "file"
+    },
+    {
+      "path": "skills/higher-ed-resume-tailor/references/tailoring-rules.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720041737,
+      "type": "file"
+    },
+    {
+      "path": "skills/cover-letter-crafter/references/style-rules.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720042093,
+      "type": "file"
+    },
+    {
+      "path": "skills/screening-answer-writer/references/answer-archetypes.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720042416,
+      "type": "file"
+    },
+    {
+      "path": "skills/reviewer-higher-ed/references/review-checklist.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720042746,
+      "type": "file"
+    },
+    {
+      "path": "agents/reviewer.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720042911,
+      "type": "file"
+    },
+    {
+      "path": "state/seen_urls.jsonl",
+      "accessCount": 1,
+      "lastAccessed": 1774720043527,
+      "type": "file"
+    },
+    {
+      "path": "state/canonical_jobs.jsonl",
+      "accessCount": 1,
+      "lastAccessed": 1774720043665,
+      "type": "file"
+    },
+    {
+      "path": "skills/discovery-orchestrator/references/source-playbooks.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720051708,
+      "type": "file"
+    },
+    {
+      "path": "skills/discovery-orchestrator/references/extraction-rules.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720051857,
+      "type": "file"
+    },
+    {
+      "path": "skills/route-classifier/references/route-rubric.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720052094,
+      "type": "file"
+    },
+    {
+      "path": "skills/agent-browser/SKILL.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720052209,
+      "type": "file"
+    },
+    {
+      "path": "agents/discovery-scout.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720052325,
+      "type": "file"
+    },
+    {
+      "path": "agents/route-inspector.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720052474,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/resume_facts.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720093321,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/constraints.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720093568,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/search_preferences.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720093688,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/writing_style.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720093803,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/behavioral_profile.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720093921,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/screening_answers.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720094041,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/star_stories.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720094164,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/route_policy.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720094282,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/execution_policy.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720094404,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/email_defaults.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720094515,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/application_defaults.yml",
+      "accessCount": 1,
+      "lastAccessed": 1774720094629,
+      "type": "file"
+    },
+    {
+      "path": "state/candidate/open_questions.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720094750,
+      "type": "file"
+    },
+    {
+      "path": "agents/fit-analyst.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720151653,
+      "type": "file"
+    },
+    {
+      "path": "agents/tailorer.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720151773,
+      "type": "file"
+    },
+    {
+      "path": "skills/execution-gate/references/approval-policy.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720177353,
+      "type": "file"
+    },
+    {
+      "path": "skills/email-application-preparer/references/email-templates.md",
+      "accessCount": 1,
+      "lastAccessed": 1774720177579,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

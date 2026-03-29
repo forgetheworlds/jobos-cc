@@ -1,0 +1,25 @@
+{
+  "states": {
+    "discovered": { "next": ["normalized", "rejected"] },
+    "normalized": { "next": ["route_inspected", "rejected"] },
+    "route_inspected": { "next": ["fit_scored", "rejected"] },
+    "fit_scored": { "next": ["shortlisted", "rejected"] },
+    "shortlisted": { "next": ["packet_prepared"] },
+    "packet_prepared": { "next": ["reviewed", "packet_prepared"] },
+    "reviewed": { "next": ["ready_for_execution", "packet_prepared"] },
+    "ready_for_execution": { "next": ["executed", "followup_pending"] },
+    "executed": { "next": ["followup_pending", "closed"] },
+    "followup_pending": { "next": ["closed"] },
+    "closed": { "next": [] },
+    "rejected": { "next": [] }
+  },
+  "terminal_states": ["closed", "rejected"],
+  "route_inspected_states": {
+    "ats_browser": "ready_for_execution",
+    "board_simplified": "ready_for_execution",
+    "external_redirect": "route_inspected",
+    "email": "ready_for_execution",
+    "document_led": "ready_for_execution",
+    "manual": "ready_for_execution"
+  }
+}

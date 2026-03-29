@@ -1,0 +1,15 @@
+{
+  "job_id": "indeed_020_20250328",
+  "lane": "reject",
+  "score": 2.0,
+  "rationale": "Auto-classified as reject. Score based on title keywords and institution type.",
+  "cluster_match": "none",
+  "exclusion_triggered": null,
+  "confidence": 0.75,
+  "next_step": "review",
+  "verdict": "rejected",
+  "scoring_factors": {
+    "role_alignment": 2,
+    "institution_type": 6
+  }
+}

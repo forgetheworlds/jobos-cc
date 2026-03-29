@@ -1,0 +1,10 @@
+{
+  "job_id": "indeed_018_20250328",
+  "route_family": "ats_browser",
+  "route_confidence": "high",
+  "portal_type": "indeed_easy_apply",
+  "application_url": "https://ca.indeed.com/viewjob?jk=westcliff_program_coordinator",
+  "required_documents": ["resume", "cover_letter"],
+  "estimated_time": "15-20 minutes",
+  "notes": "Indeed Easy Apply. University position requiring academic credentials verification."
+}

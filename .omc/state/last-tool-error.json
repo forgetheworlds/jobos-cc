@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"git reset --soft b2b36e7 && git add -A && git commit -m \\\"JobOS-CC v2.0.0 — Higher Education Job Search System\\n\\nComplete plugin for Claude Code with:\\n- 11 skills: resume tailoring, cove...",
+  "error": "Exit code 1\n[main 1afd8ae] JobOS-CC v2.0.0 — Higher Education Job Search System\n 510 files changed, 11 insertions(+), 143616 deletions(-)\n delete mode 100644 .claude/plugins/applypilot-plugin/README.md\n delete mode 100644 .claude/plugins/applypilot-plugin/agents/browser-filler.md\n delete mode 100644 .claude/plugins/applypilot-plugin/agents/cover-letter-crafter.md\n delete mode 100644 .claude/plugins/applypilot-plugin/agents/fit-analyst.md\n delete mode 100644 .claude/plugins/applypilot-plugin/agen...",
+  "timestamp": "2026-03-29T02:46:25.302Z",
+  "retry_count": 3
+}

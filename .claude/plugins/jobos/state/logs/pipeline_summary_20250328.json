@@ -1,0 +1,110 @@
+{
+  "session_id": "jobos_pipeline_20250328",
+  "timestamp": "2026-03-28T21:00:00Z",
+  "phases_completed": ["discover", "inspect", "shortlist"],
+  "next_phase": "prepare",
+  "jobs_summary": {
+    "total_discovered": 25,
+    "total_routed": 25,
+    "total_scored": 25,
+    "approved": 18,
+    "borderline": 4,
+    "rejected": 3
+  },
+  "top_approved_jobs": [
+    {
+      "job_id": "indeed_018_20250328",
+      "title": "Program Coordinator / Full Time Faculty",
+      "company": "Westcliff University",
+      "location": "Markham, ON",
+      "score": 9.2,
+      "lane": "academic_admin",
+      "salary": "$110,000–$125,000",
+      "route": "ats_browser",
+      "priority": "HIGHEST"
+    },
+    {
+      "job_id": "indeed_025_20250328",
+      "title": "SU 26 - Retention Study Coordinator (Student Success Mentor Lead)",
+      "company": "York University",
+      "location": "Toronto, ON",
+      "score": 8.8,
+      "lane": "student_success",
+      "route": "ats_browser",
+      "priority": "HIGH"
+    },
+    {
+      "job_id": "indeed_022_20250328",
+      "title": "Director of Student Recruitment",
+      "company": "International Business University",
+      "location": "Toronto, ON",
+      "score": 8.5,
+      "lane": "student_success",
+      "route": "ats_browser",
+      "priority": "HIGH"
+    },
+    {
+      "job_id": "indeed_021_20250328",
+      "title": "Admissions Coordinator",
+      "company": "Alpha College of Business and Technology",
+      "location": "Scarborough, ON",
+      "score": 8.0,
+      "lane": "student_success",
+      "salary": "$40,000–$55,000",
+      "route": "ats_browser",
+      "priority": "MEDIUM"
+    },
+    {
+      "job_id": "indeed_012_20250328",
+      "title": "Manager, Student Recruitment (High School)",
+      "company": "Vega Academic Services Inc.",
+      "location": "Toronto, ON",
+      "score": 8.0,
+      "lane": "student_success",
+      "salary": "$100,000",
+      "route": "ats_browser",
+      "priority": "HIGH"
+    }
+  ],
+  "route_distribution": {
+    "ats_browser": 25,
+    "email": 0,
+    "external_redirect": 0,
+    "document_led": 0,
+    "manual": 0
+  },
+  "lane_distribution": {
+    "student_success": 12,
+    "academic_admin": 10,
+    "advising_support": 0,
+    "reject": 3
+  },
+  "files_created": {
+    "raw_jobs": ".claude/plugins/jobos/state/jobs/raw/*.json (25 files)",
+    "routes": ".claude/plugins/jobos/state/jobs/routes/*_route.json (25 files)",
+    "fit_reports": ".claude/plugins/jobos/state/jobs/reports/*_fit.json (25 files)"
+  },
+  "ready_for_preparation": [
+    "indeed_001_20250328",
+    "indeed_002_20250328",
+    "indeed_006_20250328",
+    "indeed_008_20250328",
+    "indeed_010_20250328",
+    "indeed_011_20250328",
+    "indeed_012_20250328",
+    "indeed_013_20250328",
+    "indeed_014_20250328",
+    "indeed_016_20250328",
+    "indeed_018_20250328",
+    "indeed_019_20250328",
+    "indeed_021_20250328",
+    "indeed_022_20250328",
+    "indeed_024_20250328",
+    "indeed_025_20250328"
+  ],
+  "next_steps": [
+    "Run /prepare or spawn Tailorer agent for approved jobs to generate tailored resumes and cover letters",
+    "Review materials with /review command for quality check",
+    "Execute applications with /execute for approved materials"
+  ]
+}

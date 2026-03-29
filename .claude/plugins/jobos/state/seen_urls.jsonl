@@ -1,0 +1,2 @@
+# Seen URLs - deduplication
+# Format: {"url": "...", "seen_at": "ISO-8601 timestamp", "source_job_id": "..."}

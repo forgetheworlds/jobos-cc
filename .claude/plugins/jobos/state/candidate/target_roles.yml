@@ -1,0 +1,234 @@
+# =============================================================================
+# TARGET ROLES CONFIGURATION
+# =============================================================================
+# This file defines what types of higher education positions you're looking for.
+# The system uses this to score job matches and tailor your application materials.
+#
+# HOW THIS FILE WORKS:
+#
+# CLUSTERS: Specific job titles grouped by similarity
+#   - priority: 1 = top priority (these are your ideal roles)
+#   - priority: 2 = good matches (worth pursuing)
+#   - priority: 3 = related/stretch roles (may be worth considering)
+#
+# LANES: Broader career tracks that determine how your materials are customized
+#   - Each lane has specific resume emphasis and cover letter angles
+#   - The system uses your lane to reorder and highlight relevant experience
+#
+# TIPS:
+# - Review this file with your career goals in mind
+# - Update priorities as your search evolves
+# - The "why_strong_fit" field helps the system write compelling cover letters
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# ROLE CLUSTERS
+# -----------------------------------------------------------------------------
+# Specific job families you're targeting
+
+clusters:
+- id: A
+  name: Academic Program Manager / Coordinator
+  priority: 1                                    # 1 = top priority
+  titles:                                       # Common titles in this cluster
+  - Academic Program Coordinator
+  - Academic Program Manager
+  - Program Director (Academic)
+  - Academic Affairs Coordinator
+  - Academic Operations Manager
+  - Academic Services Coordinator
+  - Program Administrator
+  - Associate Director of Academic Programs
+  lane: academic_admin                          # Which lane this belongs to (see lanes section below)
+  why_strong_fit: 'Direct match to program coordination, curriculum oversight, and
+    faculty coordination experience. Core strength area.
+
+    '
+- id: B
+  name: Student Success / Retention Manager
+  priority: 1
+  titles:
+  - Director of Student Success
+  - Student Success Manager
+  - Retention Coordinator
+  - First-Year Experience Director
+  - Student Transition Program Manager
+  - Associate Director of Student Success
+  - Student Engagement Coordinator
+  - Orientation Program Director
+  lane: student_success
+  why_strong_fit: 'Deep experience in first-year programming, student transition,
+    retention initiatives, and multicultural student support.
+
+    '
+- id: C
+  name: Academic Advisor / Advising Manager
+  priority: 2                                    # 2 = good match (worth pursuing)
+  titles:
+  - Academic Advisor
+  - Senior Academic Advisor
+  - Director of Academic Advising
+  - Lead Academic Advisor
+  - Advising Center Manager
+  - Faculty Advisor Coordinator
+  lane: advising_support
+  why_strong_fit: 'Strong advising background with student-facing experience. May
+    require specific advising certifications depending on institution.
+
+    '
+- id: D
+  name: Curriculum & Faculty Development
+  priority: 2
+  titles:
+  - Curriculum Development Specialist
+  - Faculty Development Coordinator
+  - Instructional Development Specialist
+  - Center for Teaching and Learning Coordinator
+  - Assessment Coordinator
+  - Academic Quality Assurance Specialist
+  - Curriculum Design Manager
+  lane: curriculum_faculty_dev
+  why_strong_fit: 'Curriculum development, faculty training, and assessment experience.
+    Solid match if role focuses on program-level rather than individual course tech.
+
+    '
+- id: E
+  name: Higher Education Administration
+  priority: 2
+  titles:
+  - Associate Dean
+  - Assistant Dean
+  - Dean of Students
+  - Director of Academic Affairs
+  - Registrar
+  - Department Administrator
+  - Academic Department Manager
+  lane: academic_admin
+  why_strong_fit: 'Administrative and leadership experience applicable. May need specific
+    institutional context match.
+
+    '
+- id: F
+  name: Education Program Management
+  priority: 3                                    # 3 = stretch/related (consider if good fit)
+  titles:
+  - Education Program Manager
+  - Program Manager (Education Nonprofit)
+  - Community Education Coordinator
+  - Continuing Education Director
+  - Extension Program Coordinator
+  - Adult Education Program Manager
+  lane: education_program_mgmt
+  why_strong_fit: 'Transferable program management skills. Lower priority because
+    these may be outside higher-ed proper (nonprofits, community orgs).
+
+    '
+- id: G
+  name: Policy, Governance & Compliance
+  priority: 3
+  titles:
+  - Accreditation Coordinator
+  - Institutional Research Analyst
+  - Academic Policy Analyst
+  - Compliance Coordinator (Higher Ed)
+  - Governance Support Specialist
+  lane: policy_governance
+  why_strong_fit: 'Committee work and policy implementation experience. Lower priority
+    as these roles may require specialized compliance credentials.
+
+    '
+
+# -----------------------------------------------------------------------------
+# ROLE LANES
+# -----------------------------------------------------------------------------
+# Broader career tracks that determine how materials are tailored
+#
+# WHAT IS A LANE?
+# A "lane" is a career track that groups similar roles together. When the system
+# tailors your resume and cover letter, it uses your lane to decide:
+#   - Which experience to put first
+#   - Which skills to emphasize
+#   - How to frame your professional story
+
+lanes:
+  # LANE: Academic Administration
+  # Roles: Program management, operations, faculty coordination
+  academic_admin:
+    description: Academic administration, program management, and operations
+    resume_emphasis:                              # What to highlight on your resume
+    - program coordination                       # This experience goes at the top
+    - faculty oversight
+    - academic operations
+    - assessment
+    cover_letter_angle: program leadership and academic administration  # Theme for cover letter
+
+  # LANE: Student Success
+  # Roles: Retention, advising, first-year experience, student support
+  student_success:
+    description: Student retention, engagement, first-year experience, transitions
+    resume_emphasis:
+    - student success
+    - retention programming
+    - orientation
+    - multicultural support
+    cover_letter_angle: student-centered leadership and retention outcomes
+
+  # LANE: Advising Support
+  # Roles: Academic advising, mentoring, student services
+  advising_support:
+    description: Academic advising, mentoring, student support services
+    resume_emphasis:
+    - academic advising
+    - student mentoring
+    - degree planning
+    - student support
+    cover_letter_angle: advising expertise and student development
+
+  # LANE: Curriculum & Faculty Development
+  # Roles: Course design, assessment, faculty training
+  curriculum_faculty_dev:
+    description: Curriculum design, assessment, faculty training and development
+    resume_emphasis:
+    - curriculum development
+    - assessment
+    - faculty training
+    - quality assurance
+    cover_letter_angle: curriculum innovation and faculty development
+
+  # LANE: Policy & Governance
+  # Roles: Accreditation, compliance, institutional research
+  policy_governance:
+    description: Accreditation, institutional policy, compliance, governance
+    resume_emphasis:
+    - policy implementation
+    - governance
+    - accreditation
+    - institutional research
+    cover_letter_angle: compliance expertise and institutional governance
+
+  # LANE: Education Program Management
+  # Roles: Nonprofit, community, continuing education programs
+  education_program_mgmt:
+    description: Education program management outside traditional higher ed
+    resume_emphasis:
+    - program management
+    - community partnerships
+    - stakeholder engagement
+    cover_letter_angle: program leadership and community impact
+
+  # LANE: Teaching
+  # Roles: Direct instruction (adjunct, lecturer, professor)
+  teaching:
+    description: Direct instruction roles at postsecondary level
+    resume_emphasis:
+    - course instruction
+    - student learning outcomes
+    - classroom management
+    cover_letter_angle: teaching excellence and student engagement
+
+  # LANE: Reject
+  # The system uses this to SKIP roles that don't match your profile
+  reject:
+    description: Role does not match candidate profile — skip
+    resume_emphasis: []
+    cover_letter_angle: ''

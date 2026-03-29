@@ -1,0 +1,28 @@
+{
+  "job_id": "indeed_018_20250328",
+  "title": "Program Coordinator / Full Time Faculty",
+  "company": "Westcliff University",
+  "generated_at": "2026-03-28T21:15:00Z",
+  "materials": {
+    "resume": {
+      "path": ".claude/plugins/jobos/state/outputs/resumes/indeed_018_20250328_resume.md",
+      "word_count": 450,
+      "lane": "academic_admin",
+      "emphasis": "Program coordination, faculty development, student success"
+    },
+    "cover_letter": {
+      "path": ".claude/plugins/jobos/state/outputs/cover_letters/indeed_018_20250328_cover_letter.md",
+      "word_count": 285,
+      "institution": "Westcliff University",
+      "mission_referenced": true
+    }
+  },
+  "quality_check": {
+    "resume": "passed",
+    "cover_letter": "passed",
+    "no_banned_phrases": true,
+    "facts_verified": true
+  },
+  "next_step": "review",
+  "notes": "Top priority application. Strong fit (9.2 score) with program coordination experience."
+}

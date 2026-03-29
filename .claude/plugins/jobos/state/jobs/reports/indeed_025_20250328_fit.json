@@ -1,0 +1,18 @@
+{
+  "job_id": "indeed_025_20250328",
+  "lane": "student_success",
+  "score": 8.8,
+  "rationale": "Excellent match at York University - major Canadian institution where Dr. Sambul has prior connection (Community Scholar at Centre for Refugee Studies). Retention coordination directly aligns with his student success expertise. Peer mentoring component matches his mentoring background. Part-time may be suitable as entry point.",
+  "cluster_match": "student_success",
+  "exclusion_triggered": null,
+  "confidence": 0.92,
+  "next_step": "tailor",
+  "verdict": "approved",
+  "scoring_factors": {
+    "role_alignment": 9,
+    "seniority_match": 8,
+    "credentials": 9,
+    "domain_knowledge": 9,
+    "mission_fit": 10
+  }
+}

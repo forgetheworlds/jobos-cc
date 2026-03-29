@@ -1,0 +1,152 @@
+# =====================================================================
+# EMAIL DEFAULTS — How Your Job Application Emails Should Look
+# =====================================================================
+#
+# This file controls the appearance and tone of emails that JobOS creates
+# when you apply to jobs via email (rather than through online forms).
+#
+# During setup (Phase 10), you'll customize your email signature and
+# preferences. Update this file anytime to change how your emails look.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# EMAIL SIGNATURE — How You Sign Your Emails
+# ----------------------------------------------------------------------------
+# This appears at the bottom of every email JobOS creates for you.
+# Include your name, credentials, contact info, and any relevant links.
+
+signature: |
+  Dr. Mohamed Sambul, EdD
+  Higher Education Leader | Student Success | Program Development
+
+  Email: mohamed.sambul@gmail.com
+  Phone: (647) 228-0736
+  LinkedIn: linkedin.com/in/mohamedsambul
+
+  Mississauga, ON
+
+  (he/him)
+
+# Customize this with YOUR information:
+# - Full name and credentials (PhD, EdD, MA, etc.)
+# - Current title or professional identity
+# - Email and phone
+# - City and state/province
+# - LinkedIn profile URL
+# - Preferred pronouns (optional)
+
+# ----------------------------------------------------------------------------
+# DEFAULT TONE — How Formal Should Emails Sound?
+# ----------------------------------------------------------------------------
+
+tone: "warm-professional"
+# Options:
+# - "formal": Very professional, reserved for formal institutions (like research universities)
+# - "semi-formal": Professional but approachable (recommended for most higher education)
+# - "warm-professional": Warm but still professional (good for community colleges, student-focused roles)
+
+# Choose the tone that matches your authentic voice and the institutions you're applying to.
+
+# ----------------------------------------------------------------------------
+# SUBJECT LINE STYLE — How Email Subjects Should Look
+# ----------------------------------------------------------------------------
+
+subject_line_style: "Application for [Role] - [Name]"
+# Choose a consistent format for subject lines. This helps hiring managers
+# recognize your application and find it easily.
+#
+# Options (replace bracketed parts):
+# - "Application for [Role] - [Name]" (recommended: clear and professional)
+# - "[Role] Application - [Name]" (slightly more concise)
+# - "[Name] - [Role] Application" (puts your name first)
+#
+# Variables that get filled in automatically:
+# [Role] = Job title you're applying for
+# [Name] = Your full name
+# [Institution] = Organization name
+# [Reference Number] = Job ID if applicable
+
+# ----------------------------------------------------------------------------
+# COVER LETTER EMAIL TEMPLATE — Structure for Email Applications
+# ----------------------------------------------------------------------------
+# When a job accepts email applications, JobOS uses this template.
+
+cover_letter_template: |
+  Dear [Hiring Manager Name or Search Committee],
+
+  [Cover letter content goes here — 350-450 words]
+
+  Sincerely,
+  [Full Name]
+
+  [Attachments: Resume, Cover Letter, [other documents as required]]
+
+# The cover letter content is generated specifically for each job based on
+# your experience, the role requirements, and the institution's mission.
+
+# ----------------------------------------------------------------------------
+# FOLLOW-UP EMAIL TEMPLATE — Checking on Your Application
+# ----------------------------------------------------------------------------
+# Use this to follow up on an application you haven't heard back about.
+
+follow_up_template: |
+  Dear [Hiring Manager Name or Search Committee Chair],
+
+  I hope this message finds you well. I wanted to follow up on my application for the [Role] position at [Institution], submitted on [date].
+
+  I remain very interested in this opportunity and would welcome the chance to discuss how my experience in [key area] aligns with your team's needs.
+
+  Thank you for your time and consideration.
+
+  Sincerely,
+  [Full Name]
+
+# Customize the bracketed parts when JobOS generates a follow-up email.
+
+# ----------------------------------------------------------------------------
+# THANK YOU EMAIL TEMPLATE — After an Interview
+# ----------------------------------------------------------------------------
+# Send this within 24 hours after an interview to thank the interviewer(s).
+
+thank_you_template: |
+  Dear [Interviewer Name],
+
+  Thank you for the opportunity to interview for the [Role] position on [date]. I enjoyed learning more about [specific aspect discussed] and am even more excited about the possibility of joining your team.
+
+  Our conversation about [topic discussed] reinforced my interest in contributing to [specific initiative/program]. I believe my experience in [relevant area] would allow me to make meaningful contributions to [specific goal].
+
+  Please don't hesitate to contact me if you need any additional information.
+
+  Sincerely,
+  [Full Name]
+
+# IMPORTANT: Customize the bracketed parts with specific details from your
+# interview. Mention something specific you discussed to show you were engaged.
+
+# ----------------------------------------------------------------------------
+# TIMING RULES — When to Send Follow-Up Emails
+# ----------------------------------------------------------------------------
+
+timing:
+  follow_up_days: 10
+  # Days to wait before following up on an application
+  # 10 business days is standard — gives them time to review, shows interest without pestering
+
+  thank_you_deadline: 24
+  # Hours after an interview to send a thank you note
+  # Within 24 hours is best — same day is ideal, next morning is acceptable
+
+  no_response_followup: 14
+  # Days to wait if no response before a second follow-up
+  # Two weeks is reasonable — if still no response, likely not moving forward
+
+# =====================================================================
+# HOW TO UPDATE
+# =====================================================================
+# Run /setup and choose Phase 10 to update email preferences.
+# Or edit this file directly:
+# - Update signature with your information
+# - Change tone to match your style
+# - Adjust subject_line_style if you prefer a different format
+# - Customize templates with your preferred language
+# =====================================================================

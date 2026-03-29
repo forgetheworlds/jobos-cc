@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CanonicalJob",
+  "description": "Canonical job record for JobOS-CC pipeline",
+  "type": "object",
+  "required": ["job_id", "source", "source_url", "discovered_at", "title", "employer", "state"],
+  "properties": {
+    "job_id": { "type": "string", "description": "UUID" },
+    "source": { "type": "string", "enum": ["linkedin", "indeed", "google_jobs", "institutional", "direct", "referral"] },
+    "source_url": { "type": "string", "format": "uri" },
+    "search_query": { "type": "string" },
+    "discovered_at": { "type": "string", "format": "date-time" },
+    "title": { "type": "string" },
+    "employer": { "type": "string" },
+    "location": { "type": "string" },
+    "description_text": { "type": "string" },
+    "salary_range": { "type": ["string", "null"] },
+    "application_url": { "type": "string", "format": "uri" },
+    "route_family": {
+      "type": ["string", "null"],
+      "enum": ["ats_browser", "board_simplified", "external_redirect", "email", "document_led", "manual", null]
+    },
+    "route_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "route_evidence": {
+      "type": "object",
+      "properties": {
+        "url_patterns": { "type": "array", "items": { "type": "string" } },
+        "page_text_clues": { "type": "array", "items": { "type": "string" } },
+        "email_address": { "type": ["string", "null"] }
+      }
+    },
+    "required_documents": { "type": "array", "items": { "type": "string" } },
+    "lane": {
+      "type": ["string", "null"],
+      "enum": ["academic_admin", "student_success", "advising_support", "curriculum_faculty_dev", "policy_governance", "education_program_mgmt", "teaching", "reject", null]
+    },
+    "fit_score": {
+      "type": ["object", "null"],
+      "properties": {
+        "total": { "type": "number" },
+        "dimensions": { "type": "object" },
+        "confidence": { "type": "number" }
+      }
+    },
+    "state": {
+      "type": "string",
+      "enum": ["discovered", "normalized", "route_inspected", "fit_scored", "shortlisted", "packet_prepared", "reviewed", "ready_for_execution", "executed", "followup_pending", "closed", "rejected"]
+    },
+    "packet": {
+      "type": "object",
+      "properties": {
+        "resume_path": { "type": ["string", "null"] },
+        "cover_letter_path": { "type": ["string", "null"] },
+        "email_packet_dir": { "type": ["string", "null"] },
+        "screening_answers_path": { "type": ["string", "null"] }
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "verdict": { "type": ["string", "null"], "enum": ["PASS", "PASS_WITH_REVISIONS", "FAIL", null] },
+        "issues": { "type": "array", "items": { "type": "string" } },
+        "reviewed_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "properties": {
+        "route_type": { "type": ["string", "null"] },
+        "status": { "type": ["string", "null"] },
+        "attempts": { "type": "integer" },
+        "executed_at": { "type": ["string", "null"], "format": "date-time" },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

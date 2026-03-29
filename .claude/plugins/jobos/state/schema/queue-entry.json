@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QueueEntry",
+  "description": "Envelope for job entries in pipeline queues",
+  "type": "object",
+  "required": ["job_id", "entered_at", "queue_name"],
+  "properties": {
+    "job_id": { "type": "string" },
+    "entered_at": { "type": "string", "format": "date-time" },
+    "queue_name": {
+      "type": "string",
+      "enum": ["inbound_jobs", "inspected_jobs", "shortlisted_jobs", "prep_queue", "review_queue", "execute_queue", "followup_queue"]
+    },
+    "previous_state": { "type": ["string", "null"] },
+    "priority": { "type": "integer", "minimum": 0, "maximum": 10, "default": 5 },
+    "notes": { "type": ["string", "null"] }
+  }
+}

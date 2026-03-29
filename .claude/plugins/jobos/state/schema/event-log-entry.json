@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EventLogEntry",
+  "description": "Append-only event log entry for audit trail",
+  "type": "object",
+  "required": ["timestamp", "event_type", "session_id"],
+  "properties": {
+    "timestamp": { "type": "string", "format": "date-time" },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "discovered", "normalized", "route_classified", "scored", "shortlisted",
+        "packet_created", "review_completed", "execution_started", "execution_completed",
+        "execution_failed", "rejected", "improvement_applied", "session_start", "session_end"
+      ]
+    },
+    "job_id": { "type": ["string", "null"] },
+    "agent": { "type": ["string", "null"], "description": "Which agent triggered this event" },
+    "details": { "type": "object", "description": "Event-specific details" },
+    "session_id": { "type": "string" }
+  }
+}

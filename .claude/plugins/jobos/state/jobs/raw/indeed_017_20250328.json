@@ -1,0 +1,19 @@
+{
+  "job_id": "indeed_017_20250328",
+  "source": "Indeed",
+  "source_url": "https://ca.indeed.com/jobs?q=Student+Success+Manager&l=Toronto%2C+ON",
+  "discovered_at": "2026-03-28T20:35:00Z",
+  "title": "Education Manager (Revenue) - Hybrid",
+  "company": "The Globe and Mail",
+  "location": "Toronto, ON",
+  "job_type": "Full-time",
+  "salary": null,
+  "description": "Partner with the Engagement team to increase activation, retention, and ongoing engagement among student subscribers. Bachelor's degree in a relevant field required.",
+  "requirements": ["Bachelor's degree in a relevant field"],
+  "application_url": "https://ca.indeed.com/viewjob?jk=globe_education_manager",
+  "posting_date": null,
+  "search_query": "Student Success Manager",
+  "search_location": "Toronto, ON",
+  "raw_html": null,
+  "status": "discovered"
+}

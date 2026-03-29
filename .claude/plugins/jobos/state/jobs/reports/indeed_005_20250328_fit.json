@@ -1,0 +1,15 @@
+{
+  "job_id": "indeed_005_20250328",
+  "lane": "academic_admin",
+  "score": 6.5,
+  "rationale": "Auto-classified as academic_admin. Score based on title keywords and institution type.",
+  "cluster_match": "academic_admin",
+  "exclusion_triggered": null,
+  "confidence": 0.75,
+  "next_step": "review",
+  "verdict": "borderline",
+  "scoring_factors": {
+    "role_alignment": 6,
+    "institution_type": 6
+  }
+}

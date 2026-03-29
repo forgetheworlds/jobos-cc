@@ -1,0 +1,192 @@
+# STAR Stories — Dr. Mohamed Sambul
+# Behavioral interview preparation using Situation-Task-Action-Result format.
+# The Screening Question Writer and Cover Letter Crafter draw from these.
+
+# Each story should be linked to specific resume_facts entries after /setup.
+stories:
+  - id: "leadership_program_redesign"
+    theme: "Leadership / Initiative"
+    situation: >
+      The first-year student transition program was experiencing declining
+      participation and retention rates were dropping after the first semester.
+    task: >
+      I was responsible for redesigning the program to improve student engagement
+      and persistence into the second semester.
+    action: >
+      I conducted a comprehensive review of the existing program, gathered student
+      feedback, benchmarked against peer institutions, and redesigned the transition
+      experience to include extended orientation activities, peer mentoring
+      connections, and structured mid-semester advisor check-ins.
+    result: >
+      Led program evaluation at Saudi Electronic University that resulted in an estimated
+      15% improvement in course completion rates. Coordinated academic advising services
+      that reduced student attrition in first-year courses. The redesigned program served
+      2,000+ students annually with improved engagement and retention.
+    applicable_to: ["student_success", "academic_admin", "leadership"]
+
+  - id: "faculty_coordination"
+    theme: "Collaboration / Stakeholder Management"
+    situation: >
+      As Program Manager of the First Common Year at Saudi Electronic University,
+      I needed to align faculty across departments for consistent delivery of a
+      first-year program serving 2,000+ students annually.
+    task: >
+      I was tasked with establishing a coordination structure that aligned faculty
+      across departments while respecting departmental autonomy and maintaining
+      teaching quality.
+    action: >
+      I designed faculty training sessions, created regular cross-department meetings,
+      developed shared documentation for program expectations, and established clear
+      communication channels between faculty and administration.
+    result: >
+      Faculty training sessions improved teaching quality and consistency across
+      courses at Saudi Electronic University. The coordinated program served 2,000+
+      students annually with aligned curriculum delivery and reduced variability
+      in teaching outcomes.
+    applicable_to: ["academic_admin", "curriculum_faculty_dev", "collaboration"]
+
+  - id: "multicultural_student_support"
+    theme: "Inclusive Practice / Student Support"
+    situation: >
+      At York University and Centennial College, diverse student populations
+      needed culturally responsive teaching and support in courses on diaspora
+      studies, developmental psychology, and education foundations.
+    task: >
+      I needed to develop inclusive learning experiences that addressed the needs
+      of diverse and multicultural student populations, including refugee communities.
+    action: >
+      I integrated experiential learning activities into courses, served as Community
+      Scholar at York University's Centre for Refugee Studies contributing research
+      and training on refugee education, and developed culturally responsive teaching
+      approaches for multicultural classrooms.
+    result: >
+      Increased student engagement through integrated experiential learning activities
+      at York University and Centennial College. Contributed research and training on
+      refugee education at the Centre for Refugee Studies, strengthening the institution's
+      capacity to serve refugee and immigrant communities.
+    applicable_to: ["student_success", "dei", "advising_support"]
+
+  - id: "conflict_resolution"
+    theme: "Conflict Resolution"
+    situation: >
+      There was disagreement between faculty members regarding curriculum changes
+      and program direction that was affecting team morale and program quality.
+    task: >
+      I needed to mediate the disagreement and find a path forward that maintained
+      program quality while respecting different perspectives.
+    action: >
+      I facilitated structured conversations between the parties, identified shared
+      goals, proposed a compromise approach that incorporated key concerns from
+      both sides, and established ongoing feedback mechanisms to prevent future conflicts.
+    result: >
+      [To be populated with specific outcomes from resume_facts]
+    applicable_to: ["leadership", "academic_admin", "conflict_resolution"]
+
+  - id: "program_assessment"
+    theme: "Data-Informed Decision Making"
+    situation: >
+      A academic program needed systematic assessment to justify resource allocation
+      and demonstrate effectiveness to institutional leadership.
+    task: >
+      I was responsible for developing and implementing an assessment framework
+      that would generate actionable data for program improvement and reporting.
+    action: >
+      I designed assessment instruments, collected and analyzed student outcomes
+      data, developed reports for institutional leadership, and used findings
+      to make evidence-based program improvements.
+    result: >
+      [To be populated with specific data and outcomes from resume_facts]
+    applicable_to: ["academic_admin", "policy_governance", "curriculum_faculty_dev"]
+
+  - id: "community_partnership"
+    theme: "External Partnership Development"
+    situation: >
+      York University needed stronger connections to community organizations
+      to enhance student learning through practicum and experiential opportunities,
+      particularly through the Pathways to Education partnership.
+    task: >
+      I was tasked with supervising first-year placement students and ensuring
+      effective integration into community-based education initiatives through
+      the York University–Pathways to Education partnership.
+    action: >
+      I supervised practicum placements, developed mentoring strategies to enhance
+      students' teaching and classroom management skills, facilitated reflective
+      practice sessions, and created feedback loops between community partners and
+      the academic program.
+    result: >
+      Successfully supervised first-year placement students at the Pathways to
+      Education–York University partnership (2010-2015), improving practicum
+      students' instructional techniques through reflective practice and targeted
+      mentoring strategies. Strengthened the community-university partnership for
+      sustained collaborative programming.
+    applicable_to: ["education_program_mgmt", "student_success", "stakeholder_engagement"]
+
+  - id: "change_management"
+    theme: "Change Management"
+    situation: >
+      An institutional policy or process change required significant adjustment
+      from faculty and staff who were accustomed to existing practices.
+    task: >
+      I needed to lead the implementation of the change while maintaining
+      team morale and ensuring compliance with new requirements.
+    action: >
+      I communicated the rationale for the change clearly, provided training
+      and support resources, created a phased implementation timeline, and
+      maintained open channels for feedback and concerns throughout the transition.
+    result: >
+      [To be populated with specific outcomes from resume_facts]
+    applicable_to: ["leadership", "academic_admin", "policy_governance"]
+
+  - id: "mentoring_development"
+    theme: "Mentoring / Professional Development"
+    situation: >
+      Students at Saudi Electronic University and Pathways to Education needed
+      structured mentoring to support their academic development, research projects,
+      career planning, and classroom management skills.
+    task: >
+      I was responsible for mentoring students across multiple contexts — as an
+      Assistant Professor at SEU and as a Practicum Supervisor at Pathways to Education.
+    action: >
+      At SEU, I mentored students in academic development, research projects, and
+      career planning. At Pathways to Education, I developed mentoring strategies
+      to enhance practicum students' teaching and classroom management skills, and
+      facilitated reflective practice sessions to improve their instructional techniques.
+    result: >
+      Mentored students across two institutions over multiple years, improving
+      practicum students' instructional techniques through reflective practice
+      at Pathways to Education. At SEU, supported students in academic development
+      and career planning, contributing to the program's improved completion rates.
+    applicable_to: ["curriculum_faculty_dev", "leadership", "training"]
+
+  - id: "problem_solving_resource"
+    theme: "Problem Solving / Resource Constraints"
+    situation: >
+      A program or initiative was needed but faced limited budget, staffing,
+      or institutional support constraints.
+    task: >
+      I needed to find creative solutions to deliver effective programming
+      within significant resource constraints.
+    action: >
+      I identified existing resources that could be repurposed, built
+      cross-departmental collaborations to share costs, leveraged volunteer
+      and peer support models, and demonstrated ROI to secure additional
+      future funding.
+    result: >
+      [To be populated with specific outcomes from resume_facts]
+    applicable_to: ["academic_admin", "leadership", "program_management"]
+
+  - id: "inclusive_practice"
+    theme: "Inclusive Practice / Equity"
+    situation: >
+      Existing practices or policies were inadvertently creating barriers
+      for certain student populations or creating inequitable outcomes.
+    task: >
+      I needed to identify the barriers and redesign practices to be more
+      equitable and inclusive for all students.
+    action: >
+      I conducted equity analysis of existing practices, consulted with
+      affected communities, redesigned processes to remove barriers, and
+      implemented ongoing monitoring to ensure equitable outcomes.
+    result: >
+      [To be populated with specific outcomes from resume_facts]
+    applicable_to: ["dei", "student_success", "policy_governance"]

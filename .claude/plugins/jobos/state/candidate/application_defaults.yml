@@ -1,0 +1,276 @@
+# =====================================================================
+# APPLICATION DEFAULTS — Standard Answers for Job Application Forms
+# =====================================================================
+#
+# This file contains default values for common questions on job application
+# forms. When JobOS fills out a form, it uses these values unless you
+# specify otherwise for a particular job.
+#
+# During setup (Phase 10), you'll provide these values.
+# Update this file anytime if your circumstances change.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# EEO / VOLUNTARY SELF-IDENTIFICATION
+# ----------------------------------------------------------------------------
+# Many job applications ask about demographics for Equal Employment Opportunity
+# (EEO) reporting. These questions are VOLUNTARY and you can decline to answer.
+
+eeo_defaults:
+  gender: "Decline to self-identify"
+  # Options: "Decline to self-identify", "Male", "Female", "Non-binary", etc.
+  # You can also specify your gender if you're comfortable.
+
+  race_ethnicity: "Decline to self-identify"
+  # Options: "Decline to self-identify", or specify your race/ethnicity
+  # This is voluntary and optional.
+
+  veteran_status: "Decline to self-identify"
+  # Options: "Decline to self-identify", "I am a veteran", "I am not a protected veteran"
+  # This is voluntary and optional.
+
+  disability_status: "Decline to self-identify"
+  # Options: "Decline to self-identify", "Yes, I have a disability", "No, I don't have a disability"
+  # This is voluntary and optional.
+
+# =====================================================================
+# NOTE: You can change any of these from "Decline to self-identify" to your
+# actual information if you want to. Declining is completely fine and
+# does NOT affect your application.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# WORK ELIGIBILITY — Can You Legally Work?
+# ----------------------------------------------------------------------------
+# These questions verify you're legally authorized to work in the country.
+
+work_eligibility:
+  authorized_to_work_us: true
+  # Are you legally authorized to work in the United States?
+  # true = Yes, I can work in the US
+  # false = No, I need sponsorship
+  # Change to: false if you're NOT authorized to work in the US
+
+  authorized_to_work_canada: true
+  # Are you legally authorized to work in Canada?
+  # true = Yes, I can work in Canada
+  # false = No, I need sponsorship
+  # Change to: false if you're NOT authorized to work in Canada
+
+  require_sponsorship: false
+  # Do you need visa sponsorship (now or in the future)?
+  # false = No, I don't need sponsorship (I'm a citizen/permanent resident)
+  # true = Yes, I need sponsorship now or will in the future
+  # Change to: true if you need visa sponsorship
+
+  visa_type: null
+  # If you require sponsorship, what type of visa?
+  # Examples: "H-1B", "TN", "O-1", "Green Card", etc.
+  # null means no visa type specified
+
+# ----------------------------------------------------------------------------
+# REFERENCES — People Who Can Recommend You
+# ----------------------------------------------------------------------------
+# Most applications ask for 3 professional references. These should be people
+# who can speak to your work ethic, skills, and experience.
+#
+# IMPORTANT: Fill these in with REAL references. JobOS will list them on
+# applications, so make sure these people have agreed to be references.
+# ----------------------------------------------------------------------------
+
+references:
+  - name: "[Reference 1 Full Name]"
+    title: "[Their Job Title]"
+    organization: "[Their Organization]"
+    email: "[their.email@example.com]"
+    phone: "[phone number]"
+    relationship: "professional"
+    # relationship options: professional, academic, supervisor, colleague, mentor
+
+  - name: "[Reference 2 Full Name]"
+    title: "[Their Job Title]"
+    organization: "[Their Organization]"
+    email: "[their.email@example.com]"
+    phone: "[phone number]"
+    relationship: "professional"
+
+  - name: "[Reference 3 Full Name]"
+    title: "[Their Job Title]"
+    organization: "[Their Organization]"
+    email: "[their.email@example.com]"
+    phone: "[phone number]"
+    relationship: "professional"
+
+# Choose references who:
+# - Have worked with you directly
+# - Can speak to your strengths and skills
+# - Will say positive things about you
+# - Have agreed to be your reference (ALWAYS ask first!)
+
+# ----------------------------------------------------------------------------
+# SUBMISSION POLICY — How to Handle Applications
+# ----------------------------------------------------------------------------
+
+submission_policy:
+  mode: "manual"
+  # Options:
+  # - "manual": You manually trigger each application with /execute
+  # - "auto_high": Automatically submit only HIGH-SCORING jobs (8+/10)
+  # - "never_auto": Never submit automatically — you always approve
+  #
+  # RECOMMENDATION: Keep "manual" or "never_auto" when starting out.
+  # Change to "auto_high" only after you've reviewed and trust JobOS.
+
+  min_score_for_auto: 8
+  # Only auto-submit jobs scoring 8 or higher (if mode is "auto_high")
+  # Scale is 1-10. 8 = strong fit, 9-10 = exceptional fit.
+  # Keep this high to maintain quality.
+
+  require_review_pass: true
+  # If true: Applications must PASS quality review before submission
+  # If false: Skip review (dangerous — could have errors)
+  # RECOMMENDATION: Keep this true for safety.
+
+  require_cover_letter: true
+  # If true: Always include a cover letter (even if not required)
+  # If false: Skip cover letter if job doesn't explicitly require it
+  # RECOMMENDATION: Keep this true — cover letters strengthen applications.
+
+  screenshot_before_submit: true
+  # If true: Take a screenshot before submitting so you can review
+  # If false: Submit without screenshot (you won't see the final form)
+  # RECOMMENDATION: Keep this true for safety and review.
+
+  max_applications_per_day: 10
+  # Maximum applications to submit in one day (prevents overwhelming you)
+  # Adjust up or down based on your comfort level.
+
+# ----------------------------------------------------------------------------
+# DOCUMENT UPLOAD PREFERENCES — File Formats for Materials
+# ----------------------------------------------------------------------------
+
+document_preferences:
+  resume_format: "pdf"
+  # Format for resume uploads: "pdf" or "docx"
+  # PDF is safer — preserves formatting across all systems
+
+  cover_letter_format: "pdf"
+  # Format for cover letter uploads: "pdf" or "docx"
+  # PDF is safer — preserves formatting across all systems
+
+  additional_documents:
+    teaching_philosophy: false
+    # Include teaching philosophy statement if requested?
+    # true = Generate and include if job asks for it
+    # false = Skip even if requested (you'll handle manually)
+
+    diversity_statement: false
+    # Include diversity/inclusion statement if requested?
+    # true = Generate and include if job asks for it
+    # false = Skip even if requested (you'll handle manually)
+
+    research_statement: false
+    # Include research statement if requested?
+    # true = Generate and include if job asks for it
+    # false = Skip even if requested (you'll handle manually)
+
+    writing_sample: false
+    # Include writing sample if requested?
+    # true = Generate and include if job asks for it
+    # false = Skip even if requested (you'll handle manually)
+
+    transcripts: false
+    # Include academic transcripts if requested?
+    # true = You'll upload transcripts manually when JobOS asks
+    # false = Skip applications requiring transcripts (you'll handle separately)
+
+# =====================================================================
+# NOTE: Set additional_documents to true for documents you have ready
+# and want JobOS to include. Keep false for documents you need to
+# create yourself or don't have available.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# SALARY DISCLOSURE STRATEGY — How to Answer Salary Questions
+# ----------------------------------------------------------------------------
+
+salary_strategy:
+  disclose: "range"
+  # How to answer "What are your salary expectations?"
+  # Options:
+  # - "range": Provide a salary range (e.g., "$80,000 - $95,000")
+  # - "exact": Provide a specific number (e.g., "$85,000")
+  # - "decline": Decline to disclose, ask for their budget instead
+  # - "negotiate": Say "negotiable based on total package"
+  #
+  # RECOMMENDATION: "range" or "negotiate" — don't lock yourself in too early.
+
+  range_buffer_percent: 10
+  # If providing a range, how much flexibility?
+  # 10 means ±10% (e.g., if you want $85k, range is $76,500 - $93,500)
+  # Higher = more flexibility, Lower = less flexibility
+
+  currency: "USD"
+  # Currency for salary discussions: "USD" or "CAD" (or other)
+  # Change to "CAD" if applying primarily to Canadian institutions
+
+  include_benefits_discussion: true
+  # If true: Note that salary is one part of total compensation (benefits matter)
+  # If false: Focus only on salary number
+
+# ----------------------------------------------------------------------------
+# AVAILABILITY — When Can You Start?
+# ----------------------------------------------------------------------------
+
+availability:
+  start_date: "negotiable"
+  # When can you start if offered the job?
+  # Options: "immediate", "2 weeks", "1 month", "negotiable", specific date
+  # "negotiable" = flexible timing, open to discussion
+
+  notice_period_weeks: 2
+  # How much notice do you need to give your current employer?
+  # Typical: 2 weeks (standard professional notice)
+  # Adjust if your situation requires more or less notice
+
+  available_for_interview: "anytime"
+  # When are you available for interviews?
+  # Options: "anytime", "business hours", "evenings", "weekends", specific days/times
+  # "anytime" = flexible, work around their schedule
+
+  preferred_interview_format: "video"
+  # What interview format do you prefer?
+  # Options: "video" (Zoom/Teams/Google Meet), "phone", "in-person", "flexible"
+  # "video" = most common for first-round interviews
+
+# ----------------------------------------------------------------------------
+# APPLICATION TRACKING — Keep Records of Everything
+# ----------------------------------------------------------------------------
+
+tracking:
+  log_all_submissions: true
+  # If true: Record every application submission in the event log
+  # If false: Don't log submissions (not recommended)
+
+  log_rejections: true
+  # If true: Record when you're rejected (helps identify patterns)
+  # If false: Don't log rejections
+
+  log_portal_quirks: true
+  # If true: Note any unusual portal behaviors or issues (helps improve JobOS)
+  # If false: Don't track portal-specific issues
+
+  screenshot_confirmations: true
+  # If true: Take screenshots of confirmation pages after submission
+  # If false: No screenshots (less evidence if something goes wrong)
+
+# =====================================================================
+# HOW TO UPDATE
+# =====================================================================
+# Run /setup and choose Phase 10 to update application defaults.
+# Or edit this file directly:
+# - Update references with real people (ask permission first!)
+# - Adjust salary_strategy based on your expectations
+# - Change availability based on your current situation
+# - Add/remove additional_documents you have ready
+# =====================================================================

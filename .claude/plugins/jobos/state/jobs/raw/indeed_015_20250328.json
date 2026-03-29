@@ -1,0 +1,19 @@
+{
+  "job_id": "indeed_015_20250328",
+  "source": "Indeed",
+  "source_url": "https://ca.indeed.com/jobs?q=Student+Success+Manager&l=Toronto%2C+ON",
+  "discovered_at": "2026-03-28T20:35:00Z",
+  "title": "Director of Client Success",
+  "company": "Impact Clients",
+  "location": "Toronto, ON (Remote)",
+  "job_type": "Full-time",
+  "salary": null,
+  "description": "You must have proven experience leading customer success teams in online education, coaching, or digital marketing. This is a remote, full-time position.",
+  "requirements": ["Proven experience leading customer success teams in online education, coaching, or digital marketing"],
+  "application_url": "https://ca.indeed.com/viewjob?jk=impact_director_success",
+  "posting_date": null,
+  "search_query": "Student Success Manager",
+  "search_location": "Toronto, ON",
+  "raw_html": null,
+  "status": "discovered"
+}

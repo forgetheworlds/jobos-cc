@@ -1,0 +1,183 @@
+preserved_entities:
+  full_name: Dr. Mohamed Sambul
+  title_prefix: Dr.
+  institutions:
+    - Saudi Electronic University
+    - Ohio University
+    - York University
+    - Centennial College
+    - Kenyatta University
+    - Pathways to Education
+    - Zenith Academy
+    - International Academy
+    - University of Akron
+  school: Ohio University
+experience:
+- title: Assistant Professor
+  employer: Saudi Electronic University
+  dates: '2015–Present'
+  type: higher_education
+  setting: University – Saudi Arabia
+  populations_served:
+    - Undergraduate students
+    - Graduate students
+  responsibilities:
+    - Teach undergraduate and graduate courses in education and related disciplines, fostering critical thinking and applied learning
+    - Contribute to curriculum design and program assessment to align with accreditation standards and institutional goals
+    - Mentor students in academic development, research projects, and career planning
+  achievements:
+    - Contributed to curriculum design aligned with accreditation standards
+    - Mentored students in academic development, research projects, and career planning
+  tools_used: []
+  star_stories:
+    - mentoring_development
+    - program_assessment
+- title: 'Program Manager – First Common Year'
+  employer: Saudi Electronic University
+  dates: '2016–2019'
+  type: higher_education
+  setting: University – Saudi Arabia
+  populations_served:
+    - First-year students
+    - Undergraduate students
+    - Faculty
+  responsibilities:
+    - Directed first-year program serving 2,000+ students annually, overseeing curriculum implementation, faculty coordination, and student engagement
+    - Designed faculty training sessions that improved teaching quality and consistency across courses
+    - Led program evaluation initiatives, resulting in an estimated 15% improvement in course completion rates
+    - Coordinated academic advising services, reducing student attrition in first-year courses
+  achievements:
+    - Directed program serving 2,000+ students annually
+    - Achieved estimated 15% improvement in course completion rates through program evaluation
+    - Reduced student attrition in first-year courses through coordinated advising
+    - Improved teaching quality and consistency through faculty training sessions
+  tools_used: []
+  star_stories:
+    - leadership_program_redesign
+    - faculty_coordination
+    - problem_solving_resource
+- title: Practicum Supervisor
+  employer: 'Pathways to Education – York University Partnership'
+  dates: '2010–2015'
+  type: higher_education
+  setting: Community-University Partnership – Toronto, Canada
+  populations_served:
+    - First-year placement students
+    - Community-based education participants
+  responsibilities:
+    - Supervised first-year placement students, ensuring effective integration into community-based education initiatives
+    - Developed mentoring strategies to enhance students' teaching and classroom management skills
+    - Facilitated reflective practice sessions, improving practicum students' instructional techniques
+  achievements:
+    - Improved practicum students' instructional techniques through reflective practice facilitation
+    - Enhanced students' teaching and classroom management skills through targeted mentoring strategies
+  tools_used: []
+  star_stories:
+    - community_partnership
+    - mentoring_development
+    - inclusive_practice
+- title: Instructor & Community Scholar
+  employer: 'York University & Centennial College'
+  dates: '2007–2012'
+  type: higher_education
+  setting: University/College – Toronto, Canada
+  populations_served:
+    - Diverse undergraduate students
+    - Refugee and immigrant communities
+  responsibilities:
+    - Taught courses in diaspora studies, developmental psychology, and education foundations to diverse student populations
+    - Served as a Community Scholar at York University's Centre for Refugee Studies, contributing research and training on refugee education
+    - Integrated experiential learning activities to increase student engagement and understanding of multicultural education
+  achievements:
+    - Contributed research and training on refugee education as Community Scholar at Centre for Refugee Studies
+    - Increased student engagement through integrated experiential learning activities
+  tools_used: []
+  star_stories:
+    - multicultural_student_support
+    - inclusive_practice
+- title: Assistant Director
+  employer: Zenith Academy
+  dates: '2005–2007'
+  type: education_administration
+  setting: Academy – Columbus, Ohio, USA
+  populations_served:
+    - Students
+    - Faculty and staff
+  responsibilities:
+    - Administrative leadership and program oversight at the academy
+    - Staff coordination and institutional operations management
+  achievements: []
+  tools_used: []
+  star_stories:
+    - change_management
+- title: Counselor
+  employer: International Academy
+  dates: '2002–2004'
+  type: education_support
+  setting: Academy – Columbus, Ohio, USA
+  populations_served:
+    - International and diverse student populations
+  responsibilities:
+    - Provided counseling services to students at the academy
+    - Supported international students' academic and personal development
+  achievements: []
+  tools_used: []
+  star_stories:
+    - conflict_resolution
+- title: Instructor & Research Assistant
+  employer: 'Ohio University & University of Akron'
+  dates: '1996–2001'
+  type: higher_education
+  setting: University – Ohio, USA
+  populations_served:
+    - Undergraduate students
+    - Graduate students
+  responsibilities:
+    - Taught courses in education disciplines
+    - Conducted research and provided academic support
+  achievements:
+    - Awarded Ohio University Teaching Assistant Scholarship (1997–2001)
+    - Awarded Ohio University Graduate Scholarship (1993–1996)
+  tools_used: []
+  star_stories:
+    - program_assessment
+real_metrics:
+  - 'Directed first-year program serving 2,000+ students annually'
+  - 'Led program evaluation resulting in estimated 15% improvement in course completion rates'
+  - 'Reduced student attrition in first-year courses through coordinated advising'
+skills_boundary:
+  program_management:
+  - Academic program coordination
+  - First-year experience program design
+  - Student orientation and transition programming
+  - Curriculum development and assessment
+  - Faculty coordination and support
+  student_services:
+  - Academic advising
+  - Student success initiatives
+  - Retention programming
+  - Multicultural student support
+  - Student mentoring
+  instruction:
+  - Course instruction (postsecondary)
+  - Workshop and training facilitation
+  - Professional development delivery
+  - Practicum supervision
+  administration:
+  - Committee participation and governance
+  - Policy implementation
+  - Program evaluation and reporting
+  - Community-academic partnership development
+  - Stakeholder engagement
+  technology:
+  - Learning management systems
+  - Student information systems
+fabrication_watchlist:
+- machine learning
+- data science
+- software engineering
+- cloud computing
+- financial analysis
+- sales management
+- corporate training
+- K-12 certification

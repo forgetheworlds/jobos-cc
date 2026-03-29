@@ -1,0 +1,10 @@
+{
+  "job_id": "indeed_022_20250328",
+  "route_family": "ats_browser",
+  "route_confidence": "medium",
+  "portal_type": "indeed_easy_apply",
+  "application_url": "https://ca.indeed.com/viewjob?jk=ibu_director_recruitment",
+  "required_documents": ["resume", "cover_letter"],
+  "estimated_time": "20-30 minutes",
+  "notes": "Director-level position. May require additional documents after initial application."
+}

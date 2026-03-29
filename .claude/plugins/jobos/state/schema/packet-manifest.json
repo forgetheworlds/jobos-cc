@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PacketManifest",
+  "description": "Application packet manifest tracking all generated materials",
+  "type": "object",
+  "required": ["job_id", "created_at", "route_family", "files", "review", "approval"],
+  "properties": {
+    "job_id": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "route_family": { "type": "string" },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "path", "status"],
+        "properties": {
+          "type": { "type": "string", "enum": ["resume", "cover_letter", "screening_answers", "email_subject", "email_body", "email_attachment", "action_brief"] },
+          "path": { "type": "string" },
+          "word_count": { "type": "integer" },
+          "answer_count": { "type": "integer" },
+          "status": { "type": "string", "enum": ["pending", "generated", "reviewed"] }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "verdict": { "type": ["string", "null"], "enum": ["PASS", "PASS_WITH_REVISIONS", "FAIL", null] },
+        "review_path": { "type": ["string", "null"] }
+      }
+    },
+    "approval": {
+      "type": "object",
+      "properties": {
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "approved_by": { "type": ["string", "null"] },
+        "approved_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    }
+  }
+}

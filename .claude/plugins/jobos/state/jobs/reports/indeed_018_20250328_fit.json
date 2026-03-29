@@ -1,0 +1,18 @@
+{
+  "job_id": "indeed_018_20250328",
+  "lane": "academic_admin",
+  "score": 9.2,
+  "rationale": "Exceptional match. Westcliff University Program Coordinator role directly aligns with Dr. Sambul's doctoral credentials and 20+ years of academic program coordination. Mentorship component matches his student success background. Salary range ($110K-$125K) appropriate for experience level. Multicultural requirement aligns with his cross-cultural communication strengths.",
+  "cluster_match": "academic_admin",
+  "exclusion_triggered": null,
+  "confidence": 0.95,
+  "next_step": "tailor",
+  "verdict": "approved",
+  "scoring_factors": {
+    "role_alignment": 10,
+    "seniority_match": 9,
+    "credentials": 10,
+    "domain_knowledge": 9,
+    "mission_fit": 9
+  }
+}

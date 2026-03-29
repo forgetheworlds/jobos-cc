@@ -1,0 +1,985 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#gnav-header-end"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - navigation "Primary" [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - button "Skip to main content" [ref=e12] [cursor=pointer]:
+                - generic [ref=e13]: Skip to main content
+              - link "Indeed Home" [ref=e14] [cursor=pointer]:
+                - /url: /?from=gnav-jobsearch--indeedmobile
+                - img [ref=e16]
+              - list [ref=e18]:
+                - listitem [ref=e19]:
+                  - link "Home" [ref=e21] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/
+                - listitem [ref=e22]:
+                  - link "Company reviews" [ref=e24] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/companies
+                - listitem [ref=e25]:
+                  - link "Salary guide" [ref=e27] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/career/salaries
+            - generic [ref=e28]:
+              - list [ref=e29]:
+                - listitem [ref=e30]:
+                  - link "Sign in" [ref=e33] [cursor=pointer]:
+                    - /url: https://secure.indeed.com/auth?hl=en_CA&co=CA&continue=https%3A%2F%2Fca.indeed.com%2Fjobs%3Fq%3DAcademic%2BAffairs%2BCoordinator%26l%3DToronto%252C%2BON&tmpl=desktop&from=gnav-util-jobsearch--indeedmobile&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Den_CA%26co%3DCA%26from%3Dgnav-jobsearch--indeedmobile&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess
+              - radiogroup "Language options" [ref=e36]:
+                - radio "English" [checked] [disabled] [ref=e38]:
+                  - generic [ref=e39]: En
+                  - generic [ref=e40]: English
+                - radio "Français" [ref=e42] [cursor=pointer]:
+                  - generic [ref=e43]: Fr
+                  - generic [ref=e44]: Français
+              - link "Employers / Post Job" [ref=e49] [cursor=pointer]:
+                - /url: https://ca.indeed.com/hire?co=CA&hl=en
+          - generic [ref=e50]: Start of main content
+      - generic [ref=e52]:
+        - search [ref=e57]:
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: "Keyword : all jobs"
+                - generic [ref=e67]:
+                  - img [ref=e69]
+                  - 'combobox "search: Job title, keywords, or company" [ref=e71]': Academic Affairs Coordinator
+                  - button "Clear what input" [ref=e73] [cursor=pointer]:
+                    - img [ref=e74]
+              - separator [ref=e76]:
+                - generic [ref=e77]: "&nbsp;"
+              - generic [ref=e78]:
+                - generic [ref=e79]: Edit location input box label
+                - generic [ref=e82]:
+                  - img [ref=e84]
+                  - combobox "Edit location" [ref=e86]: Toronto, ON
+                  - button "Clear location input" [ref=e88] [cursor=pointer]:
+                    - img [ref=e89]
+            - button "Find jobs" [ref=e92] [cursor=pointer]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - button "Pay filter" [ref=e97] [cursor=pointer]:
+                - text: Pay
+                - img [ref=e98]
+            - listitem [ref=e101]:
+              - button "Remote filter" [ref=e103] [cursor=pointer]:
+                - text: Remote
+                - img [ref=e104]
+            - listitem [ref=e107]:
+              - button "Within 25 kilometres filter" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: Within 25 kilometres
+                - img [ref=e112]
+            - listitem [ref=e115]:
+              - button "Job type filter" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: Job type
+                - generic [ref=e118]: filter
+                - img [ref=e120]
+            - listitem [ref=e123]:
+              - button "Job Language filter" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Job Language
+                - img [ref=e128]
+            - listitem [ref=e131]:
+              - button "Date posted filter" [ref=e133] [cursor=pointer]:
+                - text: Date posted
+                - img [ref=e134]
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - link "Post your resume" [ref=e145] [cursor=pointer]:
+                - /url: /promo/resume?from=serptop3&subfrom=resprmrtop&trk.origin=jobsearch&trk.variant=resprmrtop&trk.tk=1jkrft0hf24sc08g
+              - text: and find your next job on Indeed!
+              - separator [ref=e146]:
+                - generic [ref=e147]: "&nbsp;"
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "Academic Affairs Coordinator jobs in Toronto, ON" [level=1] [ref=e150]
+                - button "help icon" [ref=e153] [cursor=pointer]:
+                  - img "help icon" [ref=e154]
+              - generic [ref=e158]:
+                - generic [ref=e159]: "Sort by:"
+                - generic [ref=e160]:
+                  - text: relevance -
+                  - 'link "Sort by: date" [ref=e161] [cursor=pointer]':
+                    - /url: /jobs?q=Academic%20Affairs%20Coordinator&l=Toronto%2C%20ON&sort=date
+                    - text: date
+            - list [ref=e165]:
+              - listitem
+              - listitem [ref=e166]:
+                - generic [ref=e168]:
+                  - generic:
+                    - generic [ref=e171]:
+                      - heading "full details of Program Coordinator / Full Time Faculty" [level=2] [ref=e173]:
+                        - button "full details of Program Coordinator / Full Time Faculty" [pressed] [ref=e174] [cursor=pointer]: Program Coordinator / Full Time Faculty
+                      - generic [ref=e175]:
+                        - generic [ref=e177]:
+                          - generic [ref=e179]: Westcliff University
+                          - generic [ref=e180]: Markham, ON L3R 9Z7
+                        - list [ref=e182]:
+                          - listitem [ref=e183]:
+                            - generic [ref=e186]: $110,000–$125,000 a year
+                          - listitem [ref=e187]:
+                            - generic [ref=e190]: Full-time
+                        - generic [ref=e192]:
+                          - img [ref=e193]
+                          - generic [ref=e195]: Easily apply
+                      - button "Save job Toggle" [ref=e199] [cursor=pointer]:
+                        - img [ref=e200]
+                    - list [ref=e204]:
+                      - listitem [ref=e205]: Provide academic advising and mentorship for students.
+                      - listitem [ref=e206]: Experience working in multicultural and diverse academic environments.
+                      - listitem [ref=e207]: "Student Engagement and Support:"
+              - listitem [ref=e209]:
+                - generic [ref=e211]:
+                  - generic:
+                    - generic [ref=e214]:
+                      - heading "full details of Employment & Education Partnerships Coordinator" [level=2] [ref=e216]:
+                        - button "full details of Employment & Education Partnerships Coordinator" [ref=e217] [cursor=pointer]: Employment & Education Partnerships Coordinator
+                      - generic [ref=e218]:
+                        - generic [ref=e220]:
+                          - generic [ref=e222]: StepStones For Youth
+                          - generic [ref=e223]: Toronto, ON
+                        - list [ref=e225]:
+                          - listitem [ref=e226]:
+                            - generic [ref=e229]: Part-time
+                        - generic [ref=e231]:
+                          - img [ref=e232]
+                          - generic [ref=e234]: Easily apply
+                      - button "Save job Toggle" [ref=e238] [cursor=pointer]:
+                        - img [ref=e239]
+                    - generic [ref=e241]:
+                      - list [ref=e243]:
+                        - listitem [ref=e244]: "Collaborates Closely With: Program Team."
+                        - listitem [ref=e245]: The Employment & Education Partnerships Coordinator plays a central role in supporting StepStones youth to access…
+                      - list [ref=e249]:
+                        - listitem [ref=e250]:
+                          - generic [ref=e251]:
+                            - text: View all
+                            - link "StepStones For Youth jobs" [ref=e252] [cursor=pointer]:
+                              - /url: /q-stepstones-for-youth-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e253] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Education Partnership Manager jobs in Toronto, ON" [ref=e254] [cursor=pointer]:
+                              - /url: /q-education-partnership-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e255]:
+                          - generic [ref=e256]:
+                            - text: "Salary Search:"
+                            - link "Employment & Education Partnerships Coordinator salaries in Toronto, ON" [ref=e257] [cursor=pointer]:
+                              - /url: /career/education-partnership-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=56e058e4d80a6157&from=serp-more
+                        - listitem [ref=e258]:
+                          - generic [ref=e259]:
+                            - text: See popular
+                            - link "questions & answers about StepStones For Youth" [ref=e260] [cursor=pointer]:
+                              - /url: /cmp/Stepstones-For-Youth-1/faq
+              - listitem [ref=e262]:
+                - generic [ref=e264]:
+                  - generic:
+                    - generic [ref=e267]:
+                      - generic [ref=e268]:
+                        - heading "full details of Onboarding Class Coordinator" [level=2] [ref=e269]:
+                          - button "full details of Onboarding Class Coordinator" [ref=e270] [cursor=pointer]: Onboarding Class Coordinator
+                        - generic [ref=e274]: Often responds within 1 day
+                      - generic [ref=e275]:
+                        - generic [ref=e277]:
+                          - generic [ref=e279]: The Education Equality Institute
+                          - generic [ref=e280]: Toronto, ON
+                        - generic [ref=e282]:
+                          - img [ref=e283]
+                          - generic [ref=e285]: Easily apply
+                      - button "Save job Toggle" [ref=e289] [cursor=pointer]:
+                        - img [ref=e290]
+                    - generic [ref=e292]:
+                      - list [ref=e294]:
+                        - listitem [ref=e295]: You'll be the ultimate collaborator, working closely with various teams to ensure this teacher onboarding journey goes off without a hitch.
+                      - list [ref=e299]:
+                        - listitem [ref=e300]:
+                          - generic [ref=e301]:
+                            - text: View all
+                            - link "The Education Equality Institute jobs" [ref=e302] [cursor=pointer]:
+                              - /url: /q-the-education-equality-institute-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e303] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Onboarding Manager jobs in Toronto, ON" [ref=e304] [cursor=pointer]:
+                              - /url: /q-onboarding-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e305]:
+                          - generic [ref=e306]:
+                            - text: "Salary Search:"
+                            - link "Onboarding Class Coordinator salaries in Toronto, ON" [ref=e307] [cursor=pointer]:
+                              - /url: /career/onboarding-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=18e5467b7f121c77&from=serp-more
+              - listitem [ref=e309]:
+                - generic [ref=e311]:
+                  - generic:
+                    - generic [ref=e314]:
+                      - heading "full details of Regional Education Executive" [level=2] [ref=e316]:
+                        - button "full details of Regional Education Executive" [ref=e317] [cursor=pointer]: Regional Education Executive
+                      - generic [ref=e320]:
+                        - generic [ref=e322]: Clinique
+                        - generic [ref=e323]: Toronto, ON
+                      - button "Save job Toggle" [ref=e325] [cursor=pointer]:
+                        - img [ref=e326]
+                    - generic [ref=e328]:
+                      - list [ref=e330]:
+                        - listitem [ref=e331]: The Regional Education Executive educates counter staff on the product knowledge, selling and service skills necessary to meet productivity goals, service…
+                      - list [ref=e335]:
+                        - listitem [ref=e336]:
+                          - generic [ref=e337]:
+                            - text: View all
+                            - link "Clinique jobs" [ref=e338] [cursor=pointer]:
+                              - /url: /q-clinique-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e339] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Executive jobs in Toronto, ON" [ref=e340] [cursor=pointer]:
+                              - /url: /q-executive-l-toronto,-on-jobs.html
+                        - listitem [ref=e341]:
+                          - generic [ref=e342]:
+                            - text: "Salary Search:"
+                            - link "Regional Education Executive salaries in Toronto, ON" [ref=e343] [cursor=pointer]:
+                              - /url: /career/executive/salaries/Toronto--ON?campaignid=serp-more&fromjk=9b9f11e33e6c393b&from=serp-more
+                        - listitem [ref=e344]:
+                          - generic [ref=e345]:
+                            - text: See popular
+                            - link "questions & answers about Clinique" [ref=e346] [cursor=pointer]:
+                              - /url: /cmp/Clinique/faq
+              - listitem [ref=e348]:
+                - generic [ref=e350]:
+                  - generic:
+                    - generic [ref=e353]:
+                      - heading "full details of Coordinator, Advisor Rewards and Recognition" [level=2] [ref=e355]:
+                        - button "full details of Coordinator, Advisor Rewards and Recognition" [ref=e356] [cursor=pointer]: Coordinator, Advisor Rewards and Recognition
+                      - generic [ref=e357]:
+                        - generic [ref=e359]:
+                          - generic [ref=e361]: CI Financial
+                          - generic [ref=e362]: Toronto, ON M5C 3G7
+                        - list [ref=e364]:
+                          - listitem [ref=e365]:
+                            - generic [ref=e368]: $55,000–$95,000 a year
+                          - listitem [ref=e369]:
+                            - generic [ref=e372]: Paid time off
+                          - listitem [ref=e373]:
+                            - generic [ref=e376]: Disability insurance
+                          - listitem [ref=e377]:
+                            - generic [ref=e380]: Designated paid holidays
+                      - button "Save job Toggle" [ref=e382] [cursor=pointer]:
+                        - img [ref=e383]
+                    - generic [ref=e385]:
+                      - list [ref=e387]:
+                        - listitem [ref=e388]: This role will be responsible for the day-to-day coordination, tracking, and communication of initiatives designed to recognize and reward top-performing…
+                      - list [ref=e392]:
+                        - listitem [ref=e393]:
+                          - generic [ref=e394]:
+                            - text: View all
+                            - link "CI Financial jobs" [ref=e395] [cursor=pointer]:
+                              - /url: /q-ci-financial-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e396] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Reward Manager jobs in Toronto, ON" [ref=e397] [cursor=pointer]:
+                              - /url: /q-reward-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e398]:
+                          - generic [ref=e399]:
+                            - text: "Salary Search:"
+                            - link "Coordinator, Advisor Rewards and Recognition salaries in Toronto, ON" [ref=e400] [cursor=pointer]:
+                              - /url: /career/reward-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=2636951baee5e33d&from=serp-more
+                        - listitem [ref=e401]:
+                          - generic [ref=e402]:
+                            - text: See popular
+                            - link "questions & answers about CI Financial" [ref=e403] [cursor=pointer]:
+                              - /url: /cmp/Ci-Financial/faq
+              - listitem
+              - listitem [ref=e405]:
+                - generic [ref=e407]:
+                  - generic:
+                    - generic [ref=e410]:
+                      - heading "full details of Student Services Coordinator (Mississauga Campus)" [level=2] [ref=e412]:
+                        - button "full details of Student Services Coordinator (Mississauga Campus)" [ref=e413] [cursor=pointer]: Student Services Coordinator (Mississauga Campus)
+                      - generic [ref=e414]:
+                        - generic [ref=e416]:
+                          - generic [ref=e418]: Anderson College of Health, Business & Technology
+                          - generic [ref=e419]: Mississauga, ON L5B 2N6
+                        - list [ref=e421]:
+                          - listitem [ref=e422]:
+                            - generic [ref=e425]: $40,000–$45,000 a year
+                          - listitem [ref=e426]:
+                            - generic [ref=e429]: Full-time
+                          - listitem [ref=e430]:
+                            - generic [ref=e433]: Monday to Friday
+                          - listitem [ref=e434]:
+                            - generic [ref=e437]: Paid time off
+                          - listitem [ref=e438]:
+                            - generic [ref=e441]: Dental care
+                          - listitem [ref=e442]:
+                            - generic [ref=e445]: Extended health care
+                        - generic [ref=e447]:
+                          - img [ref=e448]
+                          - generic [ref=e450]: Easily apply
+                      - button "Save job Toggle" [ref=e454] [cursor=pointer]:
+                        - img [ref=e455]
+                    - list [ref=e459]:
+                      - listitem [ref=e460]: The ideal candidate will have previous experience in a similar role and be passionate about helping mature students achieve their goals.
+              - listitem [ref=e462]:
+                - generic [ref=e464]:
+                  - generic:
+                    - generic [ref=e467]:
+                      - heading "full details of High School Guidance & Academic Coordinator" [level=2] [ref=e469]:
+                        - button "full details of High School Guidance & Academic Coordinator" [ref=e470] [cursor=pointer]: High School Guidance & Academic Coordinator
+                      - generic [ref=e471]:
+                        - generic [ref=e473]:
+                          - generic [ref=e475]: Canada International Global Education
+                          - generic [ref=e476]: Toronto, ON M1V 4S3
+                        - list [ref=e478]:
+                          - listitem [ref=e479]:
+                            - generic [ref=e482]: $20–$30 an hour
+                          - listitem [ref=e483]:
+                            - generic [ref=e486]:
+                              - text: Full-time
+                              - generic [ref=e487]: "+1"
+                          - listitem [ref=e488]:
+                            - generic [ref=e491]: 25 to 36 hours per week
+                        - generic [ref=e493]:
+                          - img [ref=e494]
+                          - generic [ref=e496]: Easily apply
+                      - button "Save job Toggle" [ref=e500] [cursor=pointer]:
+                        - img [ref=e501]
+                    - list [ref=e505]:
+                      - listitem [ref=e506]: "Student Supervision: Supervise study periods and common areas, ensuring a focused and professional academic environment."
+                      - listitem [ref=e507]: "Job Types: Full-time, Part-time."
+              - listitem [ref=e509]:
+                - generic [ref=e511]:
+                  - generic:
+                    - generic [ref=e514]:
+                      - generic [ref=e515]:
+                        - heading "full details of Admissions Coordinator" [level=2] [ref=e516]:
+                          - button "full details of Admissions Coordinator" [ref=e517] [cursor=pointer]: Admissions Coordinator
+                        - generic [ref=e518]:
+                          - generic [ref=e521]: New
+                          - generic [ref=e524]: Hiring multiple candidates
+                      - generic [ref=e525]:
+                        - generic [ref=e527]:
+                          - generic [ref=e529]: Alpha College of Business and Technology
+                          - generic [ref=e530]: Scarborough, ON M1V 4Y3
+                        - list [ref=e532]:
+                          - listitem [ref=e533]:
+                            - generic [ref=e536]: $40,000–$55,000 a year
+                          - listitem [ref=e537]:
+                            - generic [ref=e540]:
+                              - text: Full-time
+                              - generic [ref=e541]: "+1"
+                          - listitem [ref=e542]:
+                            - generic [ref=e545]: Paid time off
+                          - listitem [ref=e546]:
+                            - generic [ref=e549]: Vision care
+                          - listitem [ref=e550]:
+                            - generic [ref=e553]: Dental care
+                          - listitem [ref=e554]:
+                            - generic [ref=e557]: Life insurance
+                          - listitem [ref=e558]:
+                            - generic [ref=e561]: Company events
+                          - listitem [ref=e562]:
+                            - generic [ref=e565]: Extended health care
+                        - generic [ref=e567]:
+                          - img [ref=e568]
+                          - generic [ref=e570]: Easily apply
+                      - button "Save job Toggle" [ref=e574] [cursor=pointer]:
+                        - img [ref=e575]
+                    - list [ref=e579]:
+                      - listitem [ref=e580]: We are seeking an Admissions Coordinator to support prospective and current students throughout the admissions and enrollment process.
+              - listitem [ref=e582]:
+                - generic [ref=e584]:
+                  - generic:
+                    - generic [ref=e587]:
+                      - heading "full details of Education Coordinator" [level=2] [ref=e589]:
+                        - button "full details of Education Coordinator" [ref=e590] [cursor=pointer]: Education Coordinator
+                      - generic [ref=e591]:
+                        - generic [ref=e593]:
+                          - generic [ref=e595]: Oxford Learning Centres, Inc.
+                          - generic [ref=e596]: Toronto, ON M4T 1M9
+                        - list [ref=e598]:
+                          - listitem [ref=e599]:
+                            - generic [ref=e602]: Up to $18 an hour
+                          - listitem [ref=e603]:
+                            - generic [ref=e606]:
+                              - text: Full-time
+                              - generic [ref=e607]: "+1"
+                          - listitem [ref=e608]:
+                            - generic [ref=e611]: Weekends as needed
+                        - generic [ref=e613]:
+                          - img [ref=e614]
+                          - generic [ref=e616]: Easily apply
+                      - link "View similar jobs with this employer" [ref=e619] [cursor=pointer]:
+                        - /url: /addlLoc/redirect?tk=1jkrft0hf24sc08g&jk=14d9eb7954cf50f0&dest=%2Fjobs%3Fq%3DAcademic%2BAffairs%2BCoordinator%26nl%3D%26l%3DToronto%252C%2BON%26radius%3D25%26grpKey%3D8gcFdG5mZWy4D_DADaoQIgoJbm9ybXRpdGxlGhVlZHVjYXRpb24gY29vcmRpbmF0b3I%253D
+                      - button "Save job Toggle" [ref=e621] [cursor=pointer]:
+                        - img [ref=e622]
+                    - generic [ref=e624]:
+                      - list [ref=e626]:
+                        - listitem [ref=e627]: We teach students from pre-school to post-secondary levels how to learn, concentrate, listen, remember.
+                        - listitem [ref=e628]: This role is after school hours and weekends.
+                      - list [ref=e632]:
+                        - listitem [ref=e633]:
+                          - generic [ref=e634]:
+                            - text: View all
+                            - link "Oxford Learning Centres, Inc. jobs" [ref=e635] [cursor=pointer]:
+                              - /url: /q-oxford-learning-centres,-inc.-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e636] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                        - listitem [ref=e637]:
+                          - generic [ref=e638]:
+                            - text: "Salary Search:"
+                            - link "Education Coordinator salaries in Toronto, ON" [ref=e639] [cursor=pointer]:
+                              - /url: /career/education-coordinator/salaries/Toronto--ON-M4T-1M9?campaignid=serp-more&fromjk=14d9eb7954cf50f0&from=serp-more
+                        - listitem [ref=e640]:
+                          - generic [ref=e641]:
+                            - text: See popular
+                            - link "questions & answers about Oxford Learning Centres, Inc." [ref=e642] [cursor=pointer]:
+                              - /url: /cmp/Oxford-Learning-Centre/faq
+              - listitem [ref=e644]:
+                - generic [ref=e646]:
+                  - generic:
+                    - generic [ref=e649]:
+                      - heading "full details of Full-Time Education Coordinator" [level=2] [ref=e651]:
+                        - button "full details of Full-Time Education Coordinator" [ref=e652] [cursor=pointer]: Full-Time Education Coordinator
+                      - generic [ref=e653]:
+                        - generic [ref=e655]:
+                          - generic [ref=e657]: Oxford Learning Centres, Inc.
+                          - generic [ref=e658]: Markham, ON L6E 1A3
+                        - list [ref=e660]:
+                          - listitem [ref=e661]:
+                            - generic [ref=e664]: From $50,000 a year
+                          - listitem [ref=e665]:
+                            - generic [ref=e668]: Full-time
+                        - generic [ref=e670]:
+                          - img [ref=e671]
+                          - generic [ref=e673]: Easily apply
+                      - link "View similar jobs with this employer" [ref=e676] [cursor=pointer]:
+                        - /url: /addlLoc/redirect?tk=1jkrft0hf24sc08g&jk=a7595b44b79b5970&dest=%2Fjobs%3Fq%3DAcademic%2BAffairs%2BCoordinator%26nl%3D%26l%3DToronto%252C%2BON%26radius%3D25%26grpKey%3D8gcFdG5mZWy4D_DADaoQIgoJbm9ybXRpdGxlGhVlZHVjYXRpb24gY29vcmRpbmF0b3I%253D
+                      - button "Save job Toggle" [ref=e678] [cursor=pointer]:
+                        - img [ref=e679]
+                    - generic [ref=e681]:
+                      - list [ref=e683]:
+                        - listitem [ref=e684]: We teach students from pre-school to post-secondary levels how to learn, concentrate, listen, remember.
+                        - listitem [ref=e685]: Help inform inquiring parents about our Oxford Learning…
+                      - list [ref=e689]:
+                        - listitem [ref=e690]:
+                          - generic [ref=e691]:
+                            - text: View all
+                            - link "Oxford Learning Centres, Inc. jobs" [ref=e692] [cursor=pointer]:
+                              - /url: /q-oxford-learning-centres,-inc.-jobs.html
+                            - text: "-"
+                            - link "Markham jobs" [ref=e693] [cursor=pointer]:
+                              - /url: /l-markham,-on-jobs.html
+                            - text: "-"
+                            - link "Education Coordinator jobs in Markham, ON" [ref=e694] [cursor=pointer]:
+                              - /url: /q-education-coordinator-l-markham,-on-jobs.html
+                        - listitem [ref=e695]:
+                          - generic [ref=e696]:
+                            - text: "Salary Search:"
+                            - link "Full-Time Education Coordinator salaries in Markham, ON" [ref=e697] [cursor=pointer]:
+                              - /url: /career/education-coordinator/salaries/Markham--ON-L6E-1A3?campaignid=serp-more&fromjk=a7595b44b79b5970&from=serp-more
+                        - listitem [ref=e698]:
+                          - generic [ref=e699]:
+                            - text: See popular
+                            - link "questions & answers about Oxford Learning Centres, Inc." [ref=e700] [cursor=pointer]:
+                              - /url: /cmp/Oxford-Learning-Centre/faq
+              - listitem
+              - listitem [ref=e702]:
+                - generic [ref=e704]:
+                  - generic:
+                    - generic [ref=e707]:
+                      - heading "full details of Experience Coordinator" [level=2] [ref=e709]:
+                        - button "full details of Experience Coordinator" [ref=e710] [cursor=pointer]: Experience Coordinator
+                      - generic [ref=e711]:
+                        - generic [ref=e713]:
+                          - generic [ref=e715]: BrainStation
+                          - generic [ref=e716]: Toronto, ON
+                        - list [ref=e718]:
+                          - listitem [ref=e719]:
+                            - generic [ref=e722]: $50,000–$55,000 a year
+                          - listitem [ref=e723]:
+                            - generic [ref=e726]: Work from home
+                          - listitem [ref=e727]:
+                            - generic [ref=e730]: Flexible schedule
+                        - generic [ref=e732]:
+                          - img [ref=e733]
+                          - generic [ref=e735]: Easily apply
+                      - button "Save job Toggle" [ref=e739] [cursor=pointer]:
+                        - img [ref=e740]
+                    - generic [ref=e742]:
+                      - list [ref=e744]:
+                        - listitem [ref=e745]: Work with the Experience Lead to execute world class experiences for BrainStation certification courses, corporate workshops and industry events.
+                      - list [ref=e749]:
+                        - listitem [ref=e750]:
+                          - generic [ref=e751]:
+                            - text: View all
+                            - link "BrainStation jobs" [ref=e752] [cursor=pointer]:
+                              - /url: /q-brainstation-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e753] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Experience Manager jobs in Toronto, ON" [ref=e754] [cursor=pointer]:
+                              - /url: /q-experience-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e755]:
+                          - generic [ref=e756]:
+                            - text: "Salary Search:"
+                            - link "Experience Coordinator salaries in Toronto, ON" [ref=e757] [cursor=pointer]:
+                              - /url: /career/experience-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=632ea97c3b62c89b&from=serp-more
+                        - listitem [ref=e758]:
+                          - generic [ref=e759]:
+                            - text: See popular
+                            - link "questions & answers about BrainStation" [ref=e760] [cursor=pointer]:
+                              - /url: /cmp/Brainstation/faq
+              - listitem [ref=e762]:
+                - generic [ref=e764]:
+                  - generic:
+                    - generic [ref=e767]:
+                      - heading "full details of Education Coordinator" [level=2] [ref=e769]:
+                        - button "full details of Education Coordinator" [ref=e770] [cursor=pointer]: Education Coordinator
+                      - generic [ref=e771]:
+                        - generic [ref=e773]:
+                          - generic [ref=e775]: Scholars Education Centre - Danforth
+                          - generic [ref=e776]: Toronto, ON M4K 1N6
+                        - list [ref=e778]:
+                          - listitem [ref=e779]:
+                            - generic [ref=e782]: $25–$30 an hour
+                          - listitem [ref=e783]:
+                            - generic [ref=e786]:
+                              - text: Full-time
+                              - generic [ref=e787]: "+1"
+                          - listitem [ref=e788]:
+                            - generic [ref=e791]: 30 to 35 hours per week
+                          - listitem [ref=e792]:
+                            - generic [ref=e795]: Paid time off
+                          - listitem [ref=e796]:
+                            - generic [ref=e799]: Dental care
+                          - listitem [ref=e800]:
+                            - generic [ref=e803]: Life insurance
+                          - listitem [ref=e804]:
+                            - generic [ref=e807]: Store discount
+                          - listitem [ref=e808]:
+                            - generic [ref=e811]: Flexible schedule
+                          - listitem [ref=e812]:
+                            - generic [ref=e815]: Extended health care
+                        - generic [ref=e817]:
+                          - img [ref=e818]
+                          - generic [ref=e820]: Easily apply
+                      - button "Save job Toggle" [ref=e824] [cursor=pointer]:
+                        - img [ref=e825]
+                    - generic [ref=e827]:
+                      - list [ref=e829]:
+                        - listitem [ref=e830]: Scholars Education Centre* has successfully been providing tutoring of exceptional quality and service for 25 years; sharing Results That Matter with families…
+                      - list [ref=e834]:
+                        - listitem [ref=e835]:
+                          - generic [ref=e836]:
+                            - text: View all
+                            - link "Scholars Education Centre - Danforth jobs" [ref=e837] [cursor=pointer]:
+                              - /url: /q-scholars-education-centre-danforth-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e838] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                        - listitem [ref=e839]:
+                          - generic [ref=e840]:
+                            - text: "Salary Search:"
+                            - link "Education Coordinator salaries in Toronto, ON" [ref=e841] [cursor=pointer]:
+                              - /url: /career/education-coordinator/salaries/Toronto--ON-M4K-1N6?campaignid=serp-more&fromjk=b057acdb0483d64a&from=serp-more
+              - listitem [ref=e843]:
+                - generic [ref=e845]:
+                  - generic:
+                    - generic [ref=e848]:
+                      - heading "full details of Volunteer Resource Coordinator" [level=2] [ref=e850]:
+                        - button "full details of Volunteer Resource Coordinator" [ref=e851] [cursor=pointer]: Volunteer Resource Coordinator
+                      - generic [ref=e852]:
+                        - generic [ref=e854]:
+                          - generic [ref=e856]: Ontario Association of Mental Health Professionals
+                          - generic [ref=e857]: Toronto, ON M4P 1G4
+                        - list [ref=e859]:
+                          - listitem [ref=e860]:
+                            - generic [ref=e863]: $20 an hour
+                          - listitem [ref=e864]:
+                            - generic [ref=e867]:
+                              - text: Full-time
+                              - generic [ref=e868]: "+2"
+                          - listitem [ref=e869]:
+                            - generic [ref=e872]: 30 to 35 hours per week
+                        - generic [ref=e874]:
+                          - img [ref=e875]
+                          - generic [ref=e877]: Easily apply
+                      - button "Save job Toggle" [ref=e881] [cursor=pointer]:
+                        - img [ref=e882]
+                    - generic [ref=e884]:
+                      - list [ref=e886]:
+                        - listitem [ref=e887]: Support OAMHP in strengthening and organizing its volunteer engagement systems — helping streamline processes, track involvement, improve communication, and…
+                      - list [ref=e891]:
+                        - listitem [ref=e892]:
+                          - generic [ref=e893]:
+                            - text: View all
+                            - link "Ontario Association of Mental Health Professionals jobs" [ref=e894] [cursor=pointer]:
+                              - /url: /q-ontario-association-of-mental-health-professionals-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e895] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Volunteer Coordinator jobs in Toronto, ON" [ref=e896] [cursor=pointer]:
+                              - /url: /q-volunteer-coordinator-l-toronto,-on-jobs.html
+                        - listitem [ref=e897]:
+                          - generic [ref=e898]:
+                            - text: "Salary Search:"
+                            - link "Volunteer Resource Coordinator salaries in Toronto, ON" [ref=e899] [cursor=pointer]:
+                              - /url: /career/volunteer-coordinator/salaries/Toronto--ON-M4P-1G4?campaignid=serp-more&fromjk=edd1277068948723&from=serp-more
+              - listitem
+              - listitem [ref=e901]:
+                - generic [ref=e903]:
+                  - generic:
+                    - generic [ref=e906]:
+                      - generic [ref=e907]:
+                        - heading "full details of Career College Campus Coordinator" [level=2] [ref=e908]:
+                          - button "full details of Career College Campus Coordinator" [ref=e909] [cursor=pointer]: Career College Campus Coordinator
+                        - generic [ref=e913]: Often responds within 3 days
+                      - generic [ref=e914]:
+                        - generic [ref=e916]:
+                          - generic [ref=e918]: North American College Of Information Technology
+                          - generic [ref=e919]: Mississauga, ON L5B 3Z6
+                        - list [ref=e921]:
+                          - listitem [ref=e922]:
+                            - generic [ref=e925]: $40,000–$45,000 a year
+                          - listitem [ref=e926]:
+                            - generic [ref=e929]: Full-time
+                        - generic [ref=e931]:
+                          - img [ref=e932]
+                          - generic [ref=e934]: Easily apply
+                      - button "Save job Toggle" [ref=e938] [cursor=pointer]:
+                        - img [ref=e939]
+                    - generic [ref=e941]:
+                      - list [ref=e943]:
+                        - listitem [ref=e944]: Assist students with their queries regarding their ongoing programs, attendance, academics, etc.
+                        - listitem [ref=e945]: Three to five years of progressive experience in career college…
+                      - list [ref=e949]:
+                        - listitem [ref=e950]:
+                          - generic [ref=e951]:
+                            - text: View all
+                            - link "North American College Of Information Technology jobs" [ref=e952] [cursor=pointer]:
+                              - /url: /q-north-american-college-of-information-technology-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e953] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Campus Manager jobs in Mississauga, ON" [ref=e954] [cursor=pointer]:
+                              - /url: /q-campus-manager-l-mississauga,-on-jobs.html
+                        - listitem [ref=e955]:
+                          - generic [ref=e956]:
+                            - text: "Salary Search:"
+                            - link "Career College Campus Coordinator salaries in Mississauga, ON" [ref=e957] [cursor=pointer]:
+                              - /url: /career/campus-manager/salaries/Mississauga--ON-L5B-3Z6?campaignid=serp-more&fromjk=feb38de7f72cf23b&from=serp-more
+                        - listitem [ref=e958]:
+                          - generic [ref=e959]:
+                            - text: See popular
+                            - link "questions & answers about North American College Of Information Technology" [ref=e960] [cursor=pointer]:
+                              - /url: /cmp/North-American-College-of-Information-Technology/faq
+              - listitem [ref=e962]:
+                - generic [ref=e964]:
+                  - generic:
+                    - generic [ref=e967]:
+                      - heading "full details of Placement Coordinator" [level=2] [ref=e969]:
+                        - button "full details of Placement Coordinator" [ref=e970] [cursor=pointer]: Placement Coordinator
+                      - generic [ref=e971]:
+                        - generic [ref=e973]:
+                          - generic [ref=e975]: Academy of Learning Career College - Mississauga...
+                          - generic [ref=e976]: Mississauga, ON L4Y 2C1
+                        - list [ref=e978]:
+                          - listitem [ref=e979]:
+                            - generic [ref=e982]: $18.23–$24.00 an hour
+                          - listitem [ref=e983]:
+                            - generic [ref=e986]: Full-time
+                          - listitem [ref=e987]:
+                            - generic [ref=e990]: Dental care
+                          - listitem [ref=e991]:
+                            - generic [ref=e994]: Extended health care
+                          - listitem [ref=e995]:
+                            - generic [ref=e998]: On-site parking
+                        - generic [ref=e1000]:
+                          - img [ref=e1001]
+                          - generic [ref=e1003]: Easily apply
+                      - button "Save job Toggle" [ref=e1007] [cursor=pointer]:
+                        - img [ref=e1008]
+                    - generic [ref=e1010]:
+                      - list [ref=e1012]:
+                        - listitem [ref=e1013]: Job Type:* Full-Time | In-Person.
+                        - listitem [ref=e1014]: Academy of Learning Career College is seeking a Placement Coordinator to support students enrolled in the *Personal Support…
+                      - list [ref=e1018]:
+                        - listitem [ref=e1019]:
+                          - generic [ref=e1020]:
+                            - text: View all
+                            - link "Academy of Learning Career College - Mississauga East jobs" [ref=e1021] [cursor=pointer]:
+                              - /url: /q-academy-of-learning-career-college-mississauga-east-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e1022] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Coordinator jobs in Mississauga, ON" [ref=e1023] [cursor=pointer]:
+                              - /url: /q-coordinator-l-mississauga,-on-jobs.html
+                        - listitem [ref=e1024]:
+                          - generic [ref=e1025]:
+                            - text: "Salary Search:"
+                            - link "Placement Coordinator salaries in Mississauga, ON" [ref=e1026] [cursor=pointer]:
+                              - /url: /career/coordinator/salaries/Mississauga--ON-L4Y-2C1?campaignid=serp-more&fromjk=f571e6d30fd637ba&from=serp-more
+              - listitem
+            - navigation "pagination" [ref=e1028]:
+              - list [ref=e1029]:
+                - listitem [ref=e1030]:
+                  - link "1" [ref=e1031] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e1032]:
+                  - link "2" [ref=e1033] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Affairs+Coordinator&l=Toronto%2C+ON&radius=25&start=10
+                - listitem [ref=e1034]:
+                  - link "3" [ref=e1035] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Affairs+Coordinator&l=Toronto%2C+ON&radius=25&start=20
+                - listitem [ref=e1036]:
+                  - link "4" [ref=e1037] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Affairs+Coordinator&l=Toronto%2C+ON&radius=25&start=30
+                - listitem [ref=e1038]:
+                  - link "5" [ref=e1039] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Affairs+Coordinator&l=Toronto%2C+ON&radius=25&start=40
+                - listitem [ref=e1040]:
+                  - link "Next page" [ref=e1041] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Affairs+Coordinator&l=Toronto%2C+ON&radius=25&start=10
+                    - img [ref=e1042]
+            - generic [ref=e1048]:
+              - generic [ref=e1049]:
+                - generic [ref=e1051]:
+                  - text: Get email updates for the latest
+                  - strong [ref=e1052]: Academic Affairs Coordinator
+                  - text: jobs in
+                  - strong [ref=e1053]: Toronto, ON
+                - generic [ref=e1054] [cursor=pointer]:
+                  - switch [ref=e1055]
+                  - img [ref=e1058]
+              - paragraph [ref=e1061]:
+                - text: By creating a job alert, you agree to our
+                - link "Terms (opens in a new tab)" [ref=e1062] [cursor=pointer]:
+                  - /url: /legal?hl=en
+                  - text: Terms
+                  - img [ref=e1063]
+                - text: . You can change your consent settings at any time by unsubscribing or as detailed in our terms.
+            - generic [ref=e1066]:
+              - heading "Career Resources:" [level=2] [ref=e1067]
+              - list [ref=e1068]:
+                - text: "-"
+                - listitem [ref=e1069]:
+                  - link "Explore High Paying Jobs" [ref=e1070] [cursor=pointer]:
+                    - /url: /explorer/
+          - generic "Job Post Details" [ref=e1072]:
+            - button "Return to Search Result" [ref=e1073]
+            - heading "Job Post Details" [level=2] [ref=e1074]
+            - generic [ref=e1078]:
+              - generic [ref=e1080]:
+                - generic [ref=e1081]:
+                  - heading "Program Coordinator / Full Time Faculty - job post" [level=2] [ref=e1083]:
+                    - generic [ref=e1084]:
+                      - text: Program Coordinator / Full Time Faculty
+                      - generic [ref=e1085]: "- job post"
+                  - generic [ref=e1089]:
+                    - generic [ref=e1090]:
+                      - link "Westcliff University (opens in a new tab)" [ref=e1093] [cursor=pointer]:
+                        - /url: https://ca.indeed.com/cmp/Westcliff-University?campaignid=mobvjcmp&from=mobviewjob&tk=1jkrft0n324sc002&fromjk=130d9d266231d06f
+                        - text: Westcliff University
+                        - img [ref=e1094]
+                      - generic [ref=e1096]:
+                        - generic [ref=e1097]: · 2.8
+                        - generic [ref=e1098]: 2.8 out of 5 stars
+                        - img [ref=e1099]
+                    - generic [ref=e1102]: Markham, ON L3R 9Z7•Hybrid work
+                - generic [ref=e1105]:
+                  - generic [ref=e1106]: $110,000–$125,000 a year
+                  - generic [ref=e1107]: "- Full-time"
+                - generic [ref=e1109]:
+                  - button "Apply now opens in a new tab" [ref=e1117] [cursor=pointer]:
+                    - generic [ref=e1119]: Apply now
+                  - button "Save job" [ref=e1123] [cursor=pointer]:
+                    - img "save-icon" [ref=e1124]
+                  - button "Share job" [ref=e1126] [cursor=pointer]
+              - generic [ref=e1129]:
+                - generic [ref=e1130]:
+                  - generic [ref=e1136]:
+                    - generic [ref=e1137]:
+                      - heading "Job details" [level=2] [ref=e1139]
+                      - generic [ref=e1140]:
+                        - group "Pay" [ref=e1141]:
+                          - img [ref=e1142]
+                          - generic [ref=e1144]:
+                            - heading "Pay" [level=3] [ref=e1145]
+                            - list [ref=e1147]:
+                              - listitem [ref=e1148]:
+                                - generic [ref=e1153]: $110,000–$125,000 a year
+                        - group "Job type" [ref=e1154]:
+                          - img [ref=e1155]
+                          - generic [ref=e1158]:
+                            - heading "Job type" [level=3] [ref=e1159]
+                            - list [ref=e1161]:
+                              - listitem [ref=e1162]:
+                                - generic [ref=e1167]: Full-time
+                    - separator [ref=e1168]:
+                      - generic [ref=e1169]: "&nbsp;"
+                  - generic [ref=e1170]:
+                    - heading "Location" [level=2] [ref=e1171]
+                    - generic [ref=e1172]:
+                      - img [ref=e1173]
+                      - generic [ref=e1177]: Markham, ON L3R 9Z7•Hybrid work
+                    - separator [ref=e1178]:
+                      - generic [ref=e1179]: "&nbsp;"
+                  - heading "Full job description" [level=2] [ref=e1181]
+                  - generic [ref=e1182]:
+                    - paragraph [ref=e1183]: "What if I told you it is possible to find a Company that lives to educate, inspires and empowers others while creating a family atmosphere that truly appreciates and respects their team? Would you apply? What if I threw in strong Company values, outstanding benefits, and the opportunity for you to make a tangible impact and feel appreciated?See below for a feel of what the Company culture is (REALLY) like. Hint: it's amazing.At Westcliff, we are constantly striving to be the best while valuing each of our team members as human beings and succeeding together!Westcliff is a leader in innovative global education. We are respected for our transformative, technologically advanced programs and initiatives with a focus on excellence, social responsibility, and diversity. Our tagline – “Educate. Inspire, Empower.” – is a summary of our Mission Statement. As it suggests, the main focus of our University is to strive to enhance the opportunities of our students and employees to enjoy success through empowerment, as a result of their education and hard work.With diversity and inclusion at the forefront of Westcliff’s core values, we promote a culture that celebrates diversity and inclusiveness regardless of, but not limited to, race, gender, sexual orientation, family status, religion, ethnicity, national origin, physical disability, veteran status, or age. By joining the Westcliff team, you’ll be playing a significant role in our growth, having an opportunity to put your personal touch on Westcliff’s progress as we grow and succeed together!Westcliff University is seeking a dynamic academic leader and educator to serve as the first Full-Time Faculty member and Program Coordinator for the Canadian launch of the Master of Information Systems and Technology (MIST) program. With concentrations in Cybersecurity and Smart Manufacturing, the MIST program is a cornerstone of Westcliff’s expansion into Canada.The Full-Time Faculty and Program Coordinator is responsible for the academic leadership, management, and oversight of the MIST program at Westcliff University. This dual role is both academic and strategic, requiring leadership in curriculum excellence, industry partnership development, applied research mentorship, and high-quality instruction. This faculty member will be the academic face of Westcliff Canada, fostering a culture of innovation, student success, and industry integration in alignment with provincial priorities and institutional goals. This position plays a pivotal role in ensuring the program's academic excellence, alignment with institutional goals, and adherence to Ministry standards. The Full-Time Faculty fosters faculty engagement, student retention and success, and program growth, while maintaining high standards for teaching, research, and service."
+                    - paragraph [ref=e1184]: "1. Academic Leadership Program Administration:"
+                    - list [ref=e1185]:
+                      - listitem [ref=e1186]: Collaborate with the Dean and Executive Director in curriculum development, implementation, and continuous improvement.
+                      - listitem [ref=e1187]: Ensure academic alignment with PEQAB, MCU, and Westcliff University accreditation standards.
+                      - listitem [ref=e1188]: Ensure program offerings that meet the evolving needs of the university, college, students, and industry trends.
+                      - listitem [ref=e1189]: Drive curricular innovation and ensure program relevance in response to Ontario’s tech and workforce needs.
+                      - listitem [ref=e1190]: Oversee student success metrics, including retention, capstone completion, and career placement.
+                      - listitem [ref=e1191]: Support the Dean in development and management of the program’s budget, including allocation of funds for teaching, research, and faculty development activities.
+                      - listitem [ref=e1192]: Serve as a subject matter expert and representative of the program to both internal and external stakeholders.
+                      - listitem [ref=e1193]: Prepare and submit regular reports to the Dean and Executive Director Canada, on the program’s performance, growth, and future needs.
+                      - listitem [ref=e1194]: Support the Executive Director Canada in strategic enrollment management initiatives by collaborating with admissions and marketing departments to recruit and retain students.
+                    - paragraph [ref=e1195]: "2. Faculty Development and Supervision:"
+                    - list [ref=e1196]:
+                      - listitem [ref=e1197]: Participate in the recruitment, hiring, and retention of high-quality faculty members, ensuring diversity and inclusivity within the program.
+                      - listitem [ref=e1198]: Support faculty teaching assignments, course loads, and scheduling, ensuring a balance between faculty expertise and student needs with the Office of Faculty Affairs.
+                      - listitem [ref=e1199]: Manage faculty performance, including reviewing evaluation results, offering constructive feedback, and ensuring that faculty members meet institutional and program standards in tandem with Team Leads and the Office of Faculty Affairs.
+                      - listitem [ref=e1200]: Support the mentorship of faculty in teaching, scholarship, and service activities, encouraging professional development through workshops, conferences, and continuing education with Team Leads, LITE and the Office of Faculty Affairs.
+                      - listitem [ref=e1201]: Support faculty in research, publication, and grant writing efforts, promoting a culture of academic excellence.
+                      - listitem [ref=e1202]: Mentor adjunct faculty and contribute to building a diverse, inclusive instructional team.
+                      - listitem [ref=e1203]: Support faculty development in industry trends, teaching innovation, and applied research.
+                      - listitem [ref=e1204]: Participate in peer review, onboarding, and academic standards setting for future hires.
+                    - paragraph [ref=e1205]: "3. Student Engagement and Support:"
+                    - list [ref=e1206]:
+                      - listitem [ref=e1207]: Monitor and foster high levels of student retention, success, and satisfaction within the program, leveraging data insights and direct interaction with students.
+                      - listitem [ref=e1208]: Address student academic issues, including advising, conflict resolution, and appeals processes.
+                      - listitem [ref=e1209]: Collaborate with faculty and staff to foster a supportive, inclusive, and engaging learning environment.
+                      - listitem [ref=e1210]: Work with College leadership to ensure the availability of adequate academic resources, such as advising and mentoring, for all students within the program in collaboration with the relevant university departments
+                      - listitem [ref=e1211]: Provide academic advising and mentorship for students.
+                      - listitem [ref=e1212]: Champion initiatives that improve student satisfaction, outcomes, and professional development.
+                      - listitem [ref=e1213]: Actively support student integration, particularly for underrepresented and mid-career learners.
+                    - paragraph [ref=e1214]: "4. Teaching, Curriculum and Program Management:"
+                    - list [ref=e1215]:
+                      - listitem [ref=e1216]: Teach a minimum of three graduate-level courses annually.
+                      - listitem [ref=e1217]: Support the design, development, and review of the program’s curriculum, ensuring it remains current and relevant to industry and academic standards.
+                      - listitem [ref=e1218]: Coordinate with faculty to design new courses, update existing ones, and implement innovative teaching methodologies.
+                      - listitem [ref=e1219]: Participate in program evaluation efforts in conjunction with the leader of Institutional Effectiveness, including assessment of learning outcomes, accreditation preparation, and continuous quality improvement initiatives.
+                      - listitem [ref=e1220]: Participate in the program’s accreditation and re-accreditation processes, ensuring compliance with national and international standards.
+                      - listitem [ref=e1221]: Collaborate with other departments and external stakeholders to develop interdisciplinary and cross-departmental initiatives.
+                      - listitem [ref=e1222]: Maintain course quality and consistency, leveraging both online and in-person delivery models.
+                      - listitem [ref=e1223]: Integrate emerging instructional technologies, applied learning, and experiential pedagogy.
+                      - listitem [ref=e1224]: Contribute to the potential development of micro-credentials and executive education aligned with MIST domains.
+                    - paragraph [ref=e1225]: "5. Internal & External Relations and Community Engagement:"
+                    - list [ref=e1226]:
+                      - listitem [ref=e1227]: Build and maintain relationships with industry partners, innovation hubs, alumni, and community organizations to enhance the program’s visibility and relevance.
+                      - listitem [ref=e1228]: Represent the program at internal and external events, including conferences, advisory boards, and community outreach activities.
+                      - listitem [ref=e1229]: Work with internal and external stakeholders to identify internship, job placement, and collaborative research opportunities for students and faculty.
+                      - listitem [ref=e1230]: Lead development of Capstone project opportunities in collaboration with employers and alumni.
+                      - listitem [ref=e1231]: Lead the administrative charge with the program’s Advisory Board
+                    - paragraph [ref=e1232]: 6. Research & Thought Leadership
+                    - list [ref=e1233]:
+                      - listitem [ref=e1234]: Engage in applied research, scholarly publication, and conference presentations.
+                      - listitem [ref=e1235]: Lead or contribute to innovation-focused projects especially Curriculum integrated Capstones
+                      - listitem [ref=e1236]: Encourage and support faculty and students to participate in industry-facing research collaborations.
+                    - paragraph [ref=e1237]: "7. Institutional Service:"
+                    - list [ref=e1238]:
+                      - listitem [ref=e1239]: Serve on university committees and task forces as needed, contributing to the broader institutional decision-making process.
+                      - listitem [ref=e1240]: Actively participate in university-wide events, such as commencement, orientations, and faculty meetings.
+                      - listitem [ref=e1241]: Collaborate with other academic leaders and departments to achieve the institution's overall goals.
+                    - paragraph [ref=e1242]: "Qualifications:Required:"
+                    - list [ref=e1243]:
+                      - listitem [ref=e1244]: Doctorate (PhD, DSc, or equivalent) in Information Systems, Computer Science, Engineering, Cybersecurity, Smart Manufacturing, or a closely related field.
+                      - listitem [ref=e1245]: At least 5 years of teaching experience in higher education, preferably with experience in both undergraduate and graduate levels.
+                      - listitem [ref=e1246]: Preferred record of scholarly activity, including publications, research, and grant acquisition.
+                      - listitem [ref=e1247]: Proven industry experience or demonstrated engagement in applied technology fields.
+                      - listitem [ref=e1248]: Demonstrated experience in academic administration, including faculty supervision, curriculum development, and budgeting.
+                      - listitem [ref=e1249]: Knowledge of accreditation processes and program assessment techniques.
+                      - listitem [ref=e1250]: Exceptional interpersonal, communication, and leadership skills.
+                    - paragraph [ref=e1251]: "Preferred:"
+                    - list [ref=e1252]:
+                      - listitem [ref=e1253]: Prior experience as a Program Coordinator
+                      - listitem [ref=e1254]: Background in work-integrated learning, applied research, or professional graduate education.
+                      - listitem [ref=e1255]: Experience with online, asynchronous and hybrid teaching models.
+                      - listitem [ref=e1256]: Familiarity with learning management systems (LMS) and educational technology.
+                      - listitem [ref=e1257]: Knowledge of cross-border academic models and experience working with diverse student populations.
+                      - listitem [ref=e1258]: Experience working in multicultural and diverse academic environments.
+                      - listitem [ref=e1259]: Ability to teach across both Cybersecurity and Smart Manufacturing domains.
+                    - paragraph [ref=e1260]: "Core Competencies:"
+                    - list [ref=e1261]:
+                      - listitem [ref=e1262]: "Leadership: Demonstrated ability to lead faculty, inspire students, and engage with stakeholders."
+                      - listitem [ref=e1263]: "Collaboration: Proven ability to work cross-departmentally and with external partners to drive program success."
+                      - listitem [ref=e1264]: "Problem-Solving: Ability to address complex academic, faculty, and student issues with creative and effective solutions."
+                      - listitem [ref=e1265]: "Communication: Strong verbal and written communication skills, with the ability to engage with faculty, students, and administration."
+                      - listitem [ref=e1266]: "Organizational Skills: Strong project management skills, attention to detail, and the ability to juggle multiple tasks."
+                      - listitem [ref=e1267]: "Strategic Thinking: Capacity to develop and implement strategies for long-term program growth and success."
+                      - listitem [ref=e1268]: "Industry Fluency: Strong understanding of trends and innovations in smart manufacturing and cybersecurity."
+                      - listitem [ref=e1269]: "Pedagogical Excellence: Commitment to engaged, student-centered learning and competency-based education."
+                      - listitem [ref=e1270]: "Innovation: Agile thinker with a passion for transforming graduate education through technology and partnership."
+                    - paragraph [ref=e1271]:
+                      - text: "Work Environment:The Program Coordinator & Full-Time Faculty will have the flexibility to work both on campus and remotely. This is a hybrid role based out of Westcliff Canada’s campus at VentureLab, Markham, Ontario. The role requires attending faculty meetings, academic events, and occasional travel for conferences or external engagements.LIMITATIONS AND DISCLAIMER:"
+                      - text: This job description reflects the general tasks expected of the position but does not restrict additional responsibilities. This role may require travel to support the university’s needs. The faculty member is required to disclose and gain their leader’s approval for other part-time employment annually. They may not participate in activities that could harm the business of Westcliff.Westcliff may adjust the job description as necessary, following federal and state laws. Employment remains at-will unless contractually stated otherwise.
+                    - paragraph [ref=e1272]: "Job Type: Full-time"
+                    - paragraph [ref=e1273]: "Pay: $110,000.00-$125,000.00 per year"
+                    - paragraph [ref=e1274]: "Work Location: Hybrid remote in Markham, ON L3R 9Z7"
+                  - separator [ref=e1275]:
+                    - generic [ref=e1276]: "&nbsp;"
+                - button "Report job" [ref=e1283] [cursor=pointer]: Report job
+            - button "Return to Search Result" [ref=e1285]
+      - contentinfo [ref=e1290]:
+        - generic [ref=e1291]:
+          - list [ref=e1292]:
+            - listitem [ref=e1293]:
+              - link "Hiring Lab" [ref=e1295] [cursor=pointer]:
+                - /url: https://www.hiringlab.org/en-ca/
+            - listitem [ref=e1296]:
+              - link "Career advice" [ref=e1298] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career-advice
+            - listitem [ref=e1299]:
+              - link "Browse jobs" [ref=e1301] [cursor=pointer]:
+                - /url: https://ca.indeed.com/browsejobs
+            - listitem [ref=e1302]:
+              - link "Browse companies" [ref=e1304] [cursor=pointer]:
+                - /url: https://ca.indeed.com/companies/browse-companies
+            - listitem [ref=e1305]:
+              - link "Salaries" [ref=e1307] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career/salaries
+            - listitem [ref=e1308]:
+              - link "Indeed Events" [ref=e1310] [cursor=pointer]:
+                - /url: https://www.indeedevents.com/en-ca/
+            - listitem [ref=e1311]:
+              - link "Work at Indeed" [ref=e1313] [cursor=pointer]:
+                - /url: https://ca.indeed.com/cmp/Indeed/about
+            - listitem [ref=e1314]:
+              - link "Countries" [ref=e1316] [cursor=pointer]:
+                - /url: https://ca.indeed.com/worldwide
+            - listitem [ref=e1317]:
+              - link "About" [ref=e1319] [cursor=pointer]:
+                - /url: https://ca.indeed.com/about
+            - listitem [ref=e1320]:
+              - link "Help" [ref=e1322] [cursor=pointer]:
+                - /url: https://ca.indeed.com/help
+            - listitem [ref=e1323]:
+              - link "ESG at Indeed" [ref=e1325] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg?from=gnav-jobsearch--indeedmobile
+          - list [ref=e1326]:
+            - listitem [ref=e1327]: © 2026 Indeed
+            - listitem [ref=e1328]:
+              - link "Accessibility at Indeed" [ref=e1330] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg/accessibility?hl=en
+            - listitem [ref=e1331]:
+              - link "Privacy Centre and Ad Choices" [ref=e1333] [cursor=pointer]:
+                - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+            - listitem [ref=e1334]:
+              - link "Terms" [ref=e1336] [cursor=pointer]:
+                - /url: https://ca.indeed.com/legal?hl=en
+          - list:
+            - listitem

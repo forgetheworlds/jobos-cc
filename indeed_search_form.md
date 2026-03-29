@@ -1,0 +1,971 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#gnav-header-end"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - navigation "Primary" [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - button "Skip to main content" [ref=e12] [cursor=pointer]:
+                - generic [ref=e13]: Skip to main content
+              - link "Indeed Home" [ref=e14] [cursor=pointer]:
+                - /url: /?from=gnav-jobsearch--indeedmobile
+                - img [ref=e16]
+              - list [ref=e18]:
+                - listitem [ref=e19]:
+                  - link "Home" [ref=e21] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/
+                - listitem [ref=e22]:
+                  - link "Company reviews" [ref=e24] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/companies
+                - listitem [ref=e25]:
+                  - link "Salary guide" [ref=e27] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/career/salaries
+            - generic [ref=e28]:
+              - list [ref=e29]:
+                - listitem [ref=e30]:
+                  - link "Sign in" [ref=e33] [cursor=pointer]:
+                    - /url: https://secure.indeed.com/auth?hl=en_CA&co=CA&continue=https%3A%2F%2Fca.indeed.com%2Fjobs%3Fq%3Dacademic%2520program%2520coordinator%26l%3DMississauga%252C%2520ON%26from%3DsearchOnHP%252Cwhatautocomplete%252CwhatautocompleteSourceStandard%252Cwhereautocomplete&tmpl=desktop&from=gnav-util-jobsearch--indeedmobile&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Den_CA%26co%3DCA%26from%3Dgnav-jobsearch--indeedmobile&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess
+              - radiogroup "Language options" [ref=e36]:
+                - radio "English" [checked] [disabled] [ref=e38]:
+                  - generic [ref=e39]: En
+                  - generic [ref=e40]: English
+                - radio "Français" [ref=e42] [cursor=pointer]:
+                  - generic [ref=e43]: Fr
+                  - generic [ref=e44]: Français
+              - link "Employers / Post Job" [ref=e49] [cursor=pointer]:
+                - /url: https://ca.indeed.com/hire?co=CA&hl=en
+          - generic [ref=e50]: Start of main content
+      - generic [ref=e52]:
+        - search [ref=e57]:
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: "Keyword : all jobs"
+                - generic [ref=e67]:
+                  - img [ref=e69]
+                  - 'combobox "search: Job title, keywords, or company" [ref=e71]': academic program coordinator
+                  - button "Clear what input" [ref=e73] [cursor=pointer]:
+                    - img [ref=e74]
+              - separator [ref=e76]:
+                - generic [ref=e77]: "&nbsp;"
+              - generic [ref=e78]:
+                - generic [ref=e79]: Edit location input box label
+                - generic [ref=e82]:
+                  - img [ref=e84]
+                  - combobox "Edit location" [ref=e86]: Mississauga, ON
+                  - button "Clear location input" [ref=e88] [cursor=pointer]:
+                    - img [ref=e89]
+            - button "Find jobs" [ref=e92] [cursor=pointer]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - button "Pay filter" [ref=e97] [cursor=pointer]:
+                - text: Pay
+                - img [ref=e98]
+            - listitem [ref=e101]:
+              - button "Remote filter" [ref=e103] [cursor=pointer]:
+                - text: Remote
+                - img [ref=e104]
+            - listitem [ref=e107]:
+              - button "Within 25 kilometres filter" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: Within 25 kilometres
+                - img [ref=e112]
+            - listitem [ref=e115]:
+              - button "Job type filter" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: Job type
+                - generic [ref=e118]: filter
+                - img [ref=e120]
+            - listitem [ref=e123]:
+              - button "Job Language filter" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Job Language
+                - img [ref=e128]
+            - listitem [ref=e131]:
+              - button "Date posted filter" [ref=e133] [cursor=pointer]:
+                - text: Date posted
+                - img [ref=e134]
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - link "Post your resume" [ref=e145] [cursor=pointer]:
+                - /url: /promo/resume?from=serptop3&subfrom=resprmrtop&trk.origin=jobsearch&trk.variant=resprmrtop&trk.tk=1jkrfollcgbmp88r
+              - text: and find your next job on Indeed!
+              - separator [ref=e146]:
+                - generic [ref=e147]: "&nbsp;"
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "academic program coordinator jobs in Mississauga, ON" [level=1] [ref=e150]
+                - button "help icon" [ref=e153] [cursor=pointer]:
+                  - img "help icon" [ref=e154]
+              - generic [ref=e158]:
+                - generic [ref=e159]: "Sort by:"
+                - generic [ref=e160]:
+                  - text: relevance -
+                  - 'link "Sort by: date" [ref=e161] [cursor=pointer]':
+                    - /url: /jobs?q=academic%20program%20coordinator&l=Mississauga%2C%20ON&sort=date
+                    - text: date
+            - list [ref=e165]:
+              - listitem
+              - listitem [ref=e166]:
+                - generic [ref=e168]:
+                  - generic:
+                    - generic [ref=e171]:
+                      - heading "full details of Student Services Coordinator (Mississauga Campus)" [level=2] [ref=e173]:
+                        - button "full details of Student Services Coordinator (Mississauga Campus)" [pressed] [ref=e174] [cursor=pointer]: Student Services Coordinator (Mississauga Campus)
+                      - generic [ref=e175]:
+                        - generic [ref=e177]:
+                          - generic [ref=e179]: Anderson College of Health, Business & Technology
+                          - generic [ref=e180]: Mississauga, ON L5B 2N6
+                        - list [ref=e182]:
+                          - listitem [ref=e183]:
+                            - generic [ref=e186]: $40,000–$45,000 a year
+                          - listitem [ref=e187]:
+                            - generic [ref=e190]: Full-time
+                          - listitem [ref=e191]:
+                            - generic [ref=e194]: Monday to Friday
+                          - listitem [ref=e195]:
+                            - generic [ref=e198]: Paid time off
+                          - listitem [ref=e199]:
+                            - generic [ref=e202]: Dental care
+                          - listitem [ref=e203]:
+                            - generic [ref=e206]: Extended health care
+                        - generic [ref=e208]:
+                          - img [ref=e209]
+                          - generic [ref=e211]: Easily apply
+                      - button "Save job Toggle" [ref=e215] [cursor=pointer]:
+                        - img [ref=e216]
+                    - list [ref=e220]:
+                      - listitem [ref=e221]: The ideal candidate will have previous experience in a similar role and be passionate about helping mature students achieve their goals.
+              - listitem [ref=e223]:
+                - generic [ref=e225]:
+                  - generic:
+                    - generic [ref=e228]:
+                      - generic [ref=e229]:
+                        - heading "full details of Aesthetics Program Coordinator/Instructor-Brampton" [level=2] [ref=e230]:
+                          - button "full details of Aesthetics Program Coordinator/Instructor-Brampton" [ref=e231] [cursor=pointer]: Aesthetics Program Coordinator/Instructor-Brampton
+                        - generic [ref=e235]: Often responds within 1 day
+                      - generic [ref=e236]:
+                        - generic [ref=e238]:
+                          - generic [ref=e240]: CIMT College
+                          - generic [ref=e241]: Brampton, ON
+                        - list [ref=e243]:
+                          - listitem [ref=e244]:
+                            - generic [ref=e247]: $20–$28 an hour
+                          - listitem [ref=e248]:
+                            - generic [ref=e251]: Full-time
+                          - listitem [ref=e252]:
+                            - generic [ref=e255]: Monday to Friday
+                        - generic [ref=e257]:
+                          - img [ref=e258]
+                          - generic [ref=e260]: Easily apply
+                      - button "Save job Toggle" [ref=e264] [cursor=pointer]:
+                        - img [ref=e265]
+                    - generic [ref=e267]:
+                      - list [ref=e269]:
+                        - listitem [ref=e270]: Monitoring, coordinating, and controlling accredited program standards and is the primary point of contact for the Esthetics program with the college.
+                      - list [ref=e274]:
+                        - listitem [ref=e275]:
+                          - generic [ref=e276]:
+                            - text: View all
+                            - link "CIMT College jobs" [ref=e277] [cursor=pointer]:
+                              - /url: /q-cimt-college-jobs.html
+                            - text: "-"
+                            - link "Brampton jobs" [ref=e278] [cursor=pointer]:
+                              - /url: /l-brampton,-on-jobs.html
+                            - text: "-"
+                            - link "Program Instructor jobs in Brampton, ON" [ref=e279] [cursor=pointer]:
+                              - /url: /q-program-instructor-l-brampton,-on-jobs.html
+                        - listitem [ref=e280]:
+                          - generic [ref=e281]:
+                            - text: "Salary Search:"
+                            - link "Aesthetics Program Coordinator/Instructor-Brampton salaries in Brampton, ON" [ref=e282] [cursor=pointer]:
+                              - /url: /career/program-instructor/salaries/Brampton--ON?campaignid=serp-more&fromjk=57a7789638f15684&from=serp-more
+                        - listitem [ref=e283]:
+                          - generic [ref=e284]:
+                            - text: See popular
+                            - link "questions & answers about CIMT College" [ref=e285] [cursor=pointer]:
+                              - /url: /cmp/Cimt-College/faq
+              - listitem [ref=e287]:
+                - generic [ref=e289]:
+                  - generic:
+                    - generic [ref=e292]:
+                      - heading "full details of Employment & Education Partnerships Coordinator" [level=2] [ref=e294]:
+                        - button "full details of Employment & Education Partnerships Coordinator" [ref=e295] [cursor=pointer]: Employment & Education Partnerships Coordinator
+                      - generic [ref=e296]:
+                        - generic [ref=e298]:
+                          - generic [ref=e300]: StepStones For Youth
+                          - generic [ref=e301]: Toronto, ON
+                        - list [ref=e303]:
+                          - listitem [ref=e304]:
+                            - generic [ref=e307]: Part-time
+                        - generic [ref=e309]:
+                          - img [ref=e310]
+                          - generic [ref=e312]: Easily apply
+                      - button "Save job Toggle" [ref=e316] [cursor=pointer]:
+                        - img [ref=e317]
+                    - generic [ref=e319]:
+                      - list [ref=e321]:
+                        - listitem [ref=e322]: Aligning placements with youth goals and schedules already identified in program planning.
+                        - listitem [ref=e323]: Track outcomes, provide progress updates, and contribute to program…
+                      - list [ref=e327]:
+                        - listitem [ref=e328]:
+                          - generic [ref=e329]:
+                            - text: View all
+                            - link "StepStones For Youth jobs" [ref=e330] [cursor=pointer]:
+                              - /url: /q-stepstones-for-youth-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e331] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Education Partnership Manager jobs in Toronto, ON" [ref=e332] [cursor=pointer]:
+                              - /url: /q-education-partnership-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e333]:
+                          - generic [ref=e334]:
+                            - text: "Salary Search:"
+                            - link "Employment & Education Partnerships Coordinator salaries in Toronto, ON" [ref=e335] [cursor=pointer]:
+                              - /url: /career/education-partnership-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=56e058e4d80a6157&from=serp-more
+                        - listitem [ref=e336]:
+                          - generic [ref=e337]:
+                            - text: See popular
+                            - link "questions & answers about StepStones For Youth" [ref=e338] [cursor=pointer]:
+                              - /url: /cmp/Stepstones-For-Youth-1/faq
+              - listitem [ref=e340]:
+                - generic [ref=e342]:
+                  - generic:
+                    - generic [ref=e345]:
+                      - heading "full details of Education Coordinator" [level=2] [ref=e347]:
+                        - button "full details of Education Coordinator" [ref=e348] [cursor=pointer]: Education Coordinator
+                      - generic [ref=e349]:
+                        - generic [ref=e351]:
+                          - generic [ref=e353]: Oxford Learning Centres, Inc.
+                          - generic [ref=e354]: Toronto, ON M4T 1M9
+                        - list [ref=e356]:
+                          - listitem [ref=e357]:
+                            - generic [ref=e360]: Up to $18 an hour
+                          - listitem [ref=e361]:
+                            - generic [ref=e364]:
+                              - text: Full-time
+                              - generic [ref=e365]: "+1"
+                          - listitem [ref=e366]:
+                            - generic [ref=e369]: Weekends as needed
+                        - generic [ref=e371]:
+                          - img [ref=e372]
+                          - generic [ref=e374]: Easily apply
+                      - link "View similar jobs with this employer" [ref=e377] [cursor=pointer]:
+                        - /url: /addlLoc/redirect?tk=1jkrfollcgbmp88r&jk=14d9eb7954cf50f0&dest=%2Fjobs%3Fq%3Dacademic%2Bprogram%2Bcoordinator%26nl%3D%26l%3DMississauga%252C%2BON%26radius%3D25%26grpKey%3D8gcFdG5mZWy4D_DADaoQIgoJbm9ybXRpdGxlGhVlZHVjYXRpb24gY29vcmRpbmF0b3I%253D
+                      - button "Save job Toggle" [ref=e379] [cursor=pointer]:
+                        - img [ref=e380]
+                    - generic [ref=e382]:
+                      - list [ref=e384]:
+                        - listitem [ref=e385]: Establish and oversee student learning programs.
+                        - listitem [ref=e386]: We teach students from pre-school to post-secondary levels how to learn, concentrate, listen, remember.
+                      - list [ref=e390]:
+                        - listitem [ref=e391]:
+                          - generic [ref=e392]:
+                            - text: View all
+                            - link "Oxford Learning Centres, Inc. jobs" [ref=e393] [cursor=pointer]:
+                              - /url: /q-oxford-learning-centres,-inc.-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e394] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                        - listitem [ref=e395]:
+                          - generic [ref=e396]:
+                            - text: "Salary Search:"
+                            - link "Education Coordinator salaries in Toronto, ON" [ref=e397] [cursor=pointer]:
+                              - /url: /career/education-coordinator/salaries/Toronto--ON-M4T-1M9?campaignid=serp-more&fromjk=14d9eb7954cf50f0&from=serp-more
+                        - listitem [ref=e398]:
+                          - generic [ref=e399]:
+                            - text: See popular
+                            - link "questions & answers about Oxford Learning Centres, Inc." [ref=e400] [cursor=pointer]:
+                              - /url: /cmp/Oxford-Learning-Centre/faq
+              - listitem [ref=e402]:
+                - generic [ref=e404]:
+                  - generic:
+                    - generic [ref=e407]:
+                      - heading "full details of Coordinator, Growth Operations" [level=2] [ref=e409]:
+                        - button "full details of Coordinator, Growth Operations" [ref=e410] [cursor=pointer]: Coordinator, Growth Operations
+                      - generic [ref=e411]:
+                        - generic [ref=e413]:
+                          - generic [ref=e415]: BrainStation
+                          - generic [ref=e416]: Toronto, ON
+                        - list [ref=e418]:
+                          - listitem [ref=e419]:
+                            - generic [ref=e422]: $50,000–$55,000 a year
+                          - listitem [ref=e423]:
+                            - generic [ref=e426]: Work from home
+                          - listitem [ref=e427]:
+                            - generic [ref=e430]: Flexible schedule
+                        - generic [ref=e432]:
+                          - img [ref=e433]
+                          - generic [ref=e435]: Easily apply
+                      - button "Save job Toggle" [ref=e439] [cursor=pointer]:
+                        - img [ref=e440]
+                    - generic [ref=e442]:
+                      - list [ref=e444]:
+                        - listitem [ref=e445]: As the Coordinator, Growth Operations, you will play a key role in delivering an unparalleled experience to every customer who interacts with the BrainStation…
+                      - list [ref=e449]:
+                        - listitem [ref=e450]:
+                          - generic [ref=e451]:
+                            - text: View all
+                            - link "BrainStation jobs" [ref=e452] [cursor=pointer]:
+                              - /url: /q-brainstation-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e453] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Operations Coordinator jobs in Toronto, ON" [ref=e454] [cursor=pointer]:
+                              - /url: /q-operations-coordinator-l-toronto,-on-jobs.html
+                        - listitem [ref=e455]:
+                          - generic [ref=e456]:
+                            - text: "Salary Search:"
+                            - link "Coordinator, Growth Operations salaries in Toronto, ON" [ref=e457] [cursor=pointer]:
+                              - /url: /career/operations-coordinator/salaries/Toronto--ON?campaignid=serp-more&fromjk=d5323766b25c9ee7&from=serp-more
+                        - listitem [ref=e458]:
+                          - generic [ref=e459]:
+                            - text: See popular
+                            - link "questions & answers about BrainStation" [ref=e460] [cursor=pointer]:
+                              - /url: /cmp/Brainstation/faq
+              - listitem
+              - listitem [ref=e462]:
+                - generic [ref=e464]:
+                  - generic:
+                    - generic [ref=e467]:
+                      - heading "full details of Director of Studies" [level=2] [ref=e469]:
+                        - button "full details of Director of Studies" [ref=e470] [cursor=pointer]: Director of Studies
+                      - generic [ref=e471]:
+                        - generic [ref=e473]:
+                          - generic [ref=e475]: Oxford International Education Group
+                          - generic [ref=e476]: Toronto, ON
+                        - list [ref=e478]:
+                          - listitem [ref=e479]:
+                            - generic [ref=e482]: $930–$1,030 a week
+                          - listitem [ref=e483]:
+                            - generic [ref=e486]: Full-time
+                          - listitem [ref=e487]:
+                            - generic [ref=e490]: On call
+                      - button "Save job Toggle" [ref=e492] [cursor=pointer]:
+                        - img [ref=e493]
+                    - list [ref=e497]:
+                      - listitem [ref=e498]: Answer academic questions from Group Leaders and students.
+                      - listitem [ref=e499]: Direct placement testing and the required administration of academic staff,.
+              - listitem [ref=e501]:
+                - generic [ref=e503]:
+                  - generic:
+                    - generic [ref=e506]:
+                      - generic [ref=e507]:
+                        - heading "full details of Onboarding Class Coordinator" [level=2] [ref=e508]:
+                          - button "full details of Onboarding Class Coordinator" [ref=e509] [cursor=pointer]: Onboarding Class Coordinator
+                        - generic [ref=e513]: Often responds within 1 day
+                      - generic [ref=e514]:
+                        - generic [ref=e516]:
+                          - generic [ref=e518]: The Education Equality Institute
+                          - generic [ref=e519]: Toronto, ON
+                        - generic [ref=e521]:
+                          - img [ref=e522]
+                          - generic [ref=e524]: Easily apply
+                      - button "Save job Toggle" [ref=e528] [cursor=pointer]:
+                        - img [ref=e529]
+                    - generic [ref=e531]:
+                      - list [ref=e533]:
+                        - listitem [ref=e534]: You'll be the ultimate collaborator, working closely with various teams to ensure this teacher onboarding journey goes off without a hitch.
+                      - list [ref=e538]:
+                        - listitem [ref=e539]:
+                          - generic [ref=e540]:
+                            - text: View all
+                            - link "The Education Equality Institute jobs" [ref=e541] [cursor=pointer]:
+                              - /url: /q-the-education-equality-institute-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e542] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Onboarding Manager jobs in Toronto, ON" [ref=e543] [cursor=pointer]:
+                              - /url: /q-onboarding-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e544]:
+                          - generic [ref=e545]:
+                            - text: "Salary Search:"
+                            - link "Onboarding Class Coordinator salaries in Toronto, ON" [ref=e546] [cursor=pointer]:
+                              - /url: /career/onboarding-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=18e5467b7f121c77&from=serp-more
+              - listitem [ref=e548]:
+                - generic [ref=e550]:
+                  - generic:
+                    - generic [ref=e553]:
+                      - heading "full details of Program Manager, beyond 3:30" [level=2] [ref=e555]:
+                        - button "full details of Program Manager, beyond 3:30" [ref=e556] [cursor=pointer]: Program Manager, beyond 3:30
+                      - generic [ref=e557]:
+                        - generic [ref=e559]:
+                          - generic [ref=e561]: Toronto Foundation for Student Success
+                          - generic [ref=e562]: Toronto, ON
+                        - list [ref=e564]:
+                          - listitem [ref=e565]:
+                            - generic [ref=e568]: $85,000–$90,000 a year
+                      - button "Save job Toggle" [ref=e570] [cursor=pointer]:
+                        - img [ref=e571]
+                    - generic [ref=e573]:
+                      - list [ref=e575]:
+                        - listitem [ref=e576]: Monitor program performance, resolve operational issues, and implement effective solutions for program improvement.
+                      - list [ref=e580]:
+                        - listitem [ref=e581]:
+                          - generic [ref=e582]:
+                            - text: View all
+                            - link "Toronto Foundation for Student Success jobs" [ref=e583] [cursor=pointer]:
+                              - /url: /q-toronto-foundation-for-student-success-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e584] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Program Manager jobs in Toronto, ON" [ref=e585] [cursor=pointer]:
+                              - /url: /q-program-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e586]:
+                          - generic [ref=e587]:
+                            - text: "Salary Search:"
+                            - link "Program Manager, beyond 3:30 salaries in Toronto, ON" [ref=e588] [cursor=pointer]:
+                              - /url: /career/program-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=d6396618829b7d42&from=serp-more
+              - listitem [ref=e590]:
+                - generic [ref=e592]:
+                  - generic:
+                    - generic [ref=e595]:
+                      - generic [ref=e596]:
+                        - heading "full details of Aesthetics Program Coordinator/Instructor-FullTime-Brampton" [level=2] [ref=e597]:
+                          - button "full details of Aesthetics Program Coordinator/Instructor-FullTime-Brampton" [ref=e598] [cursor=pointer]: Aesthetics Program Coordinator/Instructor-FullTime-Brampton
+                        - generic [ref=e602]: Often responds within 1 day
+                      - generic [ref=e603]:
+                        - generic [ref=e605]:
+                          - generic [ref=e607]: CIMT College
+                          - generic [ref=e608]: Brampton, ON
+                        - list [ref=e610]:
+                          - listitem [ref=e611]:
+                            - generic [ref=e614]: $24–$28 an hour
+                          - listitem [ref=e615]:
+                            - generic [ref=e618]: Full-time
+                        - generic [ref=e620]:
+                          - img [ref=e621]
+                          - generic [ref=e623]: Easily apply
+                      - button "Save job Toggle" [ref=e627] [cursor=pointer]:
+                        - img [ref=e628]
+                    - generic [ref=e630]:
+                      - list [ref=e632]:
+                        - listitem [ref=e633]: Monitoring, coordinating, and controlling accredited program standards and is the primary point of contact for the Esthetics program with the college.
+                      - list [ref=e637]:
+                        - listitem [ref=e638]:
+                          - generic [ref=e639]:
+                            - text: View all
+                            - link "CIMT College jobs" [ref=e640] [cursor=pointer]:
+                              - /url: /q-cimt-college-jobs.html
+                            - text: "-"
+                            - link "Brampton jobs" [ref=e641] [cursor=pointer]:
+                              - /url: /l-brampton,-on-jobs.html
+                            - text: "-"
+                            - link "Program Instructor jobs in Brampton, ON" [ref=e642] [cursor=pointer]:
+                              - /url: /q-program-instructor-l-brampton,-on-jobs.html
+                        - listitem [ref=e643]:
+                          - generic [ref=e644]:
+                            - text: "Salary Search:"
+                            - link "Aesthetics Program Coordinator/Instructor-FullTime-Brampton salaries in Brampton, ON" [ref=e645] [cursor=pointer]:
+                              - /url: /career/program-instructor/salaries/Brampton--ON?campaignid=serp-more&fromjk=9370b7ba37e7f7fb&from=serp-more
+                        - listitem [ref=e646]:
+                          - generic [ref=e647]:
+                            - text: See popular
+                            - link "questions & answers about CIMT College" [ref=e648] [cursor=pointer]:
+                              - /url: /cmp/Cimt-College/faq
+              - listitem [ref=e650]:
+                - generic [ref=e652]:
+                  - generic:
+                    - generic [ref=e655]:
+                      - generic [ref=e656]:
+                        - heading "full details of Educational Case Manager" [level=2] [ref=e657]:
+                          - button "full details of Educational Case Manager" [ref=e658] [cursor=pointer]: Educational Case Manager
+                        - generic [ref=e662]: Often responds within 1 day
+                      - generic [ref=e663]:
+                        - generic [ref=e665]:
+                          - generic [ref=e667]: Tutor Me Education
+                          - generic [ref=e668]: Toronto, ON
+                        - list [ref=e670]:
+                          - listitem [ref=e671]:
+                            - generic [ref=e674]: Full-time
+                          - listitem [ref=e675]:
+                            - generic [ref=e678]: Paid time off
+                        - generic [ref=e680]:
+                          - img [ref=e681]
+                          - generic [ref=e683]: Easily apply
+                      - button "Save job Toggle" [ref=e687] [cursor=pointer]:
+                        - img [ref=e688]
+                    - generic [ref=e690]:
+                      - list [ref=e692]:
+                        - listitem [ref=e693]: Conduct conferences with partner program directors to review progress, adjust academic plans, and renew enrollments.
+                        - listitem [ref=e694]: Monitor all students’ academic progress.
+                      - list [ref=e698]:
+                        - listitem [ref=e699]:
+                          - generic [ref=e700]:
+                            - text: View all
+                            - link "Tutor Me Education jobs" [ref=e701] [cursor=pointer]:
+                              - /url: /q-tutor-me-education-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e702] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Case Manager jobs in Toronto, ON" [ref=e703] [cursor=pointer]:
+                              - /url: /q-case-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e704]:
+                          - generic [ref=e705]:
+                            - text: "Salary Search:"
+                            - link "Educational Case Manager salaries in Toronto, ON" [ref=e706] [cursor=pointer]:
+                              - /url: /career/case-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=3af5ff38f31b2a1b&from=serp-more
+              - listitem
+              - listitem [ref=e708]:
+                - generic [ref=e710]:
+                  - generic:
+                    - generic [ref=e713]:
+                      - generic [ref=e714]:
+                        - heading "full details of Career Services Coordinator-FTE-Mississauga(Malton)" [level=2] [ref=e715]:
+                          - button "full details of Career Services Coordinator-FTE-Mississauga(Malton)" [ref=e716] [cursor=pointer]: Career Services Coordinator-FTE-Mississauga(Malton)
+                        - generic [ref=e720]: Often responds within 1 day
+                      - generic [ref=e721]:
+                        - generic [ref=e723]:
+                          - generic [ref=e725]: CIMT College
+                          - generic [ref=e726]: Mississauga, ON L4T 2T7
+                        - list [ref=e728]:
+                          - listitem [ref=e729]:
+                            - generic [ref=e732]: $18–$20 an hour
+                          - listitem [ref=e733]:
+                            - generic [ref=e736]: Full-time
+                          - listitem [ref=e737]:
+                            - generic [ref=e740]:
+                              - text: Monday to Friday
+                              - generic [ref=e741]: "+2"
+                        - generic [ref=e743]:
+                          - img [ref=e744]
+                          - generic [ref=e746]: Easily apply
+                      - button "Save job Toggle" [ref=e750] [cursor=pointer]:
+                        - img [ref=e751]
+                    - generic [ref=e753]:
+                      - list [ref=e755]:
+                        - listitem [ref=e756]: Match students with appropriate placements based on program requirements and individual.
+                        - listitem [ref=e757]: The Career Services Coordinator plays a pivotal role in ensuring the…
+                      - list [ref=e761]:
+                        - listitem [ref=e762]:
+                          - generic [ref=e763]:
+                            - text: View all
+                            - link "CIMT College jobs" [ref=e764] [cursor=pointer]:
+                              - /url: /q-cimt-college-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e765] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Service Coordinator jobs in Mississauga, ON" [ref=e766] [cursor=pointer]:
+                              - /url: /q-service-coordinator-l-mississauga,-on-jobs.html
+                        - listitem [ref=e767]:
+                          - generic [ref=e768]:
+                            - text: "Salary Search:"
+                            - link "Career Services Coordinator-FTE-Mississauga(Malton) salaries in Mississauga, ON" [ref=e769] [cursor=pointer]:
+                              - /url: /career/service-coordinator/salaries/Mississauga--ON-L4T-2T7?campaignid=serp-more&fromjk=7e97a27cf4b05609&from=serp-more
+                        - listitem [ref=e770]:
+                          - generic [ref=e771]:
+                            - text: See popular
+                            - link "questions & answers about CIMT College" [ref=e772] [cursor=pointer]:
+                              - /url: /cmp/Cimt-College/faq
+              - listitem
+              - listitem [ref=e774]:
+                - generic [ref=e776]:
+                  - generic:
+                    - generic [ref=e779]:
+                      - generic [ref=e780]:
+                        - heading "full details of Career College Campus Coordinator" [level=2] [ref=e781]:
+                          - button "full details of Career College Campus Coordinator" [ref=e782] [cursor=pointer]: Career College Campus Coordinator
+                        - generic [ref=e786]: Often responds within 3 days
+                      - generic [ref=e787]:
+                        - generic [ref=e789]:
+                          - generic [ref=e791]: North American College Of Information Technology
+                          - generic [ref=e792]: Mississauga, ON L5B 3Z6
+                        - list [ref=e794]:
+                          - listitem [ref=e795]:
+                            - generic [ref=e798]: $40,000–$45,000 a year
+                          - listitem [ref=e799]:
+                            - generic [ref=e802]: Full-time
+                        - generic [ref=e804]:
+                          - img [ref=e805]
+                          - generic [ref=e807]: Easily apply
+                      - button "Save job Toggle" [ref=e811] [cursor=pointer]:
+                        - img [ref=e812]
+                    - generic [ref=e814]:
+                      - list [ref=e816]:
+                        - listitem [ref=e817]: Assist students with their queries regarding their ongoing programs, attendance, academics, etc.
+                        - listitem [ref=e818]: Participate in planning activities; assist in developing,…
+                      - list [ref=e822]:
+                        - listitem [ref=e823]:
+                          - generic [ref=e824]:
+                            - text: View all
+                            - link "North American College Of Information Technology jobs" [ref=e825] [cursor=pointer]:
+                              - /url: /q-north-american-college-of-information-technology-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e826] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Campus Manager jobs in Mississauga, ON" [ref=e827] [cursor=pointer]:
+                              - /url: /q-campus-manager-l-mississauga,-on-jobs.html
+                        - listitem [ref=e828]:
+                          - generic [ref=e829]:
+                            - text: "Salary Search:"
+                            - link "Career College Campus Coordinator salaries in Mississauga, ON" [ref=e830] [cursor=pointer]:
+                              - /url: /career/campus-manager/salaries/Mississauga--ON-L5B-3Z6?campaignid=serp-more&fromjk=feb38de7f72cf23b&from=serp-more
+                        - listitem [ref=e831]:
+                          - generic [ref=e832]:
+                            - text: See popular
+                            - link "questions & answers about North American College Of Information Technology" [ref=e833] [cursor=pointer]:
+                              - /url: /cmp/North-American-College-of-Information-Technology/faq
+              - listitem [ref=e835]:
+                - generic [ref=e837]:
+                  - generic:
+                    - generic [ref=e840]:
+                      - heading "full details of Placement Coordinator" [level=2] [ref=e842]:
+                        - button "full details of Placement Coordinator" [ref=e843] [cursor=pointer]: Placement Coordinator
+                      - generic [ref=e844]:
+                        - generic [ref=e846]:
+                          - generic [ref=e848]: Academy of Learning Career College - Mississauga...
+                          - generic [ref=e849]: Mississauga, ON L4Y 2C1
+                        - list [ref=e851]:
+                          - listitem [ref=e852]:
+                            - generic [ref=e855]: $18.23–$24.00 an hour
+                          - listitem [ref=e856]:
+                            - generic [ref=e859]: Full-time
+                          - listitem [ref=e860]:
+                            - generic [ref=e863]: Dental care
+                          - listitem [ref=e864]:
+                            - generic [ref=e867]: Extended health care
+                          - listitem [ref=e868]:
+                            - generic [ref=e871]: On-site parking
+                        - generic [ref=e873]:
+                          - img [ref=e874]
+                          - generic [ref=e876]: Easily apply
+                      - button "Save job Toggle" [ref=e880] [cursor=pointer]:
+                        - img [ref=e881]
+                    - generic [ref=e883]:
+                      - list [ref=e885]:
+                        - listitem [ref=e886]: Coordinate placement schedules and ensure Ministry and program compliance requirements are met.
+                        - listitem [ref=e887]: Academy of Learning Career College is seeking a *Placement…
+                      - list [ref=e891]:
+                        - listitem [ref=e892]:
+                          - generic [ref=e893]:
+                            - text: View all
+                            - link "Academy of Learning Career College - Mississauga East jobs" [ref=e894] [cursor=pointer]:
+                              - /url: /q-academy-of-learning-career-college-mississauga-east-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e895] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Coordinator jobs in Mississauga, ON" [ref=e896] [cursor=pointer]:
+                              - /url: /q-coordinator-l-mississauga,-on-jobs.html
+                        - listitem [ref=e897]:
+                          - generic [ref=e898]:
+                            - text: "Salary Search:"
+                            - link "Placement Coordinator salaries in Mississauga, ON" [ref=e899] [cursor=pointer]:
+                              - /url: /career/coordinator/salaries/Mississauga--ON-L4Y-2C1?campaignid=serp-more&fromjk=f571e6d30fd637ba&from=serp-more
+              - listitem [ref=e901]:
+                - generic [ref=e903]:
+                  - generic:
+                    - generic [ref=e906]:
+                      - heading "full details of Assistant Program Coordinator and Job Coach" [level=2] [ref=e908]:
+                        - button "full details of Assistant Program Coordinator and Job Coach" [ref=e909] [cursor=pointer]: Assistant Program Coordinator and Job Coach
+                      - generic [ref=e910]:
+                        - generic [ref=e912]:
+                          - generic [ref=e914]: West Toronto KEYS to INclusion
+                          - generic [ref=e915]: Toronto, ON M6S 2E9
+                        - list [ref=e917]:
+                          - listitem [ref=e918]:
+                            - generic [ref=e921]: $25–$27 an hour
+                          - listitem [ref=e922]:
+                            - generic [ref=e925]: Part-time
+                          - listitem [ref=e926]:
+                            - generic [ref=e929]: 24 hours per week
+                        - generic [ref=e931]:
+                          - img [ref=e932]
+                          - generic [ref=e934]: Easily apply
+                      - button "Save job Toggle" [ref=e938] [cursor=pointer]:
+                        - img [ref=e939]
+                    - generic [ref=e941]:
+                      - list [ref=e943]:
+                        - listitem [ref=e944]: Assist with daily program activities and participant engagement.
+                        - listitem [ref=e945]: Help maintain a structured and inclusive program environment.
+                      - list [ref=e949]:
+                        - listitem [ref=e950]:
+                          - generic [ref=e951]:
+                            - text: View all
+                            - link "West Toronto KEYS to INclusion jobs" [ref=e952] [cursor=pointer]:
+                              - /url: /q-west-toronto-keys-to-inclusion-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e953] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Program Coordinator jobs in Toronto, ON" [ref=e954] [cursor=pointer]:
+                              - /url: /q-program-coordinator-l-toronto,-on-jobs.html
+                        - listitem [ref=e955]:
+                          - generic [ref=e956]:
+                            - text: "Salary Search:"
+                            - link "Assistant Program Coordinator and Job Coach salaries in Toronto, ON" [ref=e957] [cursor=pointer]:
+                              - /url: /career/program-coordinator/salaries/Toronto--ON-M6S-2E9?campaignid=serp-more&fromjk=9f2125286ea32427&from=serp-more
+              - listitem [ref=e959]:
+                - generic [ref=e961]:
+                  - generic:
+                    - generic [ref=e964]:
+                      - heading "full details of Admission Coordinator" [level=2] [ref=e966]:
+                        - button "full details of Admission Coordinator" [ref=e967] [cursor=pointer]: Admission Coordinator
+                      - generic [ref=e968]:
+                        - generic [ref=e970]:
+                          - generic [ref=e972]: Futures Canadian College
+                          - generic [ref=e973]: Mississauga, ON L5C 4P9
+                        - list [ref=e975]:
+                          - listitem [ref=e976]:
+                            - generic [ref=e979]: $17.60 an hour
+                          - listitem [ref=e980]:
+                            - generic [ref=e983]: Full-time
+                        - generic [ref=e985]:
+                          - img [ref=e986]
+                          - generic [ref=e988]: Easily apply
+                      - button "Save job Toggle" [ref=e992] [cursor=pointer]:
+                        - img [ref=e993]
+                    - generic [ref=e995]:
+                      - list [ref=e997]:
+                        - listitem [ref=e998]: Coordinate with academic and administrative departments to ensure efficient application processing.
+                        - listitem [ref=e999]: The Admission Coordinator will be responsible for managing…
+                      - list [ref=e1003]:
+                        - listitem [ref=e1004]:
+                          - generic [ref=e1005]:
+                            - text: View all
+                            - link "Futures Canadian College jobs" [ref=e1006] [cursor=pointer]:
+                              - /url: /q-futures-canadian-college-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e1007] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Admissions Coordinator jobs in Mississauga, ON" [ref=e1008] [cursor=pointer]:
+                              - /url: /q-admissions-coordinator-l-mississauga,-on-jobs.html
+                        - listitem [ref=e1009]:
+                          - generic [ref=e1010]:
+                            - text: "Salary Search:"
+                            - link "Admission Coordinator salaries in Mississauga, ON" [ref=e1011] [cursor=pointer]:
+                              - /url: /career/admissions-coordinator/salaries/Mississauga--ON-L5C-4P9?campaignid=serp-more&fromjk=85e114f03768bf8a&from=serp-more
+              - listitem
+            - navigation "pagination" [ref=e1013]:
+              - list [ref=e1014]:
+                - listitem [ref=e1015]:
+                  - link "1" [ref=e1016] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e1017]:
+                  - link "2" [ref=e1018] [cursor=pointer]:
+                    - /url: /jobs?q=academic+program+coordinator&l=Mississauga%2C+ON&radius=25&from=searchOnHP,whatautocomplete,whatautocompleteSourceStandard,whereautocomplete&start=10
+                - listitem [ref=e1019]:
+                  - link "3" [ref=e1020] [cursor=pointer]:
+                    - /url: /jobs?q=academic+program+coordinator&l=Mississauga%2C+ON&radius=25&from=searchOnHP,whatautocomplete,whatautocompleteSourceStandard,whereautocomplete&start=20
+                - listitem [ref=e1021]:
+                  - link "4" [ref=e1022] [cursor=pointer]:
+                    - /url: /jobs?q=academic+program+coordinator&l=Mississauga%2C+ON&radius=25&from=searchOnHP,whatautocomplete,whatautocompleteSourceStandard,whereautocomplete&start=30
+                - listitem [ref=e1023]:
+                  - link "5" [ref=e1024] [cursor=pointer]:
+                    - /url: /jobs?q=academic+program+coordinator&l=Mississauga%2C+ON&radius=25&from=searchOnHP,whatautocomplete,whatautocompleteSourceStandard,whereautocomplete&start=40
+                - listitem [ref=e1025]:
+                  - link "Next page" [ref=e1026] [cursor=pointer]:
+                    - /url: /jobs?q=academic+program+coordinator&l=Mississauga%2C+ON&radius=25&from=searchOnHP,whatautocomplete,whatautocompleteSourceStandard,whereautocomplete&start=10
+                    - img [ref=e1027]
+            - generic [ref=e1033]:
+              - generic [ref=e1034]:
+                - generic [ref=e1036]:
+                  - text: Get email updates for the latest
+                  - strong [ref=e1037]: academic program coordinator
+                  - text: jobs in
+                  - strong [ref=e1038]: Mississauga, ON
+                - generic [ref=e1039] [cursor=pointer]:
+                  - switch [ref=e1040]
+                  - img [ref=e1043]
+              - paragraph [ref=e1046]:
+                - text: By creating a job alert, you agree to our
+                - link "Terms (opens in a new tab)" [ref=e1047] [cursor=pointer]:
+                  - /url: /legal?hl=en
+                  - text: Terms
+                  - img [ref=e1048]
+                - text: . You can change your consent settings at any time by unsubscribing or as detailed in our terms.
+            - generic [ref=e1051]:
+              - heading "Career Resources:" [level=2] [ref=e1052]
+              - list [ref=e1053]:
+                - text: "-"
+                - listitem [ref=e1054]:
+                  - link "Explore High Paying Jobs" [ref=e1055] [cursor=pointer]:
+                    - /url: /explorer/
+          - generic "Job Post Details" [ref=e1057]:
+            - button "Return to Search Result" [ref=e1058]
+            - heading "Job Post Details" [level=2] [ref=e1059]
+            - generic [ref=e1063]:
+              - generic [ref=e1065]:
+                - generic [ref=e1066]:
+                  - heading "Student Services Coordinator (Mississauga Campus) - job post" [level=2] [ref=e1068]:
+                    - generic [ref=e1069]:
+                      - text: Student Services Coordinator (Mississauga Campus)
+                      - generic [ref=e1070]: "- job post"
+                  - generic [ref=e1074]:
+                    - generic [ref=e1075]:
+                      - link "Anderson College of Health, Business & Technology (opens in a new tab)" [ref=e1078] [cursor=pointer]:
+                        - /url: https://ca.indeed.com/cmp/Anderson-College---North-York-Campus-1?campaignid=mobvjcmp&from=mobviewjob&tk=1jkrfolqtgbmp800&fromjk=d55a8410be5d449d
+                        - text: Anderson College of Health, Business & Technology
+                        - img [ref=e1079]
+                      - generic [ref=e1081]:
+                        - generic [ref=e1082]: · 1.9
+                        - generic [ref=e1083]: 1.9 out of 5 stars
+                        - img [ref=e1084]
+                    - generic [ref=e1087]: 165 Dundas Street West, Mississauga, ON L5B 2N6
+                - generic [ref=e1090]:
+                  - generic [ref=e1091]: $40,000–$45,000 a year
+                  - generic [ref=e1092]: "- Full-time"
+                - generic [ref=e1094]:
+                  - button "Apply now opens in a new tab" [ref=e1102] [cursor=pointer]:
+                    - generic [ref=e1104]: Apply now
+                  - button "Save job" [ref=e1108] [cursor=pointer]:
+                    - img "save-icon" [ref=e1109]
+                  - button "Share job" [ref=e1111] [cursor=pointer]
+              - generic [ref=e1114]:
+                - generic [ref=e1115]:
+                  - generic [ref=e1121]:
+                    - generic [ref=e1122]:
+                      - heading "Job details" [level=2] [ref=e1124]
+                      - generic [ref=e1125]:
+                        - group "Pay" [ref=e1126]:
+                          - img [ref=e1127]
+                          - generic [ref=e1129]:
+                            - heading "Pay" [level=3] [ref=e1130]
+                            - list [ref=e1132]:
+                              - listitem [ref=e1133]:
+                                - generic [ref=e1138]: $40,000–$45,000 a year
+                        - group "Job type" [ref=e1139]:
+                          - img [ref=e1140]
+                          - generic [ref=e1143]:
+                            - heading "Job type" [level=3] [ref=e1144]
+                            - list [ref=e1146]:
+                              - listitem [ref=e1147]:
+                                - generic [ref=e1152]: Full-time
+                        - group "Shift and schedule" [ref=e1153]:
+                          - img [ref=e1154]
+                          - generic [ref=e1156]:
+                            - heading "Shift and schedule" [level=3] [ref=e1157]
+                            - list [ref=e1159]:
+                              - listitem [ref=e1160]:
+                                - generic [ref=e1165]: Monday to Friday
+                    - separator [ref=e1166]:
+                      - generic [ref=e1167]: "&nbsp;"
+                  - generic [ref=e1168]:
+                    - heading "Location" [level=2] [ref=e1169]
+                    - generic [ref=e1170]:
+                      - img [ref=e1171]
+                      - generic [ref=e1174]: 165 Dundas Street West, Mississauga, ON L5B 2N6
+                    - separator [ref=e1175]:
+                      - generic [ref=e1176]: "&nbsp;"
+                  - generic [ref=e1177]:
+                    - heading "Benefits Pulled from the full job description" [level=2] [ref=e1178]:
+                      - text: Benefits
+                      - generic [ref=e1179]: Pulled from the full job description
+                    - list [ref=e1183]:
+                      - listitem [ref=e1184]: Paid time off
+                      - listitem [ref=e1185]: Dental care
+                      - listitem [ref=e1186]: Extended health care
+                    - separator [ref=e1187]:
+                      - generic [ref=e1188]: "&nbsp;"
+                  - heading "Full job description" [level=2] [ref=e1190]
+                  - generic [ref=e1191]:
+                    - paragraph [ref=e1192]: ABOUT OUR COMPANY
+                    - paragraph [ref=e1193]: Anderson College is one of Canada’s oldest colleges, having opened our first location in 1885. We have trained more than 100,000 students over a 140-year history and have been an empowering partner for students overcoming career challenges and transitioning to the next phase of their lives.
+                    - paragraph [ref=e1194]: With ten locations in Ontario, we are recognized for our high-caliber faculty, hands-on, real-life career training, and supportive culture. At Anderson College, we are more than our century-old history, our programs, and state-of-the-art facilities; we are a team of caring individuals, deeply committed to helping our students become skillful, confident, and in-demand employees.
+                    - paragraph [ref=e1195]: ABOUT THE ROLE
+                    - paragraph [ref=e1196]: We are seeking a competent and dedicated Student Services Coordinator to join our team at our Mississauga campus. The ideal candidate will have previous experience in a similar role and be passionate about helping mature students achieve their goals.
+                    - paragraph [ref=e1197]: "Work schedule for this in-person role: Monday to Friday- anytime between 9am to 7pm."
+                    - paragraph [ref=e1198]: "Projected Start Date: March 23, 2026"
+                    - paragraph [ref=e1199]: "Responsibilities:"
+                    - list [ref=e1200]:
+                      - listitem [ref=e1201]: Act as first point of contact for student concerns
+                      - listitem [ref=e1202]: Update all enrolment, withdrawal and cancelation data in CRM system, tracking and recording all lead sources
+                      - listitem [ref=e1203]: Close withdrawn and cancelled student files
+                      - listitem [ref=e1204]: Order & distribute books for all students
+                      - listitem [ref=e1205]: Manage campus seating charts based on master schedule
+                      - listitem [ref=e1206]: Prepare and issue student schedules
+                      - listitem [ref=e1207]: Administer student mid-point evaluations and NACC exam
+                      - listitem [ref=e1208]: Monitor student attendance daily
+                      - listitem [ref=e1209]: Effectively document progress and attendance issues, creating progress plans where necessary
+                      - listitem [ref=e1210]: Schedule and administrate CPR training
+                      - listitem [ref=e1211]: Provide practicum support, including issuing WSIB certificates, initiating student clearance for practicum, briefing students, distributing placement packages and tracking attendance
+                      - listitem [ref=e1212]: Support faculty training and development, including onboarding new faculty and orienting them to company policies and procedures
+                      - listitem [ref=e1213]: Continuously provide training and development plans to faculty, performing faculty classroom observations and feedback sessions
+                      - listitem [ref=e1214]: Initiate graduation process, checking file compliance
+                      - listitem [ref=e1215]: Generate weekly and monthly reports, including student progress reports, attendance reports, and student population reports
+                      - listitem [ref=e1216]: Other duties and responsibilities as assigned
+                    - paragraph [ref=e1217]: "Required skills:"
+                    - list [ref=e1218]:
+                      - listitem [ref=e1219]: Ability to work under pressure, make decisions, and meet tight deadlines
+                      - listitem [ref=e1220]: Excellent communication skills
+                      - listitem [ref=e1221]: Highly organized with the ability to prioritize multiple job demands, problem solve and troubleshoot with minimal supervision
+                      - listitem [ref=e1222]: Ability to collaborate and communicate effectively with colleagues and students
+                    - paragraph [ref=e1223]: "Experience:"
+                    - list [ref=e1224]:
+                      - listitem [ref=e1225]: Post-secondary education in Business or Administration preferred
+                      - listitem [ref=e1226]: Private Career College experience is considered an asset
+                    - paragraph [ref=e1227]: Applications from people with disabilities are welcomed and encouraged. Accommodation is available on request for candidates taking part in all aspects of the selection process.
+                    - paragraph [ref=e1228]: Anderson College is committed to protecting the safety and welfare of employees, students, and the general public, and upholding the reputation and integrity of the College. For this reason, final applicants will be asked to undergo a background check.
+                    - paragraph [ref=e1229]: We thank all applicants for their interest in employment with Anderson College. Only those selected for an interview will be contacted.
+                    - paragraph [ref=e1230]: "Job Type: Full-time"
+                    - paragraph [ref=e1231]: "Pay: $40,000.00-$45,000.00 per year"
+                    - paragraph [ref=e1232]: "Benefits:"
+                    - list [ref=e1233]:
+                      - listitem [ref=e1234]: Dental care
+                      - listitem [ref=e1235]: Extended health care
+                      - listitem [ref=e1236]: Paid time off
+                    - paragraph [ref=e1237]: "Education:"
+                    - list [ref=e1238]:
+                      - listitem [ref=e1239]: DCS / DEC (preferred)
+                    - paragraph [ref=e1240]: "Work Location: In person"
+                  - separator [ref=e1241]:
+                    - generic [ref=e1242]: "&nbsp;"
+                - button "Report job" [ref=e1249] [cursor=pointer]: Report job
+            - button "Return to Search Result" [ref=e1251]
+      - contentinfo [ref=e1256]:
+        - generic [ref=e1257]:
+          - list [ref=e1258]:
+            - listitem [ref=e1259]:
+              - link "Hiring Lab" [ref=e1261] [cursor=pointer]:
+                - /url: https://www.hiringlab.org/en-ca/
+            - listitem [ref=e1262]:
+              - link "Career advice" [ref=e1264] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career-advice
+            - listitem [ref=e1265]:
+              - link "Browse jobs" [ref=e1267] [cursor=pointer]:
+                - /url: https://ca.indeed.com/browsejobs
+            - listitem [ref=e1268]:
+              - link "Browse companies" [ref=e1270] [cursor=pointer]:
+                - /url: https://ca.indeed.com/companies/browse-companies
+            - listitem [ref=e1271]:
+              - link "Salaries" [ref=e1273] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career/salaries
+            - listitem [ref=e1274]:
+              - link "Indeed Events" [ref=e1276] [cursor=pointer]:
+                - /url: https://www.indeedevents.com/en-ca/
+            - listitem [ref=e1277]:
+              - link "Work at Indeed" [ref=e1279] [cursor=pointer]:
+                - /url: https://ca.indeed.com/cmp/Indeed/about
+            - listitem [ref=e1280]:
+              - link "Countries" [ref=e1282] [cursor=pointer]:
+                - /url: https://ca.indeed.com/worldwide
+            - listitem [ref=e1283]:
+              - link "About" [ref=e1285] [cursor=pointer]:
+                - /url: https://ca.indeed.com/about
+            - listitem [ref=e1286]:
+              - link "Help" [ref=e1288] [cursor=pointer]:
+                - /url: https://ca.indeed.com/help
+            - listitem [ref=e1289]:
+              - link "ESG at Indeed" [ref=e1291] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg?from=gnav-jobsearch--indeedmobile
+          - list [ref=e1292]:
+            - listitem [ref=e1293]: © 2026 Indeed
+            - listitem [ref=e1294]:
+              - link "Accessibility at Indeed" [ref=e1296] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg/accessibility?hl=en
+            - listitem [ref=e1297]:
+              - link "Privacy Centre and Ad Choices" [ref=e1299] [cursor=pointer]:
+                - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+            - listitem [ref=e1300]:
+              - link "Terms" [ref=e1302] [cursor=pointer]:
+                - /url: https://ca.indeed.com/legal?hl=en
+          - list:
+            - listitem

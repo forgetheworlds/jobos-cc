@@ -1,0 +1,975 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#gnav-header-end"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - navigation "Primary" [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - button "Skip to main content" [ref=e12] [cursor=pointer]:
+                - generic [ref=e13]: Skip to main content
+              - link "Indeed Home" [ref=e14] [cursor=pointer]:
+                - /url: /?from=gnav-jobsearch--indeedmobile
+                - img [ref=e16]
+              - list [ref=e18]:
+                - listitem [ref=e19]:
+                  - link "Home" [ref=e21] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/
+                - listitem [ref=e22]:
+                  - link "Company reviews" [ref=e24] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/companies
+                - listitem [ref=e25]:
+                  - link "Salary guide" [ref=e27] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/career/salaries
+            - generic [ref=e28]:
+              - list [ref=e29]:
+                - listitem [ref=e30]:
+                  - link "Sign in" [ref=e33] [cursor=pointer]:
+                    - /url: https://secure.indeed.com/auth?hl=en_CA&co=CA&continue=https%3A%2F%2Fca.indeed.com%2Fjobs%3Fq%3DStudent%2BSuccess%2BManager%26l%3DToronto%252C%2BON&tmpl=desktop&from=gnav-util-jobsearch--indeedmobile&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Den_CA%26co%3DCA%26from%3Dgnav-jobsearch--indeedmobile&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess
+              - radiogroup "Language options" [ref=e36]:
+                - radio "English" [checked] [disabled] [ref=e38]:
+                  - generic [ref=e39]: En
+                  - generic [ref=e40]: English
+                - radio "Français" [ref=e42] [cursor=pointer]:
+                  - generic [ref=e43]: Fr
+                  - generic [ref=e44]: Français
+              - link "Employers / Post Job" [ref=e49] [cursor=pointer]:
+                - /url: https://ca.indeed.com/hire?co=CA&hl=en
+          - generic [ref=e50]: Start of main content
+      - generic [ref=e52]:
+        - search [ref=e57]:
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: "Keyword : all jobs"
+                - generic [ref=e67]:
+                  - img [ref=e69]
+                  - 'combobox "search: Job title, keywords, or company" [ref=e71]': Student Success Manager
+                  - button "Clear what input" [ref=e73] [cursor=pointer]:
+                    - img [ref=e74]
+              - separator [ref=e76]:
+                - generic [ref=e77]: "&nbsp;"
+              - generic [ref=e78]:
+                - generic [ref=e79]: Edit location input box label
+                - generic [ref=e82]:
+                  - img [ref=e84]
+                  - combobox "Edit location" [ref=e86]: Toronto, ON
+                  - button "Clear location input" [ref=e88] [cursor=pointer]:
+                    - img [ref=e89]
+            - button "Find jobs" [ref=e92] [cursor=pointer]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - button "Pay filter" [ref=e97] [cursor=pointer]:
+                - text: Pay
+                - img [ref=e98]
+            - listitem [ref=e101]:
+              - button "Remote filter" [ref=e103] [cursor=pointer]:
+                - text: Remote
+                - img [ref=e104]
+            - listitem [ref=e107]:
+              - button "Within 25 kilometres filter" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: Within 25 kilometres
+                - img [ref=e112]
+            - listitem [ref=e115]:
+              - button "Job type filter" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: Job type
+                - generic [ref=e118]: filter
+                - img [ref=e120]
+            - listitem [ref=e123]:
+              - button "Job Language filter" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Job Language
+                - img [ref=e128]
+            - listitem [ref=e131]:
+              - button "Date posted filter" [ref=e133] [cursor=pointer]:
+                - text: Date posted
+                - img [ref=e134]
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - link "Post your resume" [ref=e145] [cursor=pointer]:
+                - /url: /promo/resume?from=serptop3&subfrom=resprmrtop&trk.origin=jobsearch&trk.variant=resprmrtop&trk.tk=1jkrfrk8vgcsv84e
+              - text: and find your next job on Indeed!
+              - separator [ref=e146]:
+                - generic [ref=e147]: "&nbsp;"
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "Student Success Manager jobs in Toronto, ON" [level=1] [ref=e150]
+                - button "help icon" [ref=e153] [cursor=pointer]:
+                  - img "help icon" [ref=e154]
+              - generic [ref=e158]:
+                - generic [ref=e159]: "Sort by:"
+                - generic [ref=e160]:
+                  - text: relevance -
+                  - 'link "Sort by: date" [ref=e161] [cursor=pointer]':
+                    - /url: /jobs?q=Student%20Success%20Manager&l=Toronto%2C%20ON&sort=date
+                    - text: date
+            - list [ref=e165]:
+              - listitem
+              - listitem [ref=e166]:
+                - generic [ref=e168]:
+                  - generic:
+                    - generic [ref=e171]:
+                      - generic [ref=e172]:
+                        - heading "full details of Family Success Manager/Senior Progress Manager" [level=2] [ref=e173]:
+                          - button "full details of Family Success Manager/Senior Progress Manager" [pressed] [ref=e174] [cursor=pointer]: Family Success Manager/Senior Progress Manager
+                        - generic [ref=e178]: Hiring multiple candidates
+                      - generic [ref=e179]:
+                        - generic [ref=e181]:
+                          - generic [ref=e183]: InGenius Prep
+                          - generic [ref=e184]: Toronto, ON
+                        - list [ref=e186]:
+                          - listitem [ref=e187]:
+                            - generic [ref=e190]: $45,000–$60,000 a year
+                          - listitem [ref=e191]:
+                            - generic [ref=e194]:
+                              - text: Full-time
+                              - generic [ref=e195]: "+1"
+                        - generic [ref=e197]:
+                          - img [ref=e198]
+                          - generic [ref=e200]: Easily apply
+                      - button "Save job Toggle" [ref=e204] [cursor=pointer]:
+                        - img [ref=e205]
+                    - list [ref=e209]:
+                      - listitem [ref=e210]: Collaborate closely with Graduate Coach, Former Admissions Officer, and course managers to ensure services are delivered to fulfill family needs.
+              - listitem [ref=e212]:
+                - generic [ref=e214]:
+                  - generic:
+                    - generic [ref=e217]:
+                      - generic [ref=e218]:
+                        - heading "full details of Customer Success Manager (East)" [level=2] [ref=e219]:
+                          - button "full details of Customer Success Manager (East)" [ref=e220] [cursor=pointer]: Customer Success Manager (East)
+                        - generic [ref=e224]: Often responds within 1 day
+                      - generic [ref=e225]:
+                        - generic [ref=e227]:
+                          - generic [ref=e229]: Minga
+                          - generic [ref=e230]: Toronto, ON
+                        - list [ref=e232]:
+                          - listitem [ref=e233]:
+                            - generic [ref=e236]: $66,000–$110,000 a year
+                          - listitem [ref=e237]:
+                            - generic [ref=e240]: Full-time
+                          - listitem [ref=e241]:
+                            - generic [ref=e244]: Vision care
+                          - listitem [ref=e245]:
+                            - generic [ref=e248]: Dental care
+                        - generic [ref=e250]:
+                          - img [ref=e251]
+                          - generic [ref=e253]: Easily apply
+                      - button "Save job Toggle" [ref=e257] [cursor=pointer]:
+                        - img [ref=e258]
+                    - generic [ref=e260]:
+                      - list [ref=e262]:
+                        - listitem [ref=e263]: This role requires 3+ years relevant customer success experience.
+                        - listitem [ref=e264]: Develop and execute customer success plans tailored to each customer's unique goals and…
+                      - list [ref=e268]:
+                        - listitem [ref=e269]:
+                          - generic [ref=e270]:
+                            - text: View all
+                            - link "Minga jobs" [ref=e271] [cursor=pointer]:
+                              - /url: /q-minga-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e272] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Customer Success Manager jobs in Toronto, ON" [ref=e273] [cursor=pointer]:
+                              - /url: /q-customer-success-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e274]:
+                          - generic [ref=e275]:
+                            - text: "Salary Search:"
+                            - link "Customer Success Manager (East) salaries in Toronto, ON" [ref=e276] [cursor=pointer]:
+                              - /url: /career/customer-success-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=e1ac9cce0b43dd2b&from=serp-more
+                        - listitem [ref=e277]:
+                          - generic [ref=e278]:
+                            - text: See popular
+                            - link "questions & answers about Minga" [ref=e279] [cursor=pointer]:
+                              - /url: /cmp/Minga-4/faq
+              - listitem [ref=e281]:
+                - generic [ref=e283]:
+                  - generic:
+                    - generic [ref=e286]:
+                      - heading "full details of Manager, Student Recruitment (High School)" [level=2] [ref=e288]:
+                        - button "full details of Manager, Student Recruitment (High School)" [ref=e289] [cursor=pointer]: Manager, Student Recruitment (High School)
+                      - generic [ref=e290]:
+                        - generic [ref=e292]:
+                          - generic [ref=e294]: Vega Academic Services Inc.
+                          - generic [ref=e295]: Toronto, ON
+                        - list [ref=e297]:
+                          - listitem [ref=e298]:
+                            - generic [ref=e301]: $100,000 a year
+                          - listitem [ref=e302]:
+                            - generic [ref=e305]:
+                              - text: Weekends as needed
+                              - generic [ref=e306]: "+1"
+                        - generic [ref=e308]:
+                          - img [ref=e309]
+                          - generic [ref=e311]: Easily apply
+                      - button "Save job Toggle" [ref=e315] [cursor=pointer]:
+                        - img [ref=e316]
+                    - generic [ref=e318]:
+                      - list [ref=e320]:
+                        - listitem [ref=e321]: Direct experience recruiting both domestic and international high school students is mandatory.
+                        - listitem [ref=e322]: Deep understanding of parent and student decision making at the…
+                      - list [ref=e326]:
+                        - listitem [ref=e327]:
+                          - generic [ref=e328]:
+                            - text: View all
+                            - link "Vega Academic Services Inc. jobs" [ref=e329] [cursor=pointer]:
+                              - /url: /q-vega-academic-services-inc.-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e330] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "High School Teacher jobs in Toronto, ON" [ref=e331] [cursor=pointer]:
+                              - /url: /q-high-school-teacher-l-toronto,-on-jobs.html
+                        - listitem [ref=e332]:
+                          - generic [ref=e333]:
+                            - text: "Salary Search:"
+                            - link "Manager, Student Recruitment (High School) salaries in Toronto, ON" [ref=e334] [cursor=pointer]:
+                              - /url: /career/high-school-teacher/salaries/Toronto--ON?campaignid=serp-more&fromjk=68db28bd352762b3&from=serp-more
+              - listitem [ref=e336]:
+                - generic [ref=e338]:
+                  - generic:
+                    - generic [ref=e341]:
+                      - generic [ref=e342]:
+                        - heading "full details of Scaled Customer Success Manager (East)" [level=2] [ref=e343]:
+                          - button "full details of Scaled Customer Success Manager (East)" [ref=e344] [cursor=pointer]: Scaled Customer Success Manager (East)
+                        - generic [ref=e348]: Often responds within 1 day
+                      - generic [ref=e349]:
+                        - generic [ref=e351]:
+                          - generic [ref=e353]: Minga
+                          - generic [ref=e354]: Toronto, ON
+                        - list [ref=e356]:
+                          - listitem [ref=e357]:
+                            - generic [ref=e360]: $66,000–$110,000 a year
+                          - listitem [ref=e361]:
+                            - generic [ref=e364]: Full-time
+                          - listitem [ref=e365]:
+                            - generic [ref=e368]: Vision care
+                          - listitem [ref=e369]:
+                            - generic [ref=e372]: Dental care
+                        - generic [ref=e374]:
+                          - img [ref=e375]
+                          - generic [ref=e377]: Easily apply
+                      - button "Save job Toggle" [ref=e381] [cursor=pointer]:
+                        - img [ref=e382]
+                    - generic [ref=e384]:
+                      - list [ref=e386]:
+                        - listitem [ref=e387]: Proven success working with tech‑touch or low‑touch segments, or strong interest and aptitude for digital-first engagement.
+                        - listitem [ref=e388]: 15 Days vacation + 3 Flex Days.
+                      - list [ref=e392]:
+                        - listitem [ref=e393]:
+                          - generic [ref=e394]:
+                            - text: View all
+                            - link "Minga jobs" [ref=e395] [cursor=pointer]:
+                              - /url: /q-minga-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e396] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Customer Success Manager jobs in Toronto, ON" [ref=e397] [cursor=pointer]:
+                              - /url: /q-customer-success-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e398]:
+                          - generic [ref=e399]:
+                            - text: "Salary Search:"
+                            - link "Scaled Customer Success Manager (East) salaries in Toronto, ON" [ref=e400] [cursor=pointer]:
+                              - /url: /career/customer-success-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=2cbfe03921cd9f82&from=serp-more
+                        - listitem [ref=e401]:
+                          - generic [ref=e402]:
+                            - text: See popular
+                            - link "questions & answers about Minga" [ref=e403] [cursor=pointer]:
+                              - /url: /cmp/Minga-4/faq
+              - listitem [ref=e405]:
+                - generic [ref=e407]:
+                  - generic:
+                    - generic [ref=e410]:
+                      - generic [ref=e411]:
+                        - heading "full details of Senior Product Manager, Admissions Assessment (Casper)" [level=2] [ref=e412]:
+                          - button "full details of Senior Product Manager, Admissions Assessment (Casper)" [ref=e413] [cursor=pointer]: Senior Product Manager, Admissions Assessment (Casper)
+                        - generic [ref=e417]: Often responds within 4 days
+                      - generic [ref=e418]:
+                        - generic [ref=e420]:
+                          - generic [ref=e422]: Acuity Insights
+                          - generic [ref=e423]: Toronto, ON
+                        - list [ref=e425]:
+                          - listitem [ref=e426]:
+                            - generic [ref=e429]: $150,000–$164,000 a year
+                          - listitem [ref=e430]:
+                            - generic [ref=e433]: Full-time
+                          - listitem [ref=e434]:
+                            - generic [ref=e437]: Stock options
+                        - generic [ref=e439]:
+                          - img [ref=e440]
+                          - generic [ref=e442]: Easily apply
+                      - button "Save job Toggle" [ref=e446] [cursor=pointer]:
+                        - img [ref=e447]
+                    - generic [ref=e449]:
+                      - list [ref=e451]:
+                        - listitem [ref=e452]: Decision. The hiring manager reviews feedback and typically makes a decision within 2–4 business days.
+                        - listitem [ref=e453]: Six to twelve months in, success looks like clarity,…
+                      - list [ref=e457]:
+                        - listitem [ref=e458]:
+                          - generic [ref=e459]:
+                            - text: View all
+                            - link "Acuity Insights jobs" [ref=e460] [cursor=pointer]:
+                              - /url: /q-acuity-insights-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e461] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Senior Product Manager jobs in Toronto, ON" [ref=e462] [cursor=pointer]:
+                              - /url: /q-senior-product-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e463]:
+                          - generic [ref=e464]:
+                            - text: "Salary Search:"
+                            - link "Senior Product Manager, Admissions Assessment (Casper) salaries in Toronto, ON" [ref=e465] [cursor=pointer]:
+                              - /url: /career/senior-product-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=a767eaa22b9d8d21&from=serp-more
+              - listitem
+              - listitem [ref=e467]:
+                - generic [ref=e469]:
+                  - generic:
+                    - generic [ref=e472]:
+                      - heading "full details of Enrollment Growth & Channel Development Manager (Local Market Focus)" [level=2] [ref=e474]:
+                        - button "full details of Enrollment Growth & Channel Development Manager (Local Market Focus)" [ref=e475] [cursor=pointer]: Enrollment Growth & Channel Development Manager (Local Market Focus)
+                      - generic [ref=e476]:
+                        - generic [ref=e478]:
+                          - generic [ref=e480]: Globe Cambridge School Inc.
+                          - generic [ref=e481]: North York, ON M3B 2V9
+                        - list [ref=e483]:
+                          - listitem [ref=e484]:
+                            - generic [ref=e487]: $42,000–$85,000 a year
+                          - listitem [ref=e488]:
+                            - generic [ref=e491]: Full-time
+                        - generic [ref=e493]:
+                          - img [ref=e494]
+                          - generic [ref=e496]: Easily apply
+                      - button "Save job Toggle" [ref=e500] [cursor=pointer]:
+                        - img [ref=e501]
+                    - list [ref=e505]:
+                      - listitem [ref=e506]: Generate qualified student leads through independently developed channels.
+                      - listitem [ref=e507]: Identify and develop recruitment channels within diverse Toronto communities.
+              - listitem [ref=e509]:
+                - generic [ref=e511]:
+                  - generic:
+                    - generic [ref=e514]:
+                      - generic [ref=e515]:
+                        - heading "full details of Director of Client Success" [level=2] [ref=e516]:
+                          - button "full details of Director of Client Success" [ref=e517] [cursor=pointer]: Director of Client Success
+                        - generic [ref=e521]: Often responds within 1 day
+                      - generic [ref=e522]:
+                        - generic [ref=e524]:
+                          - generic [ref=e526]: Impact Clients
+                          - generic [ref=e527]: Toronto, ON M5V 3L9
+                        - list [ref=e529]:
+                          - listitem [ref=e530]:
+                            - generic [ref=e533]: Full-time
+                          - listitem [ref=e534]:
+                            - generic [ref=e537]: Monday to Friday
+                        - generic [ref=e539]:
+                          - img [ref=e540]
+                          - generic [ref=e542]: Easily apply
+                      - button "Save job Toggle" [ref=e546] [cursor=pointer]:
+                        - img [ref=e547]
+                    - generic [ref=e549]:
+                      - list [ref=e551]:
+                        - listitem [ref=e552]: You must have proven experience leading customer success teams in online education, coaching, or digital marketing.
+                        - listitem [ref=e553]: This is a remote, full-time position.
+                      - list [ref=e557]:
+                        - listitem [ref=e558]:
+                          - generic [ref=e559]:
+                            - text: View all
+                            - link "Impact Clients jobs" [ref=e560] [cursor=pointer]:
+                              - /url: /q-impact-clients-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e561] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Director of Customer Success jobs in Toronto, ON" [ref=e562] [cursor=pointer]:
+                              - /url: /q-director-of-customer-success-l-toronto,-on-jobs.html
+                        - listitem [ref=e563]:
+                          - generic [ref=e564]:
+                            - text: "Salary Search:"
+                            - link "Director of Client Success salaries in Toronto, ON" [ref=e565] [cursor=pointer]:
+                              - /url: /career/director-of-customer-success/salaries/Toronto--ON-M5V-3L9?campaignid=serp-more&fromjk=192aad87f7ce4d5b&from=serp-more
+              - listitem [ref=e567]:
+                - generic [ref=e569]:
+                  - generic:
+                    - generic [ref=e572]:
+                      - heading "full details of Account Manager" [level=2] [ref=e574]:
+                        - button "full details of Account Manager" [ref=e575] [cursor=pointer]: Account Manager
+                      - generic [ref=e576]:
+                        - generic [ref=e578]:
+                          - generic [ref=e580]: SPC Student Price Card Ltd.
+                          - generic [ref=e581]: Vaughan, ON
+                        - list [ref=e583]:
+                          - listitem [ref=e584]:
+                            - generic [ref=e587]: $65,000–$100,000 a year
+                          - listitem [ref=e588]:
+                            - generic [ref=e591]: Full-time
+                        - generic [ref=e593]:
+                          - img [ref=e594]
+                          - generic [ref=e596]: Easily apply
+                      - button "Save job Toggle" [ref=e600] [cursor=pointer]:
+                        - img [ref=e601]
+                    - generic [ref=e603]:
+                      - list [ref=e605]:
+                        - listitem [ref=e606]: Stay informed on student/consumer insights, retail trends, and competitor activity.
+                        - listitem [ref=e607]: "Relationship Building: Ability to foster strong, long-term relationships…"
+                      - list [ref=e611]:
+                        - listitem [ref=e612]:
+                          - generic [ref=e613]:
+                            - text: View all
+                            - link "SPC Student Price Card Ltd. jobs" [ref=e614] [cursor=pointer]:
+                              - /url: /q-spc-student-price-card-ltd.-jobs.html
+                            - text: "-"
+                            - link "Vaughan jobs" [ref=e615] [cursor=pointer]:
+                              - /url: /l-vaughan,-on-jobs.html
+                        - listitem [ref=e616]:
+                          - generic [ref=e617]:
+                            - text: "Salary Search:"
+                            - link "Account Manager salaries in Vaughan, ON" [ref=e618] [cursor=pointer]:
+                              - /url: /career/account-manager/salaries/Vaughan--ON?campaignid=serp-more&fromjk=bbf7657c386c7f7f&from=serp-more
+              - listitem [ref=e620]:
+                - generic [ref=e622]:
+                  - generic:
+                    - generic [ref=e625]:
+                      - heading "full details of School Account Manager K-12" [level=2] [ref=e627]:
+                        - button "full details of School Account Manager K-12" [ref=e628] [cursor=pointer]: School Account Manager K-12
+                      - generic [ref=e629]:
+                        - generic [ref=e631]:
+                          - generic [ref=e633]: Innova STEM Labs
+                          - generic [ref=e634]: Toronto, ON
+                        - list [ref=e636]:
+                          - listitem [ref=e637]:
+                            - generic [ref=e640]: Contract
+                      - button "Save job Toggle" [ref=e642] [cursor=pointer]:
+                        - img [ref=e643]
+                    - generic [ref=e645]:
+                      - list [ref=e647]:
+                        - listitem [ref=e648]: Measurable success in acquiring new business and enhancing current clients.
+                        - listitem [ref=e649]: Our team of skilled teachers with background in the field of electronics, computer…
+                      - list [ref=e653]:
+                        - listitem [ref=e654]:
+                          - generic [ref=e655]:
+                            - text: View all
+                            - link "Innova STEM Labs jobs" [ref=e656] [cursor=pointer]:
+                              - /url: /q-innova-stem-labs-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e657] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Account Manager jobs in Toronto, ON" [ref=e658] [cursor=pointer]:
+                              - /url: /q-account-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e659]:
+                          - generic [ref=e660]:
+                            - text: "Salary Search:"
+                            - link "School Account Manager K-12 salaries in Toronto, ON" [ref=e661] [cursor=pointer]:
+                              - /url: /career/account-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=769143f5215a6629&from=serp-more
+              - listitem [ref=e663]:
+                - generic [ref=e665]:
+                  - generic:
+                    - generic [ref=e668]:
+                      - 'heading "full details of Campus Principal: Non-vocational tutoring manager [NOC 60040]" [level=2] [ref=e670]':
+                        - 'button "full details of Campus Principal: Non-vocational tutoring manager [NOC 60040]" [ref=e671] [cursor=pointer]': "Campus Principal: Non-vocational tutoring manager [NOC 60040]"
+                      - generic [ref=e672]:
+                        - generic [ref=e674]:
+                          - generic [ref=e676]: Spirit of Math Schools Inc.
+                          - generic [ref=e677]: North York, ON M2N 4Y7
+                        - list [ref=e679]:
+                          - listitem [ref=e680]:
+                            - generic [ref=e683]: $36.00–$39.76 an hour
+                          - listitem [ref=e684]:
+                            - generic [ref=e687]: Full-time
+                          - listitem [ref=e688]:
+                            - generic [ref=e691]: Weekends as needed
+                          - listitem [ref=e692]:
+                            - generic [ref=e695]: Paid time off
+                          - listitem [ref=e696]:
+                            - generic [ref=e699]: Vision care
+                          - listitem [ref=e700]:
+                            - generic [ref=e703]: Dental care
+                          - listitem [ref=e704]:
+                            - generic [ref=e707]: Life insurance
+                          - listitem [ref=e708]:
+                            - generic [ref=e711]: Disability insurance
+                          - listitem [ref=e712]:
+                            - generic [ref=e715]: Profit sharing
+                        - generic [ref=e717]:
+                          - img [ref=e718]
+                          - generic [ref=e720]: Easily apply
+                      - button "Save job Toggle" [ref=e724] [cursor=pointer]:
+                        - img [ref=e725]
+                    - generic [ref=e727]:
+                      - list [ref=e729]:
+                        - listitem [ref=e730]: Supervise teaching assistants and train student teachers.
+                        - listitem [ref=e731]: "Terms of employment: Permanent employment, Full-time (Evening, Flexible hours, Day Weekend)."
+                      - list [ref=e735]:
+                        - listitem [ref=e736]:
+                          - generic [ref=e737]:
+                            - text: View all
+                            - link "Spirit of Math Schools Inc. jobs" [ref=e738] [cursor=pointer]:
+                              - /url: /q-spirit-of-math-schools-inc.-jobs.html
+                            - text: "-"
+                            - link "North York jobs" [ref=e739] [cursor=pointer]:
+                              - /url: /l-north-york,-on-jobs.html
+                            - text: "-"
+                            - link "Noc Manager jobs in North York, ON" [ref=e740] [cursor=pointer]:
+                              - /url: /q-noc-manager-l-north-york,-on-jobs.html
+                        - listitem [ref=e741]:
+                          - generic [ref=e742]: "Salary Search: salaries in North York, ON|textlinkEl]"
+                        - listitem [ref=e743]:
+                          - generic [ref=e744]:
+                            - text: See popular
+                            - link "questions & answers about Spirit of Math Schools Inc." [ref=e745] [cursor=pointer]:
+                              - /url: /cmp/Spirit-of-Math-Schools-Inc./faq
+              - listitem
+              - listitem [ref=e747]:
+                - generic [ref=e749]:
+                  - generic:
+                    - generic [ref=e752]:
+                      - heading "full details of Education Manager (Revenue) - Hybrid" [level=2] [ref=e754]:
+                        - button "full details of Education Manager (Revenue) - Hybrid" [ref=e755] [cursor=pointer]: Education Manager (Revenue) - Hybrid
+                      - generic [ref=e756]:
+                        - generic [ref=e758]:
+                          - generic [ref=e760]: The Globe and Mail
+                          - generic [ref=e761]: Toronto, ON
+                        - list [ref=e763]:
+                          - listitem [ref=e764]:
+                            - generic [ref=e767]: Full-time
+                          - listitem [ref=e768]:
+                            - generic [ref=e771]: Dental care
+                          - listitem [ref=e772]:
+                            - generic [ref=e775]: Employee assistance program
+                        - generic [ref=e777]:
+                          - img [ref=e778]
+                          - generic [ref=e780]: Easily apply
+                      - button "Save job Toggle" [ref=e784] [cursor=pointer]:
+                        - img [ref=e785]
+                    - generic [ref=e787]:
+                      - list [ref=e789]:
+                        - listitem [ref=e790]: Partner with the Engagement team to increase activation, retention, and ongoing engagement among student subscribers.
+                        - listitem [ref=e791]: Bachelor’s degree in a relevant field.
+                      - list [ref=e795]:
+                        - listitem [ref=e796]:
+                          - generic [ref=e797]:
+                            - text: View all
+                            - link "The Globe and Mail jobs" [ref=e798] [cursor=pointer]:
+                              - /url: /q-the-globe-and-mail-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e799] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Education Manager jobs in Toronto, ON" [ref=e800] [cursor=pointer]:
+                              - /url: /q-education-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e801]:
+                          - generic [ref=e802]:
+                            - text: "Salary Search:"
+                            - link "Education Manager (Revenue) - Hybrid salaries in Toronto, ON" [ref=e803] [cursor=pointer]:
+                              - /url: /career/education-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=a0c1fdf5347230c0&from=serp-more
+                        - listitem [ref=e804]:
+                          - generic [ref=e805]:
+                            - text: See popular
+                            - link "questions & answers about The Globe and Mail" [ref=e806] [cursor=pointer]:
+                              - /url: /cmp/The-Globe-and-Mail/faq
+              - listitem [ref=e808]:
+                - generic [ref=e810]:
+                  - generic:
+                    - generic [ref=e813]:
+                      - heading "full details of Education Manager (Revenue)" [level=2] [ref=e815]:
+                        - button "full details of Education Manager (Revenue)" [ref=e816] [cursor=pointer]: Education Manager (Revenue)
+                      - generic [ref=e817]:
+                        - generic [ref=e819]:
+                          - generic [ref=e821]: The Globe and Mail
+                          - generic [ref=e822]: Toronto, ON
+                        - list [ref=e824]:
+                          - listitem [ref=e825]:
+                            - generic [ref=e828]: Full-time
+                          - listitem [ref=e829]:
+                            - generic [ref=e832]: Dental care
+                          - listitem [ref=e833]:
+                            - generic [ref=e836]: Employee assistance program
+                        - generic [ref=e838]:
+                          - img [ref=e839]
+                          - generic [ref=e841]: Easily apply
+                      - button "Save job Toggle" [ref=e845] [cursor=pointer]:
+                        - img [ref=e846]
+                    - generic [ref=e848]:
+                      - list [ref=e850]:
+                        - listitem [ref=e851]: Partner with the Engagement team to increase activation, retention, and ongoing engagement among student subscribers.
+                        - listitem [ref=e852]: Bachelor’s degree in a relevant field.
+                      - list [ref=e856]:
+                        - listitem [ref=e857]:
+                          - generic [ref=e858]:
+                            - text: View all
+                            - link "The Globe and Mail jobs" [ref=e859] [cursor=pointer]:
+                              - /url: /q-the-globe-and-mail-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e860] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Education Manager jobs in Toronto, ON" [ref=e861] [cursor=pointer]:
+                              - /url: /q-education-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e862]:
+                          - generic [ref=e863]:
+                            - text: "Salary Search:"
+                            - link "Education Manager (Revenue) salaries in Toronto, ON" [ref=e864] [cursor=pointer]:
+                              - /url: /career/education-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=62fdf08c580726fc&from=serp-more
+                        - listitem [ref=e865]:
+                          - generic [ref=e866]:
+                            - text: See popular
+                            - link "questions & answers about The Globe and Mail" [ref=e867] [cursor=pointer]:
+                              - /url: /cmp/The-Globe-and-Mail/faq
+              - listitem [ref=e869]:
+                - generic [ref=e871]:
+                  - generic:
+                    - generic [ref=e874]:
+                      - heading "full details of Sales Development Representative" [level=2] [ref=e876]:
+                        - button "full details of Sales Development Representative" [ref=e877] [cursor=pointer]: Sales Development Representative
+                      - generic [ref=e878]:
+                        - generic [ref=e880]:
+                          - generic [ref=e882]: Crimson Education
+                          - generic [ref=e883]: Toronto, ON M5G 1P5
+                        - list [ref=e885]:
+                          - listitem [ref=e886]:
+                            - generic [ref=e889]: Full-time
+                      - button "Save job Toggle" [ref=e891] [cursor=pointer]:
+                        - img [ref=e892]
+                    - generic [ref=e894]:
+                      - list [ref=e896]:
+                        - listitem [ref=e897]: Professors and PhD teaching fellows from leading universities to guide students through original, independent research — with pathways to selective peer-…
+                      - list [ref=e901]:
+                        - listitem [ref=e902]:
+                          - generic [ref=e903]:
+                            - text: View all
+                            - link "Crimson Education jobs" [ref=e904] [cursor=pointer]:
+                              - /url: /q-crimson-education-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e905] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Sales Representative jobs in Toronto, ON" [ref=e906] [cursor=pointer]:
+                              - /url: /q-sales-representative-l-toronto,-on-jobs.html
+                        - listitem [ref=e907]:
+                          - generic [ref=e908]:
+                            - text: "Salary Search:"
+                            - link "Sales Development Representative salaries in Toronto, ON" [ref=e909] [cursor=pointer]:
+                              - /url: /career/sales-representative/salaries/Toronto--ON-M5G-1P5?campaignid=serp-more&fromjk=91c33f549f8eaa48&from=serp-more
+              - listitem [ref=e911]:
+                - generic [ref=e913]:
+                  - generic:
+                    - generic [ref=e916]:
+                      - heading "full details of Manager, Jr. Youth Programs STEM Leaders (Grades 6-10)" [level=2] [ref=e918]:
+                        - button "full details of Manager, Jr. Youth Programs STEM Leaders (Grades 6-10)" [ref=e919] [cursor=pointer]: Manager, Jr. Youth Programs STEM Leaders (Grades 6-10)
+                      - generic [ref=e920]:
+                        - generic [ref=e922]:
+                          - generic [ref=e924]: Visions of Science Network for Learning
+                          - generic [ref=e925]: Toronto, ON
+                        - list [ref=e927]:
+                          - listitem [ref=e928]:
+                            - generic [ref=e931]: From $70,000 a year
+                          - listitem [ref=e932]:
+                            - generic [ref=e935]: Permanent
+                          - listitem [ref=e936]:
+                            - generic [ref=e939]: Dental care
+                          - listitem [ref=e940]:
+                            - generic [ref=e943]: Employee assistance program
+                          - listitem [ref=e944]:
+                            - generic [ref=e947]: Extended health care
+                      - button "Save job Toggle" [ref=e949] [cursor=pointer]:
+                        - img [ref=e950]
+                    - generic [ref=e952]:
+                      - list [ref=e954]:
+                        - listitem [ref=e955]: Develop adaptable yet standardized curriculum models that meet the distinct developmental needs of middle school and early high school students while…
+                      - list [ref=e959]:
+                        - listitem [ref=e960]:
+                          - generic [ref=e961]:
+                            - text: View all
+                            - link "Visions of Science Network for Learning jobs" [ref=e962] [cursor=pointer]:
+                              - /url: /q-visions-of-science-network-for-learning-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e963] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Youth Leader jobs in Toronto, ON" [ref=e964] [cursor=pointer]:
+                              - /url: /q-youth-leader-l-toronto,-on-jobs.html
+                        - listitem [ref=e965]:
+                          - generic [ref=e966]:
+                            - text: "Salary Search:"
+                            - link "Manager, Jr. Youth Programs STEM Leaders (Grades 6-10) salaries in Toronto, ON" [ref=e967] [cursor=pointer]:
+                              - /url: /career/youth-leader/salaries/Toronto--ON?campaignid=serp-more&fromjk=6ba1a10580e5c34d&from=serp-more
+              - listitem
+              - listitem [ref=e969]:
+                - generic [ref=e971]:
+                  - generic:
+                    - generic [ref=e974]:
+                      - heading "full details of Manager, Sr. Youth Programs STEM Leaders (Grades 10-12+)" [level=2] [ref=e976]:
+                        - button "full details of Manager, Sr. Youth Programs STEM Leaders (Grades 10-12+)" [ref=e977] [cursor=pointer]: Manager, Sr. Youth Programs STEM Leaders (Grades 10-12+)
+                      - generic [ref=e978]:
+                        - generic [ref=e980]:
+                          - generic [ref=e982]: Visions of Science Network for Learning
+                          - generic [ref=e983]: Toronto, ON
+                        - list [ref=e985]:
+                          - listitem [ref=e986]:
+                            - generic [ref=e989]: From $70,000 a year
+                          - listitem [ref=e990]:
+                            - generic [ref=e993]: Permanent
+                          - listitem [ref=e994]:
+                            - generic [ref=e997]: Dental care
+                          - listitem [ref=e998]:
+                            - generic [ref=e1001]: Employee assistance program
+                          - listitem [ref=e1002]:
+                            - generic [ref=e1005]: Extended health care
+                      - button "Save job Toggle" [ref=e1007] [cursor=pointer]:
+                        - img [ref=e1008]
+                    - generic [ref=e1010]:
+                      - list [ref=e1012]:
+                        - listitem [ref=e1013]: Develop adaptable yet standardized curriculum models that meet the distinct developmental needs of high school students and alumni while maintaining program…
+                      - list [ref=e1017]:
+                        - listitem [ref=e1018]:
+                          - generic [ref=e1019]:
+                            - text: View all
+                            - link "Visions of Science Network for Learning jobs" [ref=e1020] [cursor=pointer]:
+                              - /url: /q-visions-of-science-network-for-learning-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e1021] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Youth Leader jobs in Toronto, ON" [ref=e1022] [cursor=pointer]:
+                              - /url: /q-youth-leader-l-toronto,-on-jobs.html
+                        - listitem [ref=e1023]:
+                          - generic [ref=e1024]:
+                            - text: "Salary Search:"
+                            - link "Manager, Sr. Youth Programs STEM Leaders (Grades 10-12+) salaries in Toronto, ON" [ref=e1025] [cursor=pointer]:
+                              - /url: /career/youth-leader/salaries/Toronto--ON?campaignid=serp-more&fromjk=d30b255a5ffb0b0b&from=serp-more
+              - listitem
+            - navigation "pagination" [ref=e1027]:
+              - list [ref=e1028]:
+                - listitem [ref=e1029]:
+                  - link "1" [ref=e1030] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e1031]:
+                  - link "2" [ref=e1032] [cursor=pointer]:
+                    - /url: /jobs?q=Student+Success+Manager&l=Toronto%2C+ON&radius=25&start=10
+                - listitem [ref=e1033]:
+                  - link "3" [ref=e1034] [cursor=pointer]:
+                    - /url: /jobs?q=Student+Success+Manager&l=Toronto%2C+ON&radius=25&start=20
+                - listitem [ref=e1035]:
+                  - link "Next page" [ref=e1036] [cursor=pointer]:
+                    - /url: /jobs?q=Student+Success+Manager&l=Toronto%2C+ON&radius=25&start=10
+                    - img [ref=e1037]
+            - generic [ref=e1043]:
+              - generic [ref=e1044]:
+                - generic [ref=e1046]:
+                  - text: Get email updates for the latest
+                  - strong [ref=e1047]: Student Success Manager
+                  - text: jobs in
+                  - strong [ref=e1048]: Toronto, ON
+                - generic [ref=e1049] [cursor=pointer]:
+                  - switch [ref=e1050]
+                  - img [ref=e1053]
+              - paragraph [ref=e1056]:
+                - text: By creating a job alert, you agree to our
+                - link "Terms (opens in a new tab)" [ref=e1057] [cursor=pointer]:
+                  - /url: /legal?hl=en
+                  - text: Terms
+                  - img [ref=e1058]
+                - text: . You can change your consent settings at any time by unsubscribing or as detailed in our terms.
+            - generic [ref=e1061]:
+              - heading "Career Resources:" [level=2] [ref=e1062]
+              - list [ref=e1063]:
+                - text: "-"
+                - listitem [ref=e1064]:
+                  - link "Explore High Paying Jobs" [ref=e1065] [cursor=pointer]:
+                    - /url: /explorer/
+          - generic "Job Post Details" [ref=e1067]:
+            - button "Return to Search Result" [ref=e1068]
+            - heading "Job Post Details" [level=2] [ref=e1069]
+            - generic [ref=e1073]:
+              - generic [ref=e1075]:
+                - generic [ref=e1076]:
+                  - heading "Family Success Manager/Senior Progress Manager - job post" [level=2] [ref=e1078]:
+                    - generic [ref=e1079]:
+                      - text: Family Success Manager/Senior Progress Manager
+                      - generic [ref=e1080]: "- job post"
+                  - generic [ref=e1084]:
+                    - link "InGenius Prep (opens in a new tab)" [ref=e1088] [cursor=pointer]:
+                      - /url: https://ca.indeed.com/cmp/Ingenius-Prep-1?campaignid=mobvjcmp&from=mobviewjob&tk=1jkrfrkdegcsv800&fromjk=29f9aee50ce47477
+                      - text: InGenius Prep
+                      - img [ref=e1089]
+                    - generic [ref=e1092]: 5120 Yonge Street, Toronto, ON
+                - generic [ref=e1093]:
+                  - generic [ref=e1095]:
+                    - generic [ref=e1096]: $45,000–$60,000 a year
+                    - generic [ref=e1097]: "- Permanent, Full-time"
+                  - generic [ref=e1101]: Responded to 51-74% of applications in the past 30 days, typically within 3 days.
+                - generic [ref=e1312]:
+                  - generic [ref=e1313]:
+                    - link "InGenius Prep (opens in a new tab)" [ref=e1315] [cursor=pointer]:
+                      - /url: https://ca.indeed.com/cmp/Ingenius-Prep-1?campaignid=mobvjcmp&from=mobviewjob&tk=1jkrfrkdegcsv800&fromjk=29f9aee50ce47477
+                      - text: InGenius Prep
+                      - img [ref=e1316]
+                    - separator [ref=e1318]
+                    - generic [ref=e1319]:
+                      - generic [ref=e1321]: 5120 Yonge Street, Toronto, ON
+                      - separator [ref=e1322]
+                  - generic [ref=e1324]: $45,000–$60,000 a year
+                - generic [ref=e1103]:
+                  - button "Apply now opens in a new tab" [ref=e1111] [cursor=pointer]:
+                    - generic [ref=e1325]: Apply now
+                  - button "Save job" [ref=e1117] [cursor=pointer]:
+                    - img "save-icon" [ref=e1118]
+                  - button "Share job" [ref=e1120] [cursor=pointer]
+              - generic [ref=e1123]:
+                - generic [ref=e1124]:
+                  - generic [ref=e1130]:
+                    - generic [ref=e1131]:
+                      - heading "Job details" [level=2] [ref=e1133]
+                      - generic [ref=e1134]:
+                        - group "Pay" [ref=e1135]:
+                          - img [ref=e1136]
+                          - generic [ref=e1138]:
+                            - heading "Pay" [level=3] [ref=e1139]
+                            - list [ref=e1141]:
+                              - listitem [ref=e1142]:
+                                - generic [ref=e1147]: $45,000–$60,000 a year
+                        - group "Job type" [ref=e1148]:
+                          - img [ref=e1149]
+                          - generic [ref=e1152]:
+                            - heading "Job type" [level=3] [ref=e1153]
+                            - list [ref=e1155]:
+                              - listitem [ref=e1156]:
+                                - generic [ref=e1161]: Permanent
+                              - listitem [ref=e1162]:
+                                - generic [ref=e1167]: Full-time
+                    - separator [ref=e1168]:
+                      - generic [ref=e1169]: "&nbsp;"
+                  - generic [ref=e1170]:
+                    - heading "Location" [level=2] [ref=e1171]
+                    - generic [ref=e1172]:
+                      - img [ref=e1173]
+                      - generic [ref=e1176]: 5120 Yonge Street, Toronto, ON
+                    - separator [ref=e1177]:
+                      - generic [ref=e1178]: "&nbsp;"
+                  - heading "Full job description" [level=2] [ref=e1180]
+                  - generic [ref=e1181]:
+                    - paragraph [ref=e1182]: �� 岗位使命｜Position Purpose
+                    - paragraph [ref=e1183]: 我们正在寻找一位细致、可靠、善于沟通的进度管理老师，成为学生与家长在整个留学规划旅程中的陪伴者和桥梁。您将代表公司与家长保持高质量、持续的沟通，同时与内部导师团队紧密协作，确保服务顺利进行。
+                    - paragraph [ref=e1184]: We’re looking for a thoughtful, dependable, and communicative Progress Manager to act as a trusted bridge between families and our internal advising team. You’ll be the key point of contact for parents throughout their child’s study abroad journey—providing timely updates, thoughtful recommendations, and genuine care as their child progresses toward their goals.
+                    - paragraph [ref=e1185]: �� 岗位职责｜Key Responsibilities1. 家长最安心的沟通窗口
+                    - paragraph [ref=e1186]: The Trusted Contact for Families
+                    - paragraph [ref=e1187]: ● 主动与家长建立长期、积极的沟通关系，及时反馈学生在学业、申请等方面的进展
+                    - paragraph [ref=e1188]: ● 了解每个家庭的关注点、沟通习惯和期望，给予适当建议和情绪支持
+                    - paragraph [ref=e1189]: ● 遇到问题时，第一时间回应与协调，让家长感到被理解和支持
+                    - paragraph [ref=e1190]: ● 基于学生学习路径的变化或新目标，协助匹配相关的支持产品，如课程、导师服务或外部资源
+                    - paragraph [ref=e1191]: ● 收集反馈并协助服务流程优化，提升客户口碑与转介绍率
+                    - paragraph [ref=e1192]: ● Build long-term, positive relationships with families and keep them informed on academic planning and application progress
+                    - paragraph [ref=e1193]: ● Understand each family’s concerns, preferences, and expectations, offering encouragement and insight
+                    - paragraph [ref=e1194]: ● Respond promptly and helpfully when challenges arise, ensuring families always feel heard and supported
+                    - paragraph [ref=e1195]: ● Proactively suggest internal offerings—such as courses, mentorship, or partner programs—based on the student’s progress and future goals
+                    - paragraph [ref=e1196]: ● Collect feedback to support continuous improvement of the customer journey and enhance client satisfaction and referral rates
+                    - paragraph [ref=e1197]: 2. 项目进度与服务质量保障
+                    - paragraph [ref=e1198]: Project Progress & Service Quality Oversight
+                    - paragraph [ref=e1199]: ● 与升学导师、前招生官顾问、项目管理老师协同，确保服务满足家庭需求
+                    - paragraph [ref=e1200]: ● 当导师团队为学生制定升学辅导路径，选校计划、申请规划时，将家庭需求和考量及时反馈和体现在规划中
+                    - paragraph [ref=e1201]: ● 跟踪服务完成率、家长沟通记录、学生状态等关键数据，提前识别服务风险并介入协调
+                    - paragraph [ref=e1202]: ● Collaborate closely with Graduate Coach, Former Admissions Officer, and course managers to ensure services are delivered to fulfill family needs.
+                    - paragraph [ref=e1203]: ● Contribute and integrate the family’s needs and perspectives when the counselor team develops roadmaps, application plans, and school lists, etc., for the student
+                    - paragraph [ref=e1204]: ●
+                    - paragraph [ref=e1205]: ● Track key performance indicators such as service completion rates, parent feedback records, and student engagement to identify risks early and intervene when necessary
+                    - paragraph [ref=e1206]: 3. 跨部门沟通与协作
+                    - paragraph [ref=e1207]: Cross-Department Collaboration
+                    - paragraph [ref=e1208]: ● 向教研、课程、运营等团队反馈家庭需求
+                    - paragraph [ref=e1209]: ● 协调内部导师与外部家长的信息流通，确保表达一致、节奏统一
+                    - paragraph [ref=e1210]: ● Share frontline insights about family’s needs with curriculum, operations, and product teams
+                    - paragraph [ref=e1211]: ● Coordinate all communication between internal advisors and external parents, ensuring messaging is aligned and delivery meets family needs
+                    - paragraph [ref=e1212]: �� 任职资格｜Qualifications
+                    - paragraph [ref=e1213]: ● 本科及以上学历，教育、心理、管理、传播等相关专业优先
+                    - paragraph [ref=e1214]: ● 2 年以上教育服务、客户成功、项目管理或高端客户服务相关经验
+                    - paragraph [ref=e1215]: ● 具备优秀的沟通表达能力，情绪稳定，能应对高期望客户群体
+                    - paragraph [ref=e1216]: ● 具有项目意识，逻辑清晰，能在多任务中理顺优先级并持续推动进展
+                    - paragraph [ref=e1217]: ● 英语流利，能够与海外导师或家长直接沟通
+                    - paragraph [ref=e1218]: ● 有国际教育背景或熟悉美本 / 英联邦留学体系者优先
+                    - paragraph [ref=e1219]: ● Bachelor’s degree or above; background in education, psychology, communication, or business management preferred
+                    - paragraph [ref=e1220]: ● At least 2 years of experience in education services, customer success, account management, or high-touch client support
+                    - paragraph [ref=e1221]: ● Excellent verbal and written communication skills; calm under pressure; able to handle high-expectation clients with professionalism
+                    - paragraph [ref=e1222]: ● Strong project management mindset and ability to multitask, prioritize, and drive execution across complex service plans
+                    - paragraph [ref=e1223]: ● Proficiency in English and/or ability to communicate directly with overseas advisors and parents
+                    - paragraph [ref=e1224]: ● Familiarity with U.S./U.K. admissions systems or previous experience in international education is a plus
+                    - paragraph [ref=e1225]: ��️ 加分项｜Preferred but Not Required
+                    - paragraph [ref=e1226]: ● 熟悉 Google 协作工具（Gmail、Docs、Chat、Gemini 等）
+                    - paragraph [ref=e1227]: ● 能够常态使用 AI 工具提高效率
+                    - paragraph [ref=e1228]: ● 有一线留学咨询、升学规划、文书指导经验
+                    - paragraph [ref=e1229]: ● 拥有乐观开放的心态，在面对变化和挑战时能够保持积极、务实的解决问题态度；善于团队协作，具备耐心与共情力，能够在复杂情境中建立信任、维持高质量的沟通关系
+                    - paragraph [ref=e1230]: ● Experience with Google products (Gmail, Docs, Chat, Gemini, etc.) or other collaboration tools
+                    - paragraph [ref=e1231]: ● Regularly use AI tools to enhance productivity
+                    - paragraph [ref=e1232]: ● Previous experience in college counseling, academic advising, or application support
+                    - paragraph [ref=e1233]: ● Brings an optimistic and open mindset, with a proactive and solution-oriented approach to challenges; a collaborative team player who demonstrates patience and empathy, and builds trust even in complex or high-pressure situations
+                    - paragraph [ref=e1234]: �� 你将获得｜What We Offer
+                    - paragraph [ref=e1235]: ● 与全球多样的客户、导师合作的机会
+                    - paragraph [ref=e1236]: ● 参与打造顶尖留学案例，见证学生成长与突破
+                    - paragraph [ref=e1237]: ● 专业 + 温暖并重的跨职能协作团队氛围
+                    - paragraph [ref=e1238]: ● 以客户成果为导向、真正有价值感的工作模式
+                    - paragraph [ref=e1239]: ● 推荐客户等相关的额外奖励
+                    - paragraph [ref=e1240]: ● Collaborate with diverse clients and counselors around the world
+                    - paragraph [ref=e1241]: ● Be part of a team that helps students reach transformative admissions outcomes
+                    - paragraph [ref=e1242]: ● A professional, collaborative, and mission-aligned work environment
+                    - paragraph [ref=e1243]: ● A meaningful role where your efforts directly improve lives and futures
+                    - paragraph [ref=e1244]: ● Bonus related to referral or upsell
+                    - paragraph [ref=e1245]: "Job Types: Full-time, Permanent"
+                    - paragraph [ref=e1246]: "Pay: $45,000.00-$60,000.00 per year"
+                    - paragraph [ref=e1247]: "Language:"
+                    - list [ref=e1248]:
+                      - listitem [ref=e1249]: Mandarin (required)
+                  - separator [ref=e1250]:
+                    - generic [ref=e1251]: "&nbsp;"
+                - button "Report job" [ref=e1258] [cursor=pointer]: Report job
+            - button "Return to Search Result" [ref=e1260]
+      - contentinfo [ref=e1265]:
+        - generic [ref=e1266]:
+          - list [ref=e1267]:
+            - listitem [ref=e1268]:
+              - link "Hiring Lab" [ref=e1270] [cursor=pointer]:
+                - /url: https://www.hiringlab.org/en-ca/
+            - listitem [ref=e1271]:
+              - link "Career advice" [ref=e1273] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career-advice
+            - listitem [ref=e1274]:
+              - link "Browse jobs" [ref=e1276] [cursor=pointer]:
+                - /url: https://ca.indeed.com/browsejobs
+            - listitem [ref=e1277]:
+              - link "Browse companies" [ref=e1279] [cursor=pointer]:
+                - /url: https://ca.indeed.com/companies/browse-companies
+            - listitem [ref=e1280]:
+              - link "Salaries" [ref=e1282] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career/salaries
+            - listitem [ref=e1283]:
+              - link "Indeed Events" [ref=e1285] [cursor=pointer]:
+                - /url: https://www.indeedevents.com/en-ca/
+            - listitem [ref=e1286]:
+              - link "Work at Indeed" [ref=e1288] [cursor=pointer]:
+                - /url: https://ca.indeed.com/cmp/Indeed/about
+            - listitem [ref=e1289]:
+              - link "Countries" [ref=e1291] [cursor=pointer]:
+                - /url: https://ca.indeed.com/worldwide
+            - listitem [ref=e1292]:
+              - link "About" [ref=e1294] [cursor=pointer]:
+                - /url: https://ca.indeed.com/about
+            - listitem [ref=e1295]:
+              - link "Help" [ref=e1297] [cursor=pointer]:
+                - /url: https://ca.indeed.com/help
+            - listitem [ref=e1298]:
+              - link "ESG at Indeed" [ref=e1300] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg?from=gnav-jobsearch--indeedmobile
+          - list [ref=e1301]:
+            - listitem [ref=e1302]: © 2026 Indeed
+            - listitem [ref=e1303]:
+              - link "Accessibility at Indeed" [ref=e1305] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg/accessibility?hl=en
+            - listitem [ref=e1306]:
+              - link "Privacy Centre and Ad Choices" [ref=e1308] [cursor=pointer]:
+                - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+            - listitem [ref=e1309]:
+              - link "Terms" [ref=e1311] [cursor=pointer]:
+                - /url: https://ca.indeed.com/legal?hl=en
+          - list:
+            - listitem

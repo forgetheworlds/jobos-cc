@@ -1,0 +1,103 @@
+# =====================================================================
+# ROUTE POLICY — Your Comfort Level with Different Application Methods
+# =====================================================================
+#
+# This file controls how JobOS applies to jobs on your behalf.
+# Different jobs have different application methods — some use forms,
+# some use email, some redirect to other websites. This file tells
+# JobOS what you're comfortable with.
+#
+# During setup (Phase 7), you'll be asked about each route type.
+# Update these settings anytime by running /setup again.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# EMAIL APPLICATIONS
+# ----------------------------------------------------------------------------
+# Some jobs let you apply by emailing your materials directly.
+# This setting controls whether JobOS can send emails for you.
+
+email_allowed: false  # Change to: true if you want JobOS to send emails
+                      # If false, JobOS will draft emails for you to review and send
+
+# ----------------------------------------------------------------------------
+# BROWSER FORMS
+# ----------------------------------------------------------------------------
+# Many jobs use online application forms (like Workday, Taleo, etc.).
+# JobOS can fill these forms automatically, but you control how much.
+
+auto_browse_redirects: false  # Change to: true if JobOS should auto-follow links
+                            # When you click "Apply" and it redirects to another site,
+                            # should JobOS automatically follow and figure out what to do?
+                            # If false, JobOS will pause and let you decide.
+
+account_creation_ok: false  # Change to: true if JobOS can create accounts on job portals
+                           # Some sites require you to create an account before applying.
+                           # If true, JobOS will create accounts using your job search email.
+                           # If false, JobOS will pause and ask you to create the account.
+
+# ----------------------------------------------------------------------------
+# CONFIDENCE THRESHOLDS
+# ----------------------------------------------------------------------------
+# JobOS scores how well jobs fit you (1-10 scale). These scores determine
+# how much automation happens. Lower score = more human review needed.
+
+confidence_threshold_manual_confirm: 0.7  # On a scale of 0-1, how confident must JobOS be
+                                        # before preparing materials without asking you first?
+                                        # 0.7 = "pretty confident" (7/10 fit score)
+                                        # 1.0 = "only perfect matches"
+                                        # 0.0 = "prepare everything, I'll review later"
+
+# Below this threshold: materials require manual review before submission
+# At or above this threshold: materials may proceed automatically (depending on execution_policy.yml)
+
+# ----------------------------------------------------------------------------
+# ROUTING RULES
+# ----------------------------------------------------------------------------
+# These rules control which jobs get processed and which get skipped.
+
+routing:
+  # Jobs scoring below this number are rejected automatically
+  rejection_score: 4.0  # 1-10 scale. Jobs below 4.0 are not a good fit.
+
+  # Jobs scoring in this range require extra review
+  review_min_score: 5.0   # Jobs scoring 5.0-6.9 are "maybe" — review carefully
+  review_max_score: 6.9
+
+  # Jobs scoring at or above confidence_threshold (0.7 = 7/10) may be
+  # auto-prepared depending on your execution_policy.yml auto_prepare setting
+
+# ----------------------------------------------------------------------------
+# HUMAN CHECKPOINT TRIGGERS
+# ----------------------------------------------------------------------------
+# Situations where JobOS should always pause and ask you first.
+# Add specific conditions that matter to you.
+
+require_human_review_when:
+  - "Salary below minimum acceptable range"  # Example: if job pays less than you want
+  - "Red flag phrase detected in posting"    # Example: "commission-based", "sales-focused"
+  - "Institution type in avoided list"      # Example: for-profit college
+  - "Confidence score below threshold"       # Not a clear match
+  # Add your own triggers here, for example:
+  # - "Requires relocation to a location I won't consider"
+  # - "Asks for skills I don't have"
+  # - "Unusual application process I should review"
+
+# ----------------------------------------------------------------------------
+# NOTIFICATION PREFERENCES
+# ----------------------------------------------------------------------------
+# When do you want JobOS to notify you about something?
+
+notify_on:
+  - "new_jobs_above_threshold: true"    # Tell me when new jobs score above my threshold
+  - "materials_ready_for_review: true"  # Tell me when materials are ready for my review
+  - "application_submitted: true"       # Tell me when an application was submitted
+  - "errors: true"                      # Always tell me about errors
+
+# =====================================================================
+# HOW TO UPDATE
+# =====================================================================
+# Run /setup and choose Phase 7 to update these settings through a
+# friendly conversation. Or edit this file directly — just change
+# false to true (or vice versa) and adjust numbers as needed.
+# =====================================================================

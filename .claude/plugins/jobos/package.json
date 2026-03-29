@@ -1,0 +1,20 @@
+{
+  "name": "jobos-cc",
+  "version": "2.0.0",
+  "description": "JobOS-CC framework scripts — state validation, queue management, event logging, packet validation",
+  "type": "module",
+  "scripts": {
+    "init": "bun run scripts/init-jobos.ts",
+    "validate-state": "bun run scripts/validate-state.ts",
+    "queue-advance": "bun run scripts/queue-advance.ts",
+    "merge-discoveries": "bun run scripts/merge-discoveries.ts",
+    "log-event": "bun run scripts/log-event.ts",
+    "route-job": "bun run scripts/route-job.ts",
+    "validate-packet": "bun run scripts/validate-packet.ts",
+    "generate-report": "bun run scripts/generate-report.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "bun-types": "^1.1.0"
+  }
+}

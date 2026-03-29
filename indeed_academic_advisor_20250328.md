@@ -1,0 +1,1029 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#gnav-header-end"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - navigation "Primary" [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - button "Skip to main content" [ref=e12] [cursor=pointer]:
+                - generic [ref=e13]: Skip to main content
+              - link "Indeed Home" [ref=e14] [cursor=pointer]:
+                - /url: /?from=gnav-jobsearch--indeedmobile
+                - img [ref=e16]
+              - list [ref=e18]:
+                - listitem [ref=e19]:
+                  - link "Home" [ref=e21] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/
+                - listitem [ref=e22]:
+                  - link "Company reviews" [ref=e24] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/companies
+                - listitem [ref=e25]:
+                  - link "Salary guide" [ref=e27] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/career/salaries
+            - generic [ref=e28]:
+              - list [ref=e29]:
+                - listitem [ref=e30]:
+                  - link "Sign in" [ref=e33] [cursor=pointer]:
+                    - /url: https://secure.indeed.com/auth?hl=en_CA&co=CA&continue=https%3A%2F%2Fca.indeed.com%2Fjobs%3Fq%3DAcademic%2BAdvisor%26l%3DToronto%252C%2BON&tmpl=desktop&from=gnav-util-jobsearch--indeedmobile&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Den_CA%26co%3DCA%26from%3Dgnav-jobsearch--indeedmobile&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess
+              - radiogroup "Language options" [ref=e36]:
+                - radio "English" [checked] [disabled] [ref=e38]:
+                  - generic [ref=e39]: En
+                  - generic [ref=e40]: English
+                - radio "Français" [ref=e42] [cursor=pointer]:
+                  - generic [ref=e43]: Fr
+                  - generic [ref=e44]: Français
+              - link "Employers / Post Job" [ref=e49] [cursor=pointer]:
+                - /url: https://ca.indeed.com/hire?co=CA&hl=en
+          - generic [ref=e50]: Start of main content
+      - generic [ref=e52]:
+        - search [ref=e57]:
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: "Keyword : all jobs"
+                - generic [ref=e67]:
+                  - img [ref=e69]
+                  - 'combobox "search: Job title, keywords, or company" [ref=e71]': Academic Advisor
+                  - button "Clear what input" [ref=e73] [cursor=pointer]:
+                    - img [ref=e74]
+              - separator [ref=e76]:
+                - generic [ref=e77]: "&nbsp;"
+              - generic [ref=e78]:
+                - generic [ref=e79]: Edit location input box label
+                - generic [ref=e82]:
+                  - img [ref=e84]
+                  - combobox "Edit location" [ref=e86]: Toronto, ON
+                  - button "Clear location input" [ref=e88] [cursor=pointer]:
+                    - img [ref=e89]
+            - button "Find jobs" [ref=e92] [cursor=pointer]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - button "Pay filter" [ref=e97] [cursor=pointer]:
+                - text: Pay
+                - img [ref=e98]
+            - listitem [ref=e101]:
+              - button "Remote filter" [ref=e103] [cursor=pointer]:
+                - text: Remote
+                - img [ref=e104]
+            - listitem [ref=e107]:
+              - button "Within 25 kilometres filter" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: Within 25 kilometres
+                - img [ref=e112]
+            - listitem [ref=e115]:
+              - button "Job type filter" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: Job type
+                - generic [ref=e118]: filter
+                - img [ref=e120]
+            - listitem [ref=e123]:
+              - button "Job Language filter" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Job Language
+                - img [ref=e128]
+            - listitem [ref=e131]:
+              - button "Date posted filter" [ref=e133] [cursor=pointer]:
+                - text: Date posted
+                - img [ref=e134]
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - link "Post your resume" [ref=e145] [cursor=pointer]:
+                - /url: /promo/resume?from=serptop3&subfrom=resprmrtop&trk.origin=jobsearch&trk.variant=resprmrtop&trk.tk=1jkrfue2egc2g87h
+              - text: and find your next job on Indeed!
+              - separator [ref=e146]:
+                - generic [ref=e147]: "&nbsp;"
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "Academic Advisor jobs in Toronto, ON" [level=1] [ref=e150]
+                - button "help icon" [ref=e153] [cursor=pointer]:
+                  - img "help icon" [ref=e154]
+              - generic [ref=e158]:
+                - generic [ref=e159]: "Sort by:"
+                - generic [ref=e160]:
+                  - text: relevance -
+                  - 'link "Sort by: date" [ref=e161] [cursor=pointer]':
+                    - /url: /jobs?q=Academic%20Advisor&l=Toronto%2C%20ON&sort=date
+                    - text: date
+            - list [ref=e165]:
+              - listitem
+              - listitem [ref=e166]:
+                - generic [ref=e168]:
+                  - generic:
+                    - generic [ref=e171]:
+                      - heading "full details of Employment & Education Partnerships Coordinator" [level=2] [ref=e173]:
+                        - button "full details of Employment & Education Partnerships Coordinator" [pressed] [ref=e174] [cursor=pointer]: Employment & Education Partnerships Coordinator
+                      - generic [ref=e175]:
+                        - generic [ref=e177]:
+                          - generic [ref=e179]: StepStones For Youth
+                          - generic [ref=e180]: Toronto, ON
+                        - list [ref=e182]:
+                          - listitem [ref=e183]:
+                            - generic [ref=e186]: Part-time
+                        - generic [ref=e188]:
+                          - img [ref=e189]
+                          - generic [ref=e191]: Easily apply
+                      - button "Save job Toggle" [ref=e195] [cursor=pointer]:
+                        - img [ref=e196]
+                    - generic [ref=e198]:
+                      - list [ref=e200]:
+                        - listitem [ref=e201]: "Collaborates Closely With: Program Team."
+                        - listitem [ref=e202]: The Employment & Education Partnerships Coordinator plays a central role in supporting StepStones youth to access…
+                      - list [ref=e206]:
+                        - listitem [ref=e207]:
+                          - generic [ref=e208]:
+                            - text: View all
+                            - link "StepStones For Youth jobs" [ref=e209] [cursor=pointer]:
+                              - /url: /q-stepstones-for-youth-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e210] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Education Partnership Manager jobs in Toronto, ON" [ref=e211] [cursor=pointer]:
+                              - /url: /q-education-partnership-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e212]:
+                          - generic [ref=e213]:
+                            - text: "Salary Search:"
+                            - link "Employment & Education Partnerships Coordinator salaries in Toronto, ON" [ref=e214] [cursor=pointer]:
+                              - /url: /career/education-partnership-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=56e058e4d80a6157&from=serp-more
+                        - listitem [ref=e215]:
+                          - generic [ref=e216]:
+                            - text: See popular
+                            - link "questions & answers about StepStones For Youth" [ref=e217] [cursor=pointer]:
+                              - /url: /cmp/Stepstones-For-Youth-1/faq
+              - listitem [ref=e219]:
+                - generic [ref=e221]:
+                  - generic:
+                    - generic [ref=e224]:
+                      - generic [ref=e225]:
+                        - heading "full details of Educational Case Manager" [level=2] [ref=e226]:
+                          - button "full details of Educational Case Manager" [ref=e227] [cursor=pointer]: Educational Case Manager
+                        - generic [ref=e231]: Often responds within 1 day
+                      - generic [ref=e232]:
+                        - generic [ref=e234]:
+                          - generic [ref=e236]: Tutor Me Education
+                          - generic [ref=e237]: Toronto, ON
+                        - list [ref=e239]:
+                          - listitem [ref=e240]:
+                            - generic [ref=e243]: Full-time
+                          - listitem [ref=e244]:
+                            - generic [ref=e247]: Paid time off
+                        - generic [ref=e249]:
+                          - img [ref=e250]
+                          - generic [ref=e252]: Easily apply
+                      - button "Save job Toggle" [ref=e256] [cursor=pointer]:
+                        - img [ref=e257]
+                    - generic [ref=e259]:
+                      - list [ref=e261]:
+                        - listitem [ref=e262]: Monitor all students’ academic progress.
+                        - listitem [ref=e263]: Provide outstanding academic services to students and their families.
+                        - listitem [ref=e264]: Time management, planning, and prioritization.
+                      - list [ref=e268]:
+                        - listitem [ref=e269]:
+                          - generic [ref=e270]:
+                            - text: View all
+                            - link "Tutor Me Education jobs" [ref=e271] [cursor=pointer]:
+                              - /url: /q-tutor-me-education-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e272] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Case Manager jobs in Toronto, ON" [ref=e273] [cursor=pointer]:
+                              - /url: /q-case-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e274]:
+                          - generic [ref=e275]:
+                            - text: "Salary Search:"
+                            - link "Educational Case Manager salaries in Toronto, ON" [ref=e276] [cursor=pointer]:
+                              - /url: /career/case-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=3af5ff38f31b2a1b&from=serp-more
+              - listitem [ref=e278]:
+                - generic [ref=e280]:
+                  - generic:
+                    - generic [ref=e283]:
+                      - generic [ref=e284]:
+                        - heading "full details of University Counsellor" [level=2] [ref=e285]:
+                          - button "full details of University Counsellor" [ref=e286] [cursor=pointer]: University Counsellor
+                        - generic [ref=e290]: Often responds within 1 day
+                      - generic [ref=e291]:
+                        - generic [ref=e293]:
+                          - generic [ref=e295]: Bishop Strachan School
+                          - generic [ref=e296]: Toronto, ON M4V 1X2
+                        - list [ref=e298]:
+                          - listitem [ref=e299]:
+                            - generic [ref=e302]: $69,000–$134,000 a year
+                          - listitem [ref=e303]:
+                            - generic [ref=e306]: Full-time
+                          - listitem [ref=e307]:
+                            - generic [ref=e310]: Dental care
+                        - generic [ref=e312]:
+                          - img [ref=e313]
+                          - generic [ref=e315]: Easily apply
+                      - button "Save job Toggle" [ref=e319] [cursor=pointer]:
+                        - img [ref=e320]
+                    - generic [ref=e322]:
+                      - list [ref=e324]:
+                        - listitem [ref=e325]: Rates are set to increase for the 2026–2027 academic year.
+                        - listitem [ref=e326]: Builds meaningful relationships with students and their families based on knowing students’…
+                      - list [ref=e330]:
+                        - listitem [ref=e331]:
+                          - generic [ref=e332]:
+                            - text: View all
+                            - link "Bishop Strachan School jobs" [ref=e333] [cursor=pointer]:
+                              - /url: /q-bishop-strachan-school-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e334] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Counselor jobs in Toronto, ON" [ref=e335] [cursor=pointer]:
+                              - /url: /q-counselor-l-toronto,-on-jobs.html
+                        - listitem [ref=e336]:
+                          - generic [ref=e337]:
+                            - text: "Salary Search:"
+                            - link "University Counsellor salaries in Toronto, ON" [ref=e338] [cursor=pointer]:
+                              - /url: /career/counselor/salaries/Toronto--ON-M4V-1X2?campaignid=serp-more&fromjk=0f29806d2659db7d&from=serp-more
+                        - listitem [ref=e339]:
+                          - generic [ref=e340]:
+                            - text: See popular
+                            - link "questions & answers about Bishop Strachan School" [ref=e341] [cursor=pointer]:
+                              - /url: /cmp/The-Bishop-Strachan-School/faq
+              - listitem [ref=e343]:
+                - generic [ref=e345]:
+                  - generic:
+                    - generic [ref=e348]:
+                      - heading "full details of student recruiter - post-secondary education" [level=2] [ref=e350]:
+                        - button "full details of student recruiter - post-secondary education" [ref=e351] [cursor=pointer]: student recruiter - post-secondary education
+                      - generic [ref=e352]:
+                        - generic [ref=e354]:
+                          - generic [ref=e356]: BESTWAY EDUCATION
+                          - generic [ref=e357]: Mississauga, ON L4T 4J3
+                        - list [ref=e359]:
+                          - listitem [ref=e360]:
+                            - generic [ref=e363]: $38.50 an hour
+                          - listitem [ref=e364]:
+                            - generic [ref=e367]:
+                              - text: Full-time
+                              - generic [ref=e368]: "+1"
+                          - listitem [ref=e369]:
+                            - generic [ref=e372]: Paid time off
+                      - button "Save job Toggle" [ref=e374] [cursor=pointer]:
+                        - img [ref=e375]
+                    - generic [ref=e377]:
+                      - list [ref=e379]:
+                        - listitem [ref=e380]: Evaluate communication strategies and programs.
+                        - listitem [ref=e381]: Produce educational and publicity programs and informational materials to awaken curiosity and interest in the…
+                      - list [ref=e385]:
+                        - listitem [ref=e386]:
+                          - generic [ref=e387]:
+                            - text: View all
+                            - link "BESTWAY EDUCATION jobs" [ref=e388] [cursor=pointer]:
+                              - /url: /q-bestway-education-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e389] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Recruiter jobs in Mississauga, ON" [ref=e390] [cursor=pointer]:
+                              - /url: /q-recruiter-l-mississauga,-on-jobs.html
+                        - listitem [ref=e391]:
+                          - generic [ref=e392]:
+                            - text: "Salary Search:"
+                            - link "student recruiter - post-secondary education salaries in Mississauga, ON" [ref=e393] [cursor=pointer]:
+                              - /url: /career/recruiter/salaries/Mississauga--ON-L4T-4J3?campaignid=serp-more&fromjk=a81b232384b165a7&from=serp-more
+              - listitem [ref=e395]:
+                - generic [ref=e397]:
+                  - generic:
+                    - generic [ref=e400]:
+                      - heading "full details of Senior Manager, Admissions and Enrolment" [level=2] [ref=e402]:
+                        - button "full details of Senior Manager, Admissions and Enrolment" [ref=e403] [cursor=pointer]: Senior Manager, Admissions and Enrolment
+                      - generic [ref=e404]:
+                        - generic [ref=e406]:
+                          - generic [ref=e408]: International Business University
+                          - generic [ref=e409]: Toronto, ON
+                        - list [ref=e411]:
+                          - listitem [ref=e412]:
+                            - generic [ref=e415]: $90,000–$110,000 a year
+                          - listitem [ref=e416]:
+                            - generic [ref=e419]: Full-time
+                          - listitem [ref=e420]:
+                            - generic [ref=e423]: Tuition reimbursement
+                          - listitem [ref=e424]:
+                            - generic [ref=e427]: Paid time off
+                          - listitem [ref=e428]:
+                            - generic [ref=e431]: Dental care
+                          - listitem [ref=e432]:
+                            - generic [ref=e435]: Disability insurance
+                          - listitem [ref=e436]:
+                            - generic [ref=e439]: Extended health care
+                      - button "Save job Toggle" [ref=e441] [cursor=pointer]:
+                        - img [ref=e442]
+                    - generic [ref=e444]:
+                      - list [ref=e446]:
+                        - listitem [ref=e447]: Proven expertise in managing student information systems, enrolment workflows, and academic policy compliance.
+                        - listitem [ref=e448]: "Term: Full-time, Indefinite (40 hours/week)."
+                      - list [ref=e452]:
+                        - listitem [ref=e453]:
+                          - generic [ref=e454]:
+                            - text: View all
+                            - link "International Business University jobs" [ref=e455] [cursor=pointer]:
+                              - /url: /q-international-business-university-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e456] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Senior Enrollment Specialist jobs in Toronto, ON" [ref=e457] [cursor=pointer]:
+                              - /url: /q-senior-enrollment-specialist-l-toronto,-on-jobs.html
+                        - listitem [ref=e458]:
+                          - generic [ref=e459]:
+                            - text: "Salary Search:"
+                            - link "Senior Manager, Admissions and Enrolment salaries in Toronto, ON" [ref=e460] [cursor=pointer]:
+                              - /url: /career/senior-enrollment-specialist/salaries/Toronto--ON?campaignid=serp-more&fromjk=d28e938b8c204152&from=serp-more
+              - listitem
+              - listitem [ref=e462]:
+                - generic [ref=e464]:
+                  - generic:
+                    - generic [ref=e467]:
+                      - heading "full details of Director of Student Recruitment & Admissions for Secondary School" [level=2] [ref=e469]:
+                        - button "full details of Director of Student Recruitment & Admissions for Secondary School" [ref=e470] [cursor=pointer]: Director of Student Recruitment & Admissions for Secondary School
+                      - generic [ref=e471]:
+                        - generic [ref=e473]:
+                          - generic [ref=e475]: NOIC Academy
+                          - generic [ref=e476]: Markham, ON L3S 2H4
+                        - list [ref=e478]:
+                          - listitem [ref=e479]:
+                            - generic [ref=e482]:
+                              - text: Full-time
+                              - generic [ref=e483]: "+1"
+                          - listitem [ref=e484]:
+                            - generic [ref=e487]: Paid time off
+                          - listitem [ref=e488]:
+                            - generic [ref=e491]: Vision care
+                          - listitem [ref=e492]:
+                            - generic [ref=e495]: Dental care
+                          - listitem [ref=e496]:
+                            - generic [ref=e499]: Extended health care
+                          - listitem [ref=e500]:
+                            - generic [ref=e503]: On-site parking
+                        - generic [ref=e505]:
+                          - img [ref=e506]
+                          - generic [ref=e508]: Easily apply
+                      - button "Save job Toggle" [ref=e512] [cursor=pointer]:
+                        - img [ref=e513]
+                    - list [ref=e517]:
+                      - listitem [ref=e518]: Highlight the school's academic programs, extracurricular offerings, and university outcomes to attract high-quality applicants.
+              - listitem [ref=e520]:
+                - generic [ref=e522]:
+                  - generic:
+                    - generic [ref=e525]:
+                      - heading "full details of High School Guidance & Academic Coordinator" [level=2] [ref=e527]:
+                        - button "full details of High School Guidance & Academic Coordinator" [ref=e528] [cursor=pointer]: High School Guidance & Academic Coordinator
+                      - generic [ref=e529]:
+                        - generic [ref=e531]:
+                          - generic [ref=e533]: Canada International Global Education
+                          - generic [ref=e534]: Toronto, ON M1V 4S3
+                        - list [ref=e536]:
+                          - listitem [ref=e537]:
+                            - generic [ref=e540]: $20–$30 an hour
+                          - listitem [ref=e541]:
+                            - generic [ref=e544]:
+                              - text: Full-time
+                              - generic [ref=e545]: "+1"
+                          - listitem [ref=e546]:
+                            - generic [ref=e549]: 25 to 36 hours per week
+                        - generic [ref=e551]:
+                          - img [ref=e552]
+                          - generic [ref=e554]: Easily apply
+                      - button "Save job Toggle" [ref=e558] [cursor=pointer]:
+                        - img [ref=e559]
+                    - list [ref=e563]:
+                      - listitem [ref=e564]: "Student Supervision: Supervise study periods and common areas, ensuring a focused and professional academic environment."
+                      - listitem [ref=e565]: "Job Types: Full-time, Part-time."
+              - listitem [ref=e567]:
+                - generic [ref=e569]:
+                  - generic:
+                    - generic [ref=e572]:
+                      - heading "full details of Student Services Coordinator (Mississauga Campus)" [level=2] [ref=e574]:
+                        - button "full details of Student Services Coordinator (Mississauga Campus)" [ref=e575] [cursor=pointer]: Student Services Coordinator (Mississauga Campus)
+                      - generic [ref=e576]:
+                        - generic [ref=e578]:
+                          - generic [ref=e580]: Anderson College of Health, Business & Technology
+                          - generic [ref=e581]: Mississauga, ON L5B 2N6
+                        - list [ref=e583]:
+                          - listitem [ref=e584]:
+                            - generic [ref=e587]: $40,000–$45,000 a year
+                          - listitem [ref=e588]:
+                            - generic [ref=e591]: Full-time
+                          - listitem [ref=e592]:
+                            - generic [ref=e595]: Monday to Friday
+                          - listitem [ref=e596]:
+                            - generic [ref=e599]: Paid time off
+                          - listitem [ref=e600]:
+                            - generic [ref=e603]: Dental care
+                          - listitem [ref=e604]:
+                            - generic [ref=e607]: Extended health care
+                        - generic [ref=e609]:
+                          - img [ref=e610]
+                          - generic [ref=e612]: Easily apply
+                      - button "Save job Toggle" [ref=e616] [cursor=pointer]:
+                        - img [ref=e617]
+                    - list [ref=e621]:
+                      - listitem [ref=e622]: The ideal candidate will have previous experience in a similar role and be passionate about helping mature students achieve their goals.
+              - listitem [ref=e624]:
+                - generic [ref=e626]:
+                  - generic:
+                    - generic [ref=e629]:
+                      - heading "full details of Education Coordinator" [level=2] [ref=e631]:
+                        - button "full details of Education Coordinator" [ref=e632] [cursor=pointer]: Education Coordinator
+                      - generic [ref=e633]:
+                        - generic [ref=e635]:
+                          - generic [ref=e637]: Oxford Learning Centres, Inc.
+                          - generic [ref=e638]: Toronto, ON M4T 1M9
+                        - list [ref=e640]:
+                          - listitem [ref=e641]:
+                            - generic [ref=e644]: Up to $18 an hour
+                          - listitem [ref=e645]:
+                            - generic [ref=e648]:
+                              - text: Full-time
+                              - generic [ref=e649]: "+1"
+                          - listitem [ref=e650]:
+                            - generic [ref=e653]: Weekends as needed
+                        - generic [ref=e655]:
+                          - img [ref=e656]
+                          - generic [ref=e658]: Easily apply
+                      - link "View similar jobs with this employer" [ref=e661] [cursor=pointer]:
+                        - /url: /addlLoc/redirect?tk=1jkrfue2egc2g87h&jk=14d9eb7954cf50f0&dest=%2Fjobs%3Fq%3DAcademic%2BAdvisor%26nl%3D%26l%3DToronto%252C%2BON%26radius%3D25%26grpKey%3D8gcFdG5mZWy4D_DADaoQIgoJbm9ybXRpdGxlGhVlZHVjYXRpb24gY29vcmRpbmF0b3I%253D
+                      - button "Save job Toggle" [ref=e663] [cursor=pointer]:
+                        - img [ref=e664]
+                    - generic [ref=e666]:
+                      - list [ref=e668]:
+                        - listitem [ref=e669]: We teach students from pre-school to post-secondary levels how to learn, concentrate, listen, remember.
+                        - listitem [ref=e670]: This role is after school hours and weekends.
+                      - list [ref=e674]:
+                        - listitem [ref=e675]:
+                          - generic [ref=e676]:
+                            - text: View all
+                            - link "Oxford Learning Centres, Inc. jobs" [ref=e677] [cursor=pointer]:
+                              - /url: /q-oxford-learning-centres,-inc.-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e678] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                        - listitem [ref=e679]:
+                          - generic [ref=e680]:
+                            - text: "Salary Search:"
+                            - link "Education Coordinator salaries in Toronto, ON" [ref=e681] [cursor=pointer]:
+                              - /url: /career/education-coordinator/salaries/Toronto--ON-M4T-1M9?campaignid=serp-more&fromjk=14d9eb7954cf50f0&from=serp-more
+                        - listitem [ref=e682]:
+                          - generic [ref=e683]:
+                            - text: See popular
+                            - link "questions & answers about Oxford Learning Centres, Inc." [ref=e684] [cursor=pointer]:
+                              - /url: /cmp/Oxford-Learning-Centre/faq
+              - listitem [ref=e686]:
+                - generic [ref=e688]:
+                  - generic:
+                    - generic [ref=e691]:
+                      - heading "full details of Regional Education Executive" [level=2] [ref=e693]:
+                        - button "full details of Regional Education Executive" [ref=e694] [cursor=pointer]: Regional Education Executive
+                      - generic [ref=e697]:
+                        - generic [ref=e699]: Clinique
+                        - generic [ref=e700]: Toronto, ON
+                      - button "Save job Toggle" [ref=e702] [cursor=pointer]:
+                        - img [ref=e703]
+                    - generic [ref=e705]:
+                      - list [ref=e707]:
+                        - listitem [ref=e708]: The Regional Education Executive educates counter staff on the product knowledge, selling and service skills necessary to meet productivity goals, service…
+                      - list [ref=e712]:
+                        - listitem [ref=e713]:
+                          - generic [ref=e714]:
+                            - text: View all
+                            - link "Clinique jobs" [ref=e715] [cursor=pointer]:
+                              - /url: /q-clinique-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e716] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Executive jobs in Toronto, ON" [ref=e717] [cursor=pointer]:
+                              - /url: /q-executive-l-toronto,-on-jobs.html
+                        - listitem [ref=e718]:
+                          - generic [ref=e719]:
+                            - text: "Salary Search:"
+                            - link "Regional Education Executive salaries in Toronto, ON" [ref=e720] [cursor=pointer]:
+                              - /url: /career/executive/salaries/Toronto--ON?campaignid=serp-more&fromjk=9b9f11e33e6c393b&from=serp-more
+                        - listitem [ref=e721]:
+                          - generic [ref=e722]:
+                            - text: See popular
+                            - link "questions & answers about Clinique" [ref=e723] [cursor=pointer]:
+                              - /url: /cmp/Clinique/faq
+              - listitem
+              - listitem [ref=e725]:
+                - generic [ref=e727]:
+                  - generic:
+                    - generic [ref=e730]:
+                      - generic [ref=e731]:
+                        - heading "full details of Academic Instructional Quality Specialist-Malton Campus-FTE" [level=2] [ref=e732]:
+                          - button "full details of Academic Instructional Quality Specialist-Malton Campus-FTE" [ref=e733] [cursor=pointer]: Academic Instructional Quality Specialist-Malton Campus-FTE
+                        - generic [ref=e737]: Often responds within 1 day
+                      - generic [ref=e738]:
+                        - generic [ref=e740]:
+                          - generic [ref=e742]: CIMT College
+                          - generic [ref=e743]: Mississauga, ON L4T 2T7
+                        - list [ref=e745]:
+                          - listitem [ref=e746]:
+                            - generic [ref=e749]: $45,000–$50,000 a year
+                          - listitem [ref=e750]:
+                            - generic [ref=e753]: Full-time
+                          - listitem [ref=e754]:
+                            - generic [ref=e757]: Monday to Friday
+                        - generic [ref=e759]:
+                          - img [ref=e760]
+                          - generic [ref=e762]: Easily apply
+                      - button "Save job Toggle" [ref=e766] [cursor=pointer]:
+                        - img [ref=e767]
+                    - generic [ref=e769]:
+                      - list [ref=e771]:
+                        - listitem [ref=e772]: Consistent teaching standards across academic programs.
+                        - listitem [ref=e773]: Participate in institutional academic quality improvement initiatives.
+                      - list [ref=e777]:
+                        - listitem [ref=e778]:
+                          - generic [ref=e779]:
+                            - text: View all
+                            - link "CIMT College jobs" [ref=e780] [cursor=pointer]:
+                              - /url: /q-cimt-college-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e781] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                            - text: "-"
+                            - link "Quality Specialist jobs in Mississauga, ON" [ref=e782] [cursor=pointer]:
+                              - /url: /q-quality-specialist-l-mississauga,-on-jobs.html
+                        - listitem [ref=e783]:
+                          - generic [ref=e784]:
+                            - text: "Salary Search:"
+                            - link "Academic Instructional Quality Specialist-Malton Campus-FTE salaries in Mississauga, ON" [ref=e785] [cursor=pointer]:
+                              - /url: /career/quality-specialist/salaries/Mississauga--ON-L4T-2T7?campaignid=serp-more&fromjk=aa23620a958b09a9&from=serp-more
+                        - listitem [ref=e786]:
+                          - generic [ref=e787]:
+                            - text: See popular
+                            - link "questions & answers about CIMT College" [ref=e788] [cursor=pointer]:
+                              - /url: /cmp/Cimt-College/faq
+              - listitem [ref=e790]:
+                - generic [ref=e792]:
+                  - generic:
+                    - generic [ref=e795]:
+                      - heading "full details of Counter Education Manager" [level=2] [ref=e797]:
+                        - button "full details of Counter Education Manager" [ref=e798] [cursor=pointer]: Counter Education Manager
+                      - generic [ref=e801]:
+                        - generic [ref=e803]: Clinique
+                        - generic [ref=e804]: Toronto, ON
+                      - button "Save job Toggle" [ref=e806] [cursor=pointer]:
+                        - img [ref=e807]
+                    - generic [ref=e809]:
+                      - list [ref=e811]:
+                        - listitem [ref=e812]: Collaborates with Counter/Business Manager in Consultant orientation.
+                        - listitem [ref=e813]: Executes the counter orientation program.
+                      - list [ref=e817]:
+                        - listitem [ref=e818]:
+                          - generic [ref=e819]:
+                            - text: View all
+                            - link "Clinique jobs" [ref=e820] [cursor=pointer]:
+                              - /url: /q-clinique-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e821] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Counter Manager jobs in Toronto, ON" [ref=e822] [cursor=pointer]:
+                              - /url: /q-counter-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e823]:
+                          - generic [ref=e824]:
+                            - text: "Salary Search:"
+                            - link "Counter Education Manager salaries in Toronto, ON" [ref=e825] [cursor=pointer]:
+                              - /url: /career/counter-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=126a39034a98e49c&from=serp-more
+                        - listitem [ref=e826]:
+                          - generic [ref=e827]:
+                            - text: See popular
+                            - link "questions & answers about Clinique" [ref=e828] [cursor=pointer]:
+                              - /url: /cmp/Clinique/faq
+              - listitem [ref=e830]:
+                - generic [ref=e832]:
+                  - generic:
+                    - generic [ref=e835]:
+                      - generic [ref=e836]:
+                        - 'heading "full details of Professional Skills Mentor: Skill-Based Volunteering" [level=2] [ref=e837]':
+                          - 'button "full details of Professional Skills Mentor: Skill-Based Volunteering" [ref=e838] [cursor=pointer]': "Professional Skills Mentor: Skill-Based Volunteering"
+                        - generic [ref=e842]: Often responds within 1 day
+                      - generic [ref=e843]:
+                        - generic [ref=e845]:
+                          - generic [ref=e847]: The Education Equality Institute
+                          - generic [ref=e848]: Toronto, ON
+                        - generic [ref=e850]:
+                          - img [ref=e851]
+                          - generic [ref=e853]: Easily apply
+                      - button "Save job Toggle" [ref=e857] [cursor=pointer]:
+                        - img [ref=e858]
+                    - generic [ref=e860]:
+                      - list [ref=e862]:
+                        - listitem [ref=e863]: Turn your career experience into meaningful support by becoming a mentor.
+                        - listitem [ref=e864]: Through our flexible digital platform, you can provide career guidance to Ukrainian…
+                      - list [ref=e868]:
+                        - listitem [ref=e869]:
+                          - generic [ref=e870]:
+                            - text: View all
+                            - link "The Education Equality Institute jobs" [ref=e871] [cursor=pointer]:
+                              - /url: /q-the-education-equality-institute-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e872] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Mentor jobs in Toronto, ON" [ref=e873] [cursor=pointer]:
+                              - /url: /q-mentor-l-toronto,-on-jobs.html
+                        - listitem [ref=e874]:
+                          - generic [ref=e875]:
+                            - text: "Salary Search:"
+                            - 'link "Professional Skills Mentor: Skill-Based Volunteering salaries in Toronto, ON" [ref=e876] [cursor=pointer]':
+                              - /url: /career/mentor/salaries/Toronto--ON?campaignid=serp-more&fromjk=3b4aad7be4c353f1&from=serp-more
+              - listitem [ref=e878]:
+                - generic [ref=e880]:
+                  - generic:
+                    - generic [ref=e883]:
+                      - heading "full details of Resume Consultant" [level=2] [ref=e885]:
+                        - button "full details of Resume Consultant" [ref=e886] [cursor=pointer]: Resume Consultant
+                      - generic [ref=e887]:
+                        - generic [ref=e889]:
+                          - generic [ref=e891]: Pragra
+                          - generic [ref=e892]: Mississauga, ON
+                        - list [ref=e894]:
+                          - listitem [ref=e895]:
+                            - generic [ref=e898]: Part-time
+                        - generic [ref=e900]:
+                          - img [ref=e901]
+                          - generic [ref=e903]: Easily apply
+                      - button "Save job Toggle" [ref=e907] [cursor=pointer]:
+                        - img [ref=e908]
+                    - generic [ref=e910]:
+                      - list [ref=e912]:
+                        - listitem [ref=e913]: Pragra is looking for a Part-Time Resume Consultant to support our students in becoming job-ready and confident in their job search.
+                      - list [ref=e917]:
+                        - listitem [ref=e918]:
+                          - generic [ref=e919]:
+                            - text: View all
+                            - link "Pragra jobs" [ref=e920] [cursor=pointer]:
+                              - /url: /q-pragra-jobs.html
+                            - text: "-"
+                            - link "Mississauga jobs" [ref=e921] [cursor=pointer]:
+                              - /url: /l-mississauga,-on-jobs.html
+                        - listitem [ref=e922]:
+                          - generic [ref=e923]:
+                            - text: "Salary Search:"
+                            - link "Resume Consultant salaries" [ref=e924] [cursor=pointer]:
+                              - /url: /career/salaries/Resume%20Consultant/Mississauga,%20ON?campaignid=serp-more&fromjk=e855d0441bd672fb&from=serp-more
+              - listitem
+              - listitem [ref=e926]:
+                - generic [ref=e928]:
+                  - generic:
+                    - generic [ref=e931]:
+                      - heading "full details of Education Coordinator" [level=2] [ref=e933]:
+                        - button "full details of Education Coordinator" [ref=e934] [cursor=pointer]: Education Coordinator
+                      - generic [ref=e935]:
+                        - generic [ref=e937]:
+                          - generic [ref=e939]: Scholars Education Centre - Danforth
+                          - generic [ref=e940]: Toronto, ON M4K 1N6
+                        - list [ref=e942]:
+                          - listitem [ref=e943]:
+                            - generic [ref=e946]: $25–$30 an hour
+                          - listitem [ref=e947]:
+                            - generic [ref=e950]:
+                              - text: Full-time
+                              - generic [ref=e951]: "+1"
+                          - listitem [ref=e952]:
+                            - generic [ref=e955]: 30 to 35 hours per week
+                          - listitem [ref=e956]:
+                            - generic [ref=e959]: Paid time off
+                          - listitem [ref=e960]:
+                            - generic [ref=e963]: Dental care
+                          - listitem [ref=e964]:
+                            - generic [ref=e967]: Life insurance
+                          - listitem [ref=e968]:
+                            - generic [ref=e971]: Store discount
+                          - listitem [ref=e972]:
+                            - generic [ref=e975]: Flexible schedule
+                          - listitem [ref=e976]:
+                            - generic [ref=e979]: Extended health care
+                        - generic [ref=e981]:
+                          - img [ref=e982]
+                          - generic [ref=e984]: Easily apply
+                      - button "Save job Toggle" [ref=e988] [cursor=pointer]:
+                        - img [ref=e989]
+                    - generic [ref=e991]:
+                      - list [ref=e993]:
+                        - listitem [ref=e994]: Scholars Education Centre* has successfully been providing tutoring of exceptional quality and service for 25 years; sharing Results That Matter with families…
+                      - list [ref=e998]:
+                        - listitem [ref=e999]:
+                          - generic [ref=e1000]:
+                            - text: View all
+                            - link "Scholars Education Centre - Danforth jobs" [ref=e1001] [cursor=pointer]:
+                              - /url: /q-scholars-education-centre-danforth-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e1002] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                        - listitem [ref=e1003]:
+                          - generic [ref=e1004]:
+                            - text: "Salary Search:"
+                            - link "Education Coordinator salaries in Toronto, ON" [ref=e1005] [cursor=pointer]:
+                              - /url: /career/education-coordinator/salaries/Toronto--ON-M4K-1N6?campaignid=serp-more&fromjk=b057acdb0483d64a&from=serp-more
+              - listitem
+            - navigation "pagination" [ref=e1007]:
+              - list [ref=e1008]:
+                - listitem [ref=e1009]:
+                  - link "1" [ref=e1010] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e1011]:
+                  - link "2" [ref=e1012] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Advisor&l=Toronto%2C+ON&radius=25&start=10
+                - listitem [ref=e1013]:
+                  - link "3" [ref=e1014] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Advisor&l=Toronto%2C+ON&radius=25&start=20
+                - listitem [ref=e1015]:
+                  - link "4" [ref=e1016] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Advisor&l=Toronto%2C+ON&radius=25&start=30
+                - listitem [ref=e1017]:
+                  - link "5" [ref=e1018] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Advisor&l=Toronto%2C+ON&radius=25&start=40
+                - listitem [ref=e1019]:
+                  - link "Next page" [ref=e1020] [cursor=pointer]:
+                    - /url: /jobs?q=Academic+Advisor&l=Toronto%2C+ON&radius=25&start=10
+                    - img [ref=e1021]
+            - generic [ref=e1027]:
+              - generic [ref=e1028]:
+                - generic [ref=e1030]:
+                  - text: Get email updates for the latest
+                  - strong [ref=e1031]: Academic Advisor
+                  - text: jobs in
+                  - strong [ref=e1032]: Toronto, ON
+                - generic [ref=e1033] [cursor=pointer]:
+                  - switch [ref=e1034]
+                  - img [ref=e1037]
+              - paragraph [ref=e1040]:
+                - text: By creating a job alert, you agree to our
+                - link "Terms (opens in a new tab)" [ref=e1041] [cursor=pointer]:
+                  - /url: /legal?hl=en
+                  - text: Terms
+                  - img [ref=e1042]
+                - text: . You can change your consent settings at any time by unsubscribing or as detailed in our terms.
+            - generic [ref=e1045]:
+              - heading "People also searched:" [level=3] [ref=e1046]
+              - list [ref=e1047]:
+                - listitem [ref=e1048]:
+                  - link "student advisor" [ref=e1049] [cursor=pointer]:
+                    - /url: /q-student-advisor-l-toronto,-on-jobs.html
+                    - generic [ref=e1051]: student advisor
+                - listitem [ref=e1052]:
+                  - link "education" [ref=e1053] [cursor=pointer]:
+                    - /url: /q-education-l-toronto,-on-jobs.html
+                    - generic [ref=e1055]: education
+                - listitem [ref=e1056]:
+                  - link "work from home" [ref=e1057] [cursor=pointer]:
+                    - /url: /q-work-from-home-l-toronto,-on-jobs.html
+                    - generic [ref=e1059]: work from home
+                - listitem [ref=e1060]:
+                  - link "administrative assistant" [ref=e1061] [cursor=pointer]:
+                    - /url: /q-administrative-assistant-l-toronto,-on-jobs.html
+                    - generic [ref=e1063]: administrative assistant
+                - listitem [ref=e1064]:
+                  - link "advisor" [ref=e1065] [cursor=pointer]:
+                    - /url: /q-advisor-l-toronto,-on-jobs.html
+                    - generic [ref=e1067]: advisor
+                - listitem [ref=e1068]:
+                  - link "part time" [ref=e1069] [cursor=pointer]:
+                    - /url: /q-part-time-l-toronto,-on-jobs.html
+                    - generic [ref=e1071]: part time
+                - listitem [ref=e1072]:
+                  - link "remote" [ref=e1073] [cursor=pointer]:
+                    - /url: /q-remote-l-toronto,-on-jobs.html
+                    - generic [ref=e1075]: remote
+                - listitem [ref=e1076]:
+                  - link "academic" [ref=e1077] [cursor=pointer]:
+                    - /url: /q-academic-l-toronto,-on-jobs.html
+                    - generic [ref=e1079]: academic
+                - listitem [ref=e1080]:
+                  - link "college" [ref=e1081] [cursor=pointer]:
+                    - /url: /q-college-l-toronto,-on-jobs.html
+                    - generic [ref=e1083]: college
+                - listitem [ref=e1084]:
+                  - link "human resources" [ref=e1085] [cursor=pointer]:
+                    - /url: /q-human-resources-l-toronto,-on-jobs.html
+                    - generic [ref=e1087]: human resources
+            - generic [ref=e1088]:
+              - heading "Career Resources:" [level=2] [ref=e1089]
+              - list [ref=e1090]:
+                - text: "-"
+                - listitem [ref=e1091]:
+                  - link "Explore High Paying Jobs" [ref=e1092] [cursor=pointer]:
+                    - /url: /explorer/
+          - generic "Job Post Details" [ref=e1094]:
+            - button "Return to Search Result" [ref=e1095]
+            - heading "Job Post Details" [level=2] [ref=e1096]
+            - generic [ref=e1100]:
+              - generic [ref=e1102]:
+                - generic [ref=e1103]:
+                  - heading "Employment & Education Partnerships Coordinator - job post" [level=2] [ref=e1105]:
+                    - generic [ref=e1106]:
+                      - text: Employment & Education Partnerships Coordinator
+                      - generic [ref=e1107]: "- job post"
+                  - generic [ref=e1111]:
+                    - generic [ref=e1112]:
+                      - link "StepStones For Youth (opens in a new tab)" [ref=e1115] [cursor=pointer]:
+                        - /url: https://ca.indeed.com/cmp/Stepstones-For-Youth-1?campaignid=mobvjcmp&from=mobviewjob&tk=1jkrfue88gc2g800&fromjk=56e058e4d80a6157
+                        - text: StepStones For Youth
+                        - img [ref=e1116]
+                      - generic [ref=e1118]:
+                        - generic [ref=e1119]: · 4.4
+                        - generic [ref=e1120]: 4.4 out of 5 stars
+                        - img [ref=e1121]
+                    - generic [ref=e1124]: Toronto, ON
+                - generic [ref=e1127]: Part-time
+                - generic [ref=e1129]:
+                  - button "Apply now opens in a new tab" [ref=e1137] [cursor=pointer]:
+                    - generic [ref=e1139]: Apply now
+                  - button "Save job" [ref=e1143] [cursor=pointer]:
+                    - img "save-icon" [ref=e1144]
+                  - button "Share job" [ref=e1146] [cursor=pointer]
+              - generic [ref=e1149]:
+                - generic [ref=e1150]:
+                  - generic [ref=e1156]:
+                    - generic [ref=e1157]:
+                      - heading "Job details" [level=2] [ref=e1159]
+                      - group "Job type" [ref=e1161]:
+                        - img [ref=e1162]
+                        - generic [ref=e1165]:
+                          - heading "Job type" [level=3] [ref=e1166]
+                          - list [ref=e1168]:
+                            - listitem [ref=e1169]:
+                              - generic [ref=e1174]: Part-time
+                    - separator [ref=e1175]:
+                      - generic [ref=e1176]: "&nbsp;"
+                  - generic [ref=e1177]:
+                    - heading "Location" [level=2] [ref=e1178]
+                    - generic [ref=e1179]:
+                      - img [ref=e1180]
+                      - generic [ref=e1183]: Toronto, ON
+                    - separator [ref=e1184]:
+                      - generic [ref=e1185]: "&nbsp;"
+                  - heading "Full job description" [level=2] [ref=e1187]
+                  - generic [ref=e1189]:
+                    - paragraph [ref=e1190]: Employment & Education Partnerships Coordinator
+                    - paragraph [ref=e1191]: "Contract Term: 1-Year"
+                    - paragraph [ref=e1192]:
+                      - text: "Position Type: Part-Time"
+                      - text: "Location: Toronto, ON"
+                      - text: "Reports To: Program Director"
+                      - text: "Collaborates Closely With: Program Team"
+                    - paragraph
+                    - paragraph [ref=e1193]: Position Overview
+                    - paragraph [ref=e1194]: The Employment & Education Partnerships Coordinator plays a central role in supporting StepStones youth to access meaningful, part-time employment and education opportunities that accommodate their school schedules and personal growth goals. This role emphasizes building strategic partnerships with employers, training programs, and post-secondary institutions that are committed to offering opportunities to StepStones youth.
+                    - paragraph [ref=e1195]: The Coordinator complements the Connections Coordinators’ work by advancing placement opportunities and preparing youth for success in the workforce and in learning environments. Youth support should be guided by the individualized education and employment plans developed by Connections Coordinators.
+                    - paragraph
+                    - paragraph [ref=e1196]: Key Responsibilities
+                    - paragraph [ref=e1197]: Partnership Development & Employer Engagement
+                    - list [ref=e1198]:
+                      - listitem [ref=e1199]: Identify, build, and maintain partnerships with employers, training institutions, and corporate stakeholders
+                    - list [ref=e1200]:
+                      - listitem [ref=e1201]: Promote the StepStones model and the mutual benefits of hiring or mentoring StepStones youth
+                    - list [ref=e1202]:
+                      - listitem [ref=e1203]: Develop flexible, part-time employment opportunities aligned with youth education plans
+                    - list [ref=e1204]:
+                      - listitem [ref=e1205]: Coordinate customized placements and workplace readiness in collaboration with Connections Coordinators and Supervisors
+                    - list [ref=e1206]:
+                      - listitem [ref=e1207]: Develop workplace partnerships that reflect equity, mentorship, and long-term success
+                    - list [ref=e1208]:
+                      - listitem [ref=e1209]: Work with employers after hire to ensure the success of the new hire. Check in on a monthly basis to review progress
+                    - list [ref=e1210]:
+                      - listitem [ref=e1211]: Maintain a roster of a minimum of 10 employers who are ready and able to hire new youth.
+                    - list [ref=e1212]:
+                      - listitem [ref=e1213]: Maintain a roster of a minimum of 10 employers who have currently hired youth and support this roster on an ongoing and regular basis.
+                    - list [ref=e1214]:
+                      - listitem [ref=e1215]: Ensure employers maintain the part time agreement and do not encourage youth to drop out or reduce school involvement. Most employers will not be permitted to hire for more than 15 hours in the case that a youth has not completed post-education unless it is in the summer months
+                    - paragraph [ref=e1216]: Youth-Focused Employment & Education Support
+                    - list [ref=e1217]:
+                      - listitem [ref=e1218]: "Prepare youth for employment through one to one:"
+                    - list [ref=e1219]:
+                      - listitem [ref=e1220]: Resume building and job search
+                    - list [ref=e1221]:
+                      - listitem [ref=e1222]: Interview preparation and mock interviews
+                    - list [ref=e1223]:
+                      - listitem [ref=e1224]: Workplace expectations, communication coaching, and first-day readiness
+                    - list [ref=e1225]:
+                      - listitem [ref=e1226]: Assist with job applications, training program enrollment, or alternative education pathways
+                    - list [ref=e1227]:
+                      - listitem [ref=e1228]: Celebrate progress and help youth navigate any setbacks along the way
+                    - list [ref=e1229]:
+                      - listitem [ref=e1230]: Tailor supports using the Connections Coordinators' education plans as a foundation
+                    - list [ref=e1231]:
+                      - listitem [ref=e1232]: Place a minimum of 45 youth in job placements per year who maintain these job placements for a minimum of 5 months each
+                    - list [ref=e1233]:
+                      - listitem [ref=e1234]: Utilize the education plan for each youth
+                    - paragraph
+                    - paragraph [ref=e1235]: Ongoing Support & Monitoring
+                    - list [ref=e1236]:
+                      - listitem [ref=e1237]: Conduct regular check-ins with youth and employer partners
+                    - list [ref=e1238]:
+                      - listitem [ref=e1239]: Coordinate access to supports such as clothing, TTC fares, equipment, or additional coaching
+                    - list [ref=e1240]:
+                      - listitem [ref=e1241]: Troubleshoot issues or advocate for accommodations as needed
+                    - list [ref=e1242]:
+                      - listitem [ref=e1243]: Track outcomes, provide progress updates, and contribute to program evaluation
+                    - paragraph
+                    - paragraph [ref=e1244]: How This Role Supports the Team
+                    - paragraph [ref=e1245]: "This position works in collaboration with the Connections Coordinators by:"
+                    - list [ref=e1246]:
+                      - listitem [ref=e1247]: Offering employment and education-specific coaching that complements community connection and life skills support
+                    - list [ref=e1248]:
+                      - listitem [ref=e1249]:
+                        - text: Leads external partnership building
+                        - text: to secure real opportunities for youth so Coordinators can focus on wraparound and life skills support
+                    - list [ref=e1250]:
+                      - listitem [ref=e1251]: Aligning placements with youth goals and schedules already identified in program planning
+                    - list [ref=e1252]:
+                      - listitem [ref=e1253]: Contributing to shared outcomes around engagement, retention, and long-term success
+                    - paragraph
+                    - paragraph [ref=e1254]: Qualifications & Experience
+                    - paragraph [ref=e1255]: "Required:"
+                    - list [ref=e1256]:
+                      - listitem [ref=e1257]: Minimum 3–5 years of experience in employment services, workforce development, education access, or youth programming
+                    - list [ref=e1258]:
+                      - listitem [ref=e1259]: Minimum 3 years experience building corporate or community partnerships—especially with employers or post-secondary institutions
+                    - list [ref=e1260]:
+                      - listitem [ref=e1261]: Demonstrated success in youth engagement and strengths-based practice especially when working with hard to service youth
+                    - list [ref=e1262]:
+                      - listitem [ref=e1263]: Understanding of trauma-informed, anti-oppressive, and youth-centered approaches
+                    - list [ref=e1264]:
+                      - listitem [ref=e1265]: Strong interpersonal, communication, and relationship-building skills
+                    - list [ref=e1266]:
+                      - listitem [ref=e1267]: Deep understanding of systemic barriers faced by youth in care or experiencing homelessness
+                    - paragraph [ref=e1268]: "Assets:"
+                    - list [ref=e1269]:
+                      - listitem [ref=e1270]: Experience in employer outreach, DEI-informed hiring, or HR
+                    - list [ref=e1271]:
+                      - listitem [ref=e1272]: Familiarity with Toronto and surrounding area’s workforce and education sectors
+                    - list [ref=e1273]:
+                      - listitem [ref=e1274]: Lived experience or experience working with individuals in systems of care, foster care, homelessness, or related barriers
+                    - list [ref=e1275]:
+                      - listitem [ref=e1276]: Experience with cold outreach, corporate giving, HR,
+                    - list [ref=e1277]:
+                      - listitem [ref=e1278]: Experience with formal partnership
+                    - list [ref=e1279]:
+                      - listitem [ref=e1280]: Experience with barrier reduction strategies (e.g., transportation, housing, criminal record navigation)
+                    - paragraph
+                    - paragraph [ref=e1281]:
+                      - generic [ref=e1282]: Equal opportunity
+                    - paragraph [ref=e1283]: StepStones values the unique skills and experiences each individual has to offer and we are committed to creating an inclusive and accessible organization. We are committed to providing barrier-free and accessible employment practices in compliance with the Accessibility for Ontarians with Disabilities Act (AODA). If you require accommodation to participate fully in our recruitment processes, please let us know when we contact you.
+                    - paragraph
+                    - paragraph [ref=e1284]: StepStones is an equal opportunity employer seeking to live its values in all we do. We are committed to taking proactive steps to provide and create opportunities for historically marginalized groups. We seek applicants who will strengthen our commitment to diversity, equality, and inclusion. We strongly encourage qualified candidates from Indigenous, Black, and other racialized persons, 2SLGBTQI+ people, individuals with disabilities, and other members of marginalized communities to consider working with and for StepStones. We recognize that structural barriers shape experiences and job qualifications, and therefore we seek to use employment equity to evaluate candidates who meet the required qualifications.
+                    - paragraph
+                    - paragraph [ref=e1285]: We thank all applicants for their interest in this position; however, only those applicants will be selected for an interview will be contacted. No phone calls or in person submissions please.
+                  - separator [ref=e1286]:
+                    - generic [ref=e1287]: "&nbsp;"
+                - button "Report job" [ref=e1294] [cursor=pointer]: Report job
+            - button "Return to Search Result" [ref=e1296]
+      - contentinfo [ref=e1301]:
+        - generic [ref=e1302]:
+          - list [ref=e1303]:
+            - listitem [ref=e1304]:
+              - link "Hiring Lab" [ref=e1306] [cursor=pointer]:
+                - /url: https://www.hiringlab.org/en-ca/
+            - listitem [ref=e1307]:
+              - link "Career advice" [ref=e1309] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career-advice
+            - listitem [ref=e1310]:
+              - link "Browse jobs" [ref=e1312] [cursor=pointer]:
+                - /url: https://ca.indeed.com/browsejobs
+            - listitem [ref=e1313]:
+              - link "Browse companies" [ref=e1315] [cursor=pointer]:
+                - /url: https://ca.indeed.com/companies/browse-companies
+            - listitem [ref=e1316]:
+              - link "Salaries" [ref=e1318] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career/salaries
+            - listitem [ref=e1319]:
+              - link "Indeed Events" [ref=e1321] [cursor=pointer]:
+                - /url: https://www.indeedevents.com/en-ca/
+            - listitem [ref=e1322]:
+              - link "Work at Indeed" [ref=e1324] [cursor=pointer]:
+                - /url: https://ca.indeed.com/cmp/Indeed/about
+            - listitem [ref=e1325]:
+              - link "Countries" [ref=e1327] [cursor=pointer]:
+                - /url: https://ca.indeed.com/worldwide
+            - listitem [ref=e1328]:
+              - link "About" [ref=e1330] [cursor=pointer]:
+                - /url: https://ca.indeed.com/about
+            - listitem [ref=e1331]:
+              - link "Help" [ref=e1333] [cursor=pointer]:
+                - /url: https://ca.indeed.com/help
+            - listitem [ref=e1334]:
+              - link "ESG at Indeed" [ref=e1336] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg?from=gnav-jobsearch--indeedmobile
+          - list [ref=e1337]:
+            - listitem [ref=e1338]: © 2026 Indeed
+            - listitem [ref=e1339]:
+              - link "Accessibility at Indeed" [ref=e1341] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg/accessibility?hl=en
+            - listitem [ref=e1342]:
+              - link "Privacy Centre and Ad Choices" [ref=e1344] [cursor=pointer]:
+                - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+            - listitem [ref=e1345]:
+              - link "Terms" [ref=e1347] [cursor=pointer]:
+                - /url: https://ca.indeed.com/legal?hl=en
+          - list:
+            - listitem

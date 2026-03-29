@@ -1,0 +1,15 @@
+{
+  "job_id": "indeed_015_20250328",
+  "lane": "advising_support",
+  "score": 6.5,
+  "rationale": "Auto-classified as advising_support. Score based on title keywords and institution type.",
+  "cluster_match": "advising_support",
+  "exclusion_triggered": null,
+  "confidence": 0.75,
+  "next_step": "review",
+  "verdict": "borderline",
+  "scoring_factors": {
+    "role_alignment": 6,
+    "institution_type": 6
+  }
+}

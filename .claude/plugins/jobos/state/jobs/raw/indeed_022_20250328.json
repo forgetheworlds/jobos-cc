@@ -1,0 +1,19 @@
+{
+  "job_id": "indeed_022_20250328",
+  "source": "Indeed",
+  "source_url": "https://ca.indeed.com/jobs?q=Director+Student+Success&l=Toronto%2C+ON",
+  "discovered_at": "2026-03-28T20:45:00Z",
+  "title": "Director of Student Recruitment",
+  "company": "International Business University",
+  "location": "Toronto, ON",
+  "job_type": "Full-time",
+  "salary": null,
+  "description": "Demonstrated success in designing and leading large-scale, multi-region student recruitment strategies that drive measurable enrollment outcomes. Benefits include tuition reimbursement, paid time off, dental care, disability insurance, and extended health care.",
+  "requirements": ["Demonstrated success in designing and leading large-scale, multi-region student recruitment strategies"],
+  "application_url": "https://ca.indeed.com/viewjob?jk=ibu_director_recruitment",
+  "posting_date": null,
+  "search_query": "Director Student Success",
+  "search_location": "Toronto, ON",
+  "raw_html": null,
+  "status": "discovered"
+}

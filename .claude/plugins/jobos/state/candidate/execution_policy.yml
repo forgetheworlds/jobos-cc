@@ -1,0 +1,159 @@
+# =====================================================================
+# EXECUTION POLICY — How Much Autonomy to Give JobOS
+# =====================================================================
+#
+# This file controls how hands-off or hands-on you want JobOS to be.
+# It determines what happens automatically vs. what requires your go-ahead.
+#
+# Key settings:
+# - auto_prepare: Should JobOS create materials automatically?
+# - auto_review: Should JobOS check quality automatically?
+# - require_approval_for_submit: Should YOU approve before submitting?
+#
+# During setup (Phase 10), you'll discuss your comfort level with automation.
+# Update this file anytime as you get more comfortable with JobOS.
+# =====================================================================
+
+# ----------------------------------------------------------------------------
+# MATERIAL GENERATION — Auto-Create Resumes and Cover Letters?
+# ----------------------------------------------------------------------------
+
+auto_prepare: false
+# If false: JobOS scores jobs but waits for you to say "/prepare" before creating materials
+# If true: JobOS automatically creates materials for jobs that score above your threshold
+#
+# RECOMMENDATION: Start with false. Once you trust JobOS, change to true for convenience.
+
+# ----------------------------------------------------------------------------
+# QUALITY REVIEW — Auto-Check Generated Materials?
+# ----------------------------------------------------------------------------
+
+auto_review: false
+# If false: You review materials yourself to check quality and accuracy
+# If true: JobOS runs an automated quality check (but you still approve before submission)
+#
+# RECOMMENDATION: Keep false. Human review catches issues automation misses.
+
+# ----------------------------------------------------------------------------
+# SUBMISSION CONTROL — Require Your Approval Before Submitting?
+# ----------------------------------------------------------------------------
+
+require_approval_for_submit: true
+# ⚠️  STRONGLY RECOMMENDED: Keep this TRUE for safety ⚠️
+#
+# If true: JobOS will NEVER submit without your explicit approval
+# If false: JobOS may submit applications automatically (DANGEROUS when starting out)
+#
+# This is your safety net. Even if everything else is automated, this setting
+# ensures YOU see the final application before it goes out.
+
+# ----------------------------------------------------------------------------
+# WORKFLOW STAGES — What's Automated vs. What Requires Humans
+# ----------------------------------------------------------------------------
+
+stages:
+  # Stage 1: Scoring Jobs
+  scoring:
+    automated: true       # Jobs are always auto-scored (no harm in this)
+    human_required: false # You can review scores, but it's optional
+
+  # Stage 2: Preparing Materials
+  preparation:
+    automated: false      # Controlled by auto_prepare setting above
+    human_required: true  # You review prepared materials for quality and accuracy
+
+  # Stage 3: Quality Review
+  review:
+    automated: false      # Controlled by auto_review setting above
+    human_required: true  # You give feedback on materials (pass, revise, or reject)
+
+  # Stage 4: Final Approval
+  approval:
+    automated: false      # Never automated — you always decide
+    human_required: true  # You give final "yes, submit this" approval
+
+  # Stage 5: Submission
+  submission:
+    automated: false      # Never fully automated
+    human_required: true  # You confirm before anything goes out
+
+# ----------------------------------------------------------------------------
+# BATCH PROCESSING — Process Multiple Jobs at Once?
+# ----------------------------------------------------------------------------
+
+batch:
+  enable: false
+  # If false: JobOS processes one job at a time (safer, easier to review)
+  # If true: JobOS can process several jobs in sequence (faster but more to review)
+
+  max_batch_size: 5
+  # Maximum jobs to process in one batch. Even if batch.enable is true, JobOS
+  # won't process more than this many jobs without stopping for review.
+
+  require_confirmation_between_jobs: true
+  # If true: Ask for your approval before moving to the next job in the batch
+  # If false: Process all jobs in the batch, then ask for approval at the end
+
+# ----------------------------------------------------------------------------
+# FALLBACK RULES — What to Do When Something Goes Wrong
+# ----------------------------------------------------------------------------
+
+fallback:
+  on_error: "pause"
+  # What if JobOS encounters an error?
+  # Options: "pause" (stop and ask you), "notify" (tell you but continue),
+  #          "continue" (keep going), "skip" (skip this job and move on)
+
+  on_low_confidence: "notify"
+  # What if JobOS isn't confident about a job (low fit score)?
+  # Options: "pause" (stop and review), "notify" (tell you about it),
+  #          "continue" (keep going), "skip" (skip this job)
+
+  on_missing_data: "pause"
+  # What if required information is missing from your profile?
+  # Options: "pause" (stop and ask you to fill gaps), "notify" (tell you what's missing),
+  #          "continue" (keep going anyway), "skip" (skip this job)
+
+# ----------------------------------------------------------------------------
+# AUDIT TRAIL — Keep Records of Everything
+# ----------------------------------------------------------------------------
+
+logging:
+  log_all_actions: true
+  # Keep a record of every automated action (materials created, reviews run, etc.)
+
+  log_human_decisions: true
+  # Keep a record of your approvals, rejections, and feedback
+
+  preserve_rejected: true
+  # Keep records of jobs you rejected (so JobOS doesn't suggest them again)
+
+# =====================================================================
+# HOW TO UPDATE
+# =====================================================================
+# Run /setup and choose Phase 10 to discuss automation preferences.
+# Or edit this file directly:
+# - Change false to true to enable more automation
+# - Adjust max_batch_size if you want to process more jobs at once
+# - Keep require_approval_for_submit: true for safety, especially when starting
+# =====================================================================
+
+# =====================================================================
+# RECOMMENDED SETTINGS FOR BEGINNERS
+# =====================================================================
+# auto_prepare: false
+# auto_review: false
+# require_approval_for_submit: true  ← ALWAYS keep this true
+# batch.enable: false
+# =====================================================================
+
+# =====================================================================
+# RECOMMENDED SETTINGS FOR EXPERIENCED USERS
+# =====================================================================
+# After you trust JobOS and reviewed its work:
+# auto_prepare: true   (auto-create materials for high-scoring jobs)
+# auto_review: false   (still review yourself — automation isn't perfect)
+# require_approval_for_submit: true  (keep for safety, always)
+# batch.enable: true   (process multiple jobs efficiently)
+# max_batch_size: 3    (small batches are easier to review)
+# =====================================================================

@@ -1,0 +1,902 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#gnav-header-end"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - navigation "Primary" [ref=e7]:
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - button "Skip to main content" [ref=e12] [cursor=pointer]:
+                - generic [ref=e13]: Skip to main content
+              - link "Indeed Home" [ref=e14] [cursor=pointer]:
+                - /url: /?from=gnav-jobsearch--indeedmobile
+                - img [ref=e16]
+              - list [ref=e18]:
+                - listitem [ref=e19]:
+                  - link "Home" [ref=e21] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/
+                - listitem [ref=e22]:
+                  - link "Company reviews" [ref=e24] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/companies
+                - listitem [ref=e25]:
+                  - link "Salary guide" [ref=e27] [cursor=pointer]:
+                    - /url: https://ca.indeed.com/career/salaries
+            - generic [ref=e28]:
+              - list [ref=e29]:
+                - listitem [ref=e30]:
+                  - link "Sign in" [ref=e33] [cursor=pointer]:
+                    - /url: https://secure.indeed.com/auth?hl=en_CA&co=CA&continue=https%3A%2F%2Fca.indeed.com%2Fjobs%3Fq%3DDirector%2BStudent%2BSuccess%26l%3DToronto%252C%2BON&tmpl=desktop&from=gnav-util-jobsearch--indeedmobile&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Den_CA%26co%3DCA%26from%3Dgnav-jobsearch--indeedmobile&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess
+              - radiogroup "Language options" [ref=e36]:
+                - radio "English" [checked] [disabled] [ref=e38]:
+                  - generic [ref=e39]: En
+                  - generic [ref=e40]: English
+                - radio "Français" [ref=e42] [cursor=pointer]:
+                  - generic [ref=e43]: Fr
+                  - generic [ref=e44]: Français
+              - link "Employers / Post Job" [ref=e49] [cursor=pointer]:
+                - /url: https://ca.indeed.com/hire?co=CA&hl=en
+          - generic [ref=e50]: Start of main content
+      - generic [ref=e52]:
+        - search [ref=e57]:
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: "Keyword : all jobs"
+                - generic [ref=e67]:
+                  - img [ref=e69]
+                  - 'combobox "search: Job title, keywords, or company" [ref=e71]': Director Student Success
+                  - button "Clear what input" [ref=e73] [cursor=pointer]:
+                    - img [ref=e74]
+              - separator [ref=e76]:
+                - generic [ref=e77]: "&nbsp;"
+              - generic [ref=e78]:
+                - generic [ref=e79]: Edit location input box label
+                - generic [ref=e82]:
+                  - img [ref=e84]
+                  - combobox "Edit location" [ref=e86]: Toronto, ON
+                  - button "Clear location input" [ref=e88] [cursor=pointer]:
+                    - img [ref=e89]
+            - button "Find jobs" [ref=e92] [cursor=pointer]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - button "Pay filter" [ref=e97] [cursor=pointer]:
+                - text: Pay
+                - img [ref=e98]
+            - listitem [ref=e101]:
+              - button "Remote filter" [ref=e103] [cursor=pointer]:
+                - text: Remote
+                - img [ref=e104]
+            - listitem [ref=e107]:
+              - button "Within 25 kilometres filter" [ref=e109] [cursor=pointer]:
+                - generic [ref=e110]: Within 25 kilometres
+                - img [ref=e112]
+            - listitem [ref=e115]:
+              - button "Job type filter" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: Job type
+                - generic [ref=e118]: filter
+                - img [ref=e120]
+            - listitem [ref=e123]:
+              - button "Job Language filter" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Job Language
+                - img [ref=e128]
+            - listitem [ref=e131]:
+              - button "Date posted filter" [ref=e133] [cursor=pointer]:
+                - text: Date posted
+                - img [ref=e134]
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - link "Post your resume" [ref=e145] [cursor=pointer]:
+                - /url: /promo/resume?from=serptop3&subfrom=resprmrtop&trk.origin=jobsearch&trk.variant=resprmrtop&trk.tk=1jkrftoelgc3485e
+              - text: and find your next job on Indeed!
+              - separator [ref=e146]:
+                - generic [ref=e147]: "&nbsp;"
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "Director Student Success jobs in Toronto, ON" [level=1] [ref=e150]
+                - button "help icon" [ref=e153] [cursor=pointer]:
+                  - img "help icon" [ref=e154]
+              - generic [ref=e158]:
+                - generic [ref=e159]: "Sort by:"
+                - generic [ref=e160]:
+                  - text: relevance -
+                  - 'link "Sort by: date" [ref=e161] [cursor=pointer]':
+                    - /url: /jobs?q=Director%20Student%20Success&l=Toronto%2C%20ON&sort=date
+                    - text: date
+            - list [ref=e165]:
+              - listitem
+              - listitem [ref=e166]:
+                - generic [ref=e168]:
+                  - generic:
+                    - generic [ref=e171]:
+                      - generic [ref=e172]:
+                        - heading "full details of Educational Case Manager" [level=2] [ref=e173]:
+                          - button "full details of Educational Case Manager" [pressed] [ref=e174] [cursor=pointer]: Educational Case Manager
+                        - generic [ref=e178]: Often responds within 1 day
+                      - generic [ref=e179]:
+                        - generic [ref=e181]:
+                          - generic [ref=e183]: Tutor Me Education
+                          - generic [ref=e184]: Toronto, ON
+                        - list [ref=e186]:
+                          - listitem [ref=e187]:
+                            - generic [ref=e190]: Full-time
+                          - listitem [ref=e191]:
+                            - generic [ref=e194]: Paid time off
+                        - generic [ref=e196]:
+                          - img [ref=e197]
+                          - generic [ref=e199]: Easily apply
+                      - button "Save job Toggle" [ref=e203] [cursor=pointer]:
+                        - img [ref=e204]
+                    - generic [ref=e206]:
+                      - list [ref=e208]:
+                        - listitem [ref=e209]: The Educational Case Manager is integral to the success of Tutor Me Education by doing intakes with families/students, ,coordinating instructors, tracking…
+                      - list [ref=e213]:
+                        - listitem [ref=e214]:
+                          - generic [ref=e215]:
+                            - text: View all
+                            - link "Tutor Me Education jobs" [ref=e216] [cursor=pointer]:
+                              - /url: /q-tutor-me-education-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e217] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Case Manager jobs in Toronto, ON" [ref=e218] [cursor=pointer]:
+                              - /url: /q-case-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e219]:
+                          - generic [ref=e220]:
+                            - text: "Salary Search:"
+                            - link "Educational Case Manager salaries in Toronto, ON" [ref=e221] [cursor=pointer]:
+                              - /url: /career/case-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=3af5ff38f31b2a1b&from=serp-more
+              - listitem [ref=e223]:
+                - generic [ref=e225]:
+                  - generic:
+                    - generic [ref=e228]:
+                      - heading "full details of Manager, Student Recruitment (High School)" [level=2] [ref=e230]:
+                        - button "full details of Manager, Student Recruitment (High School)" [ref=e231] [cursor=pointer]: Manager, Student Recruitment (High School)
+                      - generic [ref=e232]:
+                        - generic [ref=e234]:
+                          - generic [ref=e236]: Vega Academic Services Inc.
+                          - generic [ref=e237]: Toronto, ON
+                        - list [ref=e239]:
+                          - listitem [ref=e240]:
+                            - generic [ref=e243]: $100,000 a year
+                          - listitem [ref=e244]:
+                            - generic [ref=e247]:
+                              - text: Weekends as needed
+                              - generic [ref=e248]: "+1"
+                        - generic [ref=e250]:
+                          - img [ref=e251]
+                          - generic [ref=e253]: Easily apply
+                      - button "Save job Toggle" [ref=e257] [cursor=pointer]:
+                        - img [ref=e258]
+                    - generic [ref=e260]:
+                      - list [ref=e262]:
+                        - listitem [ref=e263]: Direct experience recruiting both domestic and international high school students is mandatory.
+                        - listitem [ref=e264]: Deep understanding of parent and student decision making at the…
+                      - list [ref=e268]:
+                        - listitem [ref=e269]:
+                          - generic [ref=e270]:
+                            - text: View all
+                            - link "Vega Academic Services Inc. jobs" [ref=e271] [cursor=pointer]:
+                              - /url: /q-vega-academic-services-inc.-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e272] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "High School Teacher jobs in Toronto, ON" [ref=e273] [cursor=pointer]:
+                              - /url: /q-high-school-teacher-l-toronto,-on-jobs.html
+                        - listitem [ref=e274]:
+                          - generic [ref=e275]:
+                            - text: "Salary Search:"
+                            - link "Manager, Student Recruitment (High School) salaries in Toronto, ON" [ref=e276] [cursor=pointer]:
+                              - /url: /career/high-school-teacher/salaries/Toronto--ON?campaignid=serp-more&fromjk=68db28bd352762b3&from=serp-more
+              - listitem [ref=e278]:
+                - generic [ref=e280]:
+                  - generic:
+                    - generic [ref=e283]:
+                      - heading "full details of Director of Student Recruitment" [level=2] [ref=e285]:
+                        - button "full details of Director of Student Recruitment" [ref=e286] [cursor=pointer]: Director of Student Recruitment
+                      - generic [ref=e287]:
+                        - generic [ref=e289]:
+                          - generic [ref=e291]: International Business University
+                          - generic [ref=e292]: Toronto, ON
+                        - list [ref=e294]:
+                          - listitem [ref=e295]:
+                            - generic [ref=e298]: Full-time
+                          - listitem [ref=e299]:
+                            - generic [ref=e302]: Tuition reimbursement
+                          - listitem [ref=e303]:
+                            - generic [ref=e306]: Paid time off
+                          - listitem [ref=e307]:
+                            - generic [ref=e310]: Dental care
+                          - listitem [ref=e311]:
+                            - generic [ref=e314]: Disability insurance
+                          - listitem [ref=e315]:
+                            - generic [ref=e318]: Extended health care
+                      - button "Save job Toggle" [ref=e320] [cursor=pointer]:
+                        - img [ref=e321]
+                    - generic [ref=e323]:
+                      - list [ref=e325]:
+                        - listitem [ref=e326]: Demonstrated success in designing and leading large-scale, multi-region student recruitment strategies that drive measurable enrollment outcomes.
+                      - list [ref=e330]:
+                        - listitem [ref=e331]:
+                          - generic [ref=e332]:
+                            - text: View all
+                            - link "International Business University jobs" [ref=e333] [cursor=pointer]:
+                              - /url: /q-international-business-university-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e334] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Director of Recruiting jobs in Toronto, ON" [ref=e335] [cursor=pointer]:
+                              - /url: /q-director-of-recruiting-l-toronto,-on-jobs.html
+                        - listitem [ref=e336]:
+                          - generic [ref=e337]:
+                            - text: "Salary Search:"
+                            - link "Director of Student Recruitment salaries in Toronto, ON" [ref=e338] [cursor=pointer]:
+                              - /url: /career/director-of-recruiting/salaries/Toronto--ON?campaignid=serp-more&fromjk=6df99ff30212816f&from=serp-more
+              - listitem [ref=e340]:
+                - generic [ref=e342]:
+                  - generic:
+                    - generic [ref=e345]:
+                      - heading "full details of Director, Advocacy" [level=2] [ref=e347]:
+                        - button "full details of Director, Advocacy" [ref=e348] [cursor=pointer]: Director, Advocacy
+                      - generic [ref=e349]:
+                        - generic [ref=e351]:
+                          - generic [ref=e353]: Ignite Student Union
+                          - generic [ref=e354]: Toronto, ON
+                        - list [ref=e356]:
+                          - listitem [ref=e357]:
+                            - generic [ref=e360]: $100,000–$120,000 a year
+                          - listitem [ref=e361]:
+                            - generic [ref=e364]: Permanent
+                          - listitem [ref=e365]:
+                            - generic [ref=e368]: Paid time off
+                      - button "Save job Toggle" [ref=e370] [cursor=pointer]:
+                        - img [ref=e371]
+                    - generic [ref=e373]:
+                      - list [ref=e375]:
+                        - listitem [ref=e376]: "Skill Development: Create tools and workshops to help student leaders develop their own advocacy and policy-shaping skills."
+                      - list [ref=e380]:
+                        - listitem [ref=e381]:
+                          - generic [ref=e382]:
+                            - text: View all
+                            - link "Ignite Student Union jobs" [ref=e383] [cursor=pointer]:
+                              - /url: /q-ignite-student-union-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e384] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Director of Patient Advocacy jobs in Toronto, ON" [ref=e385] [cursor=pointer]:
+                              - /url: /q-director-of-patient-advocacy-l-toronto,-on-jobs.html
+                        - listitem [ref=e386]:
+                          - generic [ref=e387]:
+                            - text: "Salary Search:"
+                            - link "Director, Advocacy salaries in Toronto, ON" [ref=e388] [cursor=pointer]:
+                              - /url: /career/director-of-patient-advocacy/salaries/Toronto--ON?campaignid=serp-more&fromjk=9ec79cfdd83379b0&from=serp-more
+                        - listitem [ref=e389]:
+                          - generic [ref=e390]:
+                            - text: See popular
+                            - link "questions & answers about Ignite Student Union" [ref=e391] [cursor=pointer]:
+                              - /url: /cmp/Ignite-Student-Union/faq
+              - listitem [ref=e393]:
+                - generic [ref=e395]:
+                  - generic:
+                    - generic [ref=e398]:
+                      - heading "full details of Director of Studies" [level=2] [ref=e400]:
+                        - button "full details of Director of Studies" [ref=e401] [cursor=pointer]: Director of Studies
+                      - generic [ref=e402]:
+                        - generic [ref=e404]:
+                          - generic [ref=e406]: Oxford International Education Group
+                          - generic [ref=e407]: Toronto, ON
+                        - list [ref=e409]:
+                          - listitem [ref=e410]:
+                            - generic [ref=e413]: $930–$1,030 a week
+                          - listitem [ref=e414]:
+                            - generic [ref=e417]: Full-time
+                          - listitem [ref=e418]:
+                            - generic [ref=e421]: On call
+                      - button "Save job Toggle" [ref=e423] [cursor=pointer]:
+                        - img [ref=e424]
+                    - list [ref=e428]:
+                      - listitem [ref=e429]: The Director of Studies coordinates a graduation ceremony each week for students finishing their course and ensures that each student receives a personalized…
+              - listitem
+              - listitem [ref=e431]:
+                - generic [ref=e433]:
+                  - generic:
+                    - generic [ref=e436]:
+                      - heading "full details of Program Coordinator / Full Time Faculty" [level=2] [ref=e438]:
+                        - button "full details of Program Coordinator / Full Time Faculty" [ref=e439] [cursor=pointer]: Program Coordinator / Full Time Faculty
+                      - generic [ref=e440]:
+                        - generic [ref=e442]:
+                          - generic [ref=e444]: Westcliff University
+                          - generic [ref=e445]: Markham, ON L3R 9Z7
+                        - list [ref=e447]:
+                          - listitem [ref=e448]:
+                            - generic [ref=e451]: $110,000–$125,000 a year
+                          - listitem [ref=e452]:
+                            - generic [ref=e455]: Full-time
+                        - generic [ref=e457]:
+                          - img [ref=e458]
+                          - generic [ref=e460]: Easily apply
+                      - button "Save job Toggle" [ref=e464] [cursor=pointer]:
+                        - img [ref=e465]
+                    - list [ref=e469]:
+                      - listitem [ref=e470]: Monitor and foster high levels of student retention, success, and satisfaction within the program, leveraging data insights and direct interaction with students…
+              - listitem [ref=e472]:
+                - generic [ref=e474]:
+                  - generic:
+                    - generic [ref=e477]:
+                      - heading "full details of Assistant Director of Admissions" [level=2] [ref=e479]:
+                        - button "full details of Assistant Director of Admissions" [ref=e480] [cursor=pointer]: Assistant Director of Admissions
+                      - generic [ref=e481]:
+                        - generic [ref=e483]:
+                          - generic [ref=e485]: Campus Support
+                          - generic [ref=e486]: Mississauga, ON L5B 2N5
+                        - list [ref=e488]:
+                          - listitem [ref=e489]:
+                            - generic [ref=e492]: $50,000 a year
+                          - listitem [ref=e493]:
+                            - generic [ref=e496]: Full-time
+                          - listitem [ref=e497]:
+                            - generic [ref=e500]: Monday to Friday
+                      - button "Save job Toggle" [ref=e502] [cursor=pointer]:
+                        - img [ref=e503]
+                    - list [ref=e507]:
+                      - listitem [ref=e508]: Collaborate with other departments to ensure a seamless transition from admission to enrollment for accepted students.
+              - listitem [ref=e510]:
+                - generic [ref=e512]:
+                  - generic:
+                    - generic [ref=e515]:
+                      - heading "full details of Director of Student Recruitment & Admissions for Secondary School" [level=2] [ref=e517]:
+                        - button "full details of Director of Student Recruitment & Admissions for Secondary School" [ref=e518] [cursor=pointer]: Director of Student Recruitment & Admissions for Secondary School
+                      - generic [ref=e519]:
+                        - generic [ref=e521]:
+                          - generic [ref=e523]: NOIC Academy
+                          - generic [ref=e524]: Markham, ON L3S 2H4
+                        - list [ref=e526]:
+                          - listitem [ref=e527]:
+                            - generic [ref=e530]:
+                              - text: Full-time
+                              - generic [ref=e531]: "+1"
+                          - listitem [ref=e532]:
+                            - generic [ref=e535]: Paid time off
+                          - listitem [ref=e536]:
+                            - generic [ref=e539]: Vision care
+                          - listitem [ref=e540]:
+                            - generic [ref=e543]: Dental care
+                          - listitem [ref=e544]:
+                            - generic [ref=e547]: Extended health care
+                          - listitem [ref=e548]:
+                            - generic [ref=e551]: On-site parking
+                        - generic [ref=e553]:
+                          - img [ref=e554]
+                          - generic [ref=e556]: Easily apply
+                      - link "View similar jobs with this employer" [ref=e559] [cursor=pointer]:
+                        - /url: /addlLoc/redirect?tk=1jkrftoelgc3485e&jk=eb88d0944a8302a5&dest=%2Fjobs%3Fq%3DDirector%2BStudent%2BSuccess%26nl%3D%26l%3DToronto%252C%2BON%26radius%3D25%26grpKey%3D8gcFdG5mZWy4D7KvpiuqECMKCW5vcm10aXRsZRoWZGlyZWN0b3Igb2YgYWRtaXNzaW9ucw%253D%253D
+                      - button "Save job Toggle" [ref=e561] [cursor=pointer]:
+                        - img [ref=e562]
+                    - list [ref=e566]:
+                      - listitem [ref=e567]: Initiate and participate in international student recruitment campaigns and marketing events, both virtual and in-person, to directly increase the school’s…
+              - listitem [ref=e569]:
+                - generic [ref=e571]:
+                  - generic:
+                    - generic [ref=e574]:
+                      - heading "full details of Head of Teaching and Learning" [level=2] [ref=e576]:
+                        - button "full details of Head of Teaching and Learning" [ref=e577] [cursor=pointer]: Head of Teaching and Learning
+                      - generic [ref=e578]:
+                        - generic [ref=e580]:
+                          - generic [ref=e582]: Rosedale Academy
+                          - generic [ref=e583]: Markham, ON
+                        - list [ref=e585]:
+                          - listitem [ref=e586]:
+                            - generic [ref=e589]: Full-time
+                          - listitem [ref=e590]:
+                            - generic [ref=e593]: Monday to Friday
+                          - listitem [ref=e594]:
+                            - generic [ref=e597]: Paid time off
+                          - listitem [ref=e598]:
+                            - generic [ref=e601]: Dental care
+                          - listitem [ref=e602]:
+                            - generic [ref=e605]: Extended health care
+                          - listitem [ref=e606]:
+                            - generic [ref=e609]: On-site parking
+                          - listitem [ref=e610]:
+                            - generic [ref=e613]: Work from home
+                        - generic [ref=e615]:
+                          - img [ref=e616]
+                          - generic [ref=e618]: Easily apply
+                      - button "Save job Toggle" [ref=e622] [cursor=pointer]:
+                        - img [ref=e623]
+                    - list [ref=e627]:
+                      - listitem [ref=e628]: Monitor and analyze student performance across all subjects, conduct diagnostics and develop effective strategies and approaches in teaching and learning to…
+              - listitem [ref=e630]:
+                - generic [ref=e632]:
+                  - generic:
+                    - generic [ref=e635]:
+                      - heading "full details of Education Coordinator" [level=2] [ref=e637]:
+                        - button "full details of Education Coordinator" [ref=e638] [cursor=pointer]: Education Coordinator
+                      - generic [ref=e639]:
+                        - generic [ref=e641]:
+                          - generic [ref=e643]: Oxford Learning Centres, Inc.
+                          - generic [ref=e644]: Toronto, ON M4T 1M9
+                        - list [ref=e646]:
+                          - listitem [ref=e647]:
+                            - generic [ref=e650]: Up to $18 an hour
+                          - listitem [ref=e651]:
+                            - generic [ref=e654]:
+                              - text: Full-time
+                              - generic [ref=e655]: "+1"
+                          - listitem [ref=e656]:
+                            - generic [ref=e659]: Weekends as needed
+                        - generic [ref=e661]:
+                          - img [ref=e662]
+                          - generic [ref=e664]: Easily apply
+                      - link "View similar jobs with this employer" [ref=e667] [cursor=pointer]:
+                        - /url: /addlLoc/redirect?tk=1jkrftoelgc3485e&jk=14d9eb7954cf50f0&dest=%2Fjobs%3Fq%3DDirector%2BStudent%2BSuccess%26nl%3D%26l%3DToronto%252C%2BON%26radius%3D25%26grpKey%3D8gcFdG5mZWy4D_DADaoQIgoJbm9ybXRpdGxlGhVlZHVjYXRpb24gY29vcmRpbmF0b3I%253D
+                      - button "Save job Toggle" [ref=e669] [cursor=pointer]:
+                        - img [ref=e670]
+                    - generic [ref=e672]:
+                      - list [ref=e674]:
+                        - listitem [ref=e675]: Establish and oversee student learning programs.
+                        - listitem [ref=e676]: Work in an educational environment dealing with medium to large student bodies.
+                      - list [ref=e680]:
+                        - listitem [ref=e681]:
+                          - generic [ref=e682]:
+                            - text: View all
+                            - link "Oxford Learning Centres, Inc. jobs" [ref=e683] [cursor=pointer]:
+                              - /url: /q-oxford-learning-centres,-inc.-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e684] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                        - listitem [ref=e685]:
+                          - generic [ref=e686]:
+                            - text: "Salary Search:"
+                            - link "Education Coordinator salaries in Toronto, ON" [ref=e687] [cursor=pointer]:
+                              - /url: /career/education-coordinator/salaries/Toronto--ON-M4T-1M9?campaignid=serp-more&fromjk=14d9eb7954cf50f0&from=serp-more
+                        - listitem [ref=e688]:
+                          - generic [ref=e689]:
+                            - text: See popular
+                            - link "questions & answers about Oxford Learning Centres, Inc." [ref=e690] [cursor=pointer]:
+                              - /url: /cmp/Oxford-Learning-Centre/faq
+              - listitem
+              - listitem [ref=e692]:
+                - generic [ref=e694]:
+                  - generic:
+                    - generic [ref=e697]:
+                      - generic [ref=e698]:
+                        - heading "full details of Customer Success Manager (East)" [level=2] [ref=e699]:
+                          - button "full details of Customer Success Manager (East)" [ref=e700] [cursor=pointer]: Customer Success Manager (East)
+                        - generic [ref=e704]: Often responds within 1 day
+                      - generic [ref=e705]:
+                        - generic [ref=e707]:
+                          - generic [ref=e709]: Minga
+                          - generic [ref=e710]: Toronto, ON
+                        - list [ref=e712]:
+                          - listitem [ref=e713]:
+                            - generic [ref=e716]: $66,000–$110,000 a year
+                          - listitem [ref=e717]:
+                            - generic [ref=e720]: Full-time
+                          - listitem [ref=e721]:
+                            - generic [ref=e724]: Vision care
+                          - listitem [ref=e725]:
+                            - generic [ref=e728]: Dental care
+                        - generic [ref=e730]:
+                          - img [ref=e731]
+                          - generic [ref=e733]: Easily apply
+                      - button "Save job Toggle" [ref=e737] [cursor=pointer]:
+                        - img [ref=e738]
+                    - generic [ref=e740]:
+                      - list [ref=e742]:
+                        - listitem [ref=e743]: This role requires 3+ years relevant customer success experience.
+                        - listitem [ref=e744]: Develop and execute customer success plans tailored to each customer's unique goals and…
+                      - list [ref=e748]:
+                        - listitem [ref=e749]:
+                          - generic [ref=e750]:
+                            - text: View all
+                            - link "Minga jobs" [ref=e751] [cursor=pointer]:
+                              - /url: /q-minga-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e752] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Customer Success Manager jobs in Toronto, ON" [ref=e753] [cursor=pointer]:
+                              - /url: /q-customer-success-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e754]:
+                          - generic [ref=e755]:
+                            - text: "Salary Search:"
+                            - link "Customer Success Manager (East) salaries in Toronto, ON" [ref=e756] [cursor=pointer]:
+                              - /url: /career/customer-success-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=e1ac9cce0b43dd2b&from=serp-more
+                        - listitem [ref=e757]:
+                          - generic [ref=e758]:
+                            - text: See popular
+                            - link "questions & answers about Minga" [ref=e759] [cursor=pointer]:
+                              - /url: /cmp/Minga-4/faq
+              - listitem
+              - listitem [ref=e761]:
+                - generic [ref=e763]:
+                  - generic:
+                    - generic [ref=e766]:
+                      - generic [ref=e767]:
+                        - heading "full details of Director of Client Success" [level=2] [ref=e768]:
+                          - button "full details of Director of Client Success" [ref=e769] [cursor=pointer]: Director of Client Success
+                        - generic [ref=e773]: Often responds within 1 day
+                      - generic [ref=e774]:
+                        - generic [ref=e776]:
+                          - generic [ref=e778]: Impact Clients
+                          - generic [ref=e779]: Toronto, ON M5V 3L9
+                        - list [ref=e781]:
+                          - listitem [ref=e782]:
+                            - generic [ref=e785]: Full-time
+                          - listitem [ref=e786]:
+                            - generic [ref=e789]: Monday to Friday
+                        - generic [ref=e791]:
+                          - img [ref=e792]
+                          - generic [ref=e794]: Easily apply
+                      - button "Save job Toggle" [ref=e798] [cursor=pointer]:
+                        - img [ref=e799]
+                    - generic [ref=e801]:
+                      - list [ref=e803]:
+                        - listitem [ref=e804]: You must have proven experience leading customer success teams in online education, coaching, or digital marketing.
+                        - listitem [ref=e805]: This is a remote, full-time position.
+                      - list [ref=e809]:
+                        - listitem [ref=e810]:
+                          - generic [ref=e811]:
+                            - text: View all
+                            - link "Impact Clients jobs" [ref=e812] [cursor=pointer]:
+                              - /url: /q-impact-clients-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e813] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Director of Customer Success jobs in Toronto, ON" [ref=e814] [cursor=pointer]:
+                              - /url: /q-director-of-customer-success-l-toronto,-on-jobs.html
+                        - listitem [ref=e815]:
+                          - generic [ref=e816]:
+                            - text: "Salary Search:"
+                            - link "Director of Client Success salaries in Toronto, ON" [ref=e817] [cursor=pointer]:
+                              - /url: /career/director-of-customer-success/salaries/Toronto--ON-M5V-3L9?campaignid=serp-more&fromjk=192aad87f7ce4d5b&from=serp-more
+              - listitem [ref=e819]:
+                - generic [ref=e821]:
+                  - generic:
+                    - generic [ref=e824]:
+                      - generic [ref=e825]:
+                        - heading "full details of Scaled Customer Success Manager (East)" [level=2] [ref=e826]:
+                          - button "full details of Scaled Customer Success Manager (East)" [ref=e827] [cursor=pointer]: Scaled Customer Success Manager (East)
+                        - generic [ref=e831]: Often responds within 1 day
+                      - generic [ref=e832]:
+                        - generic [ref=e834]:
+                          - generic [ref=e836]: Minga
+                          - generic [ref=e837]: Toronto, ON
+                        - list [ref=e839]:
+                          - listitem [ref=e840]:
+                            - generic [ref=e843]: $66,000–$110,000 a year
+                          - listitem [ref=e844]:
+                            - generic [ref=e847]: Full-time
+                          - listitem [ref=e848]:
+                            - generic [ref=e851]: Vision care
+                          - listitem [ref=e852]:
+                            - generic [ref=e855]: Dental care
+                        - generic [ref=e857]:
+                          - img [ref=e858]
+                          - generic [ref=e860]: Easily apply
+                      - button "Save job Toggle" [ref=e864] [cursor=pointer]:
+                        - img [ref=e865]
+                    - generic [ref=e867]:
+                      - list [ref=e869]:
+                        - listitem [ref=e870]: Proven success working with tech‑touch or low‑touch segments, or strong interest and aptitude for digital-first engagement.
+                        - listitem [ref=e871]: 15 Days vacation + 3 Flex Days.
+                      - list [ref=e875]:
+                        - listitem [ref=e876]:
+                          - generic [ref=e877]:
+                            - text: View all
+                            - link "Minga jobs" [ref=e878] [cursor=pointer]:
+                              - /url: /q-minga-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e879] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Customer Success Manager jobs in Toronto, ON" [ref=e880] [cursor=pointer]:
+                              - /url: /q-customer-success-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e881]:
+                          - generic [ref=e882]:
+                            - text: "Salary Search:"
+                            - link "Scaled Customer Success Manager (East) salaries in Toronto, ON" [ref=e883] [cursor=pointer]:
+                              - /url: /career/customer-success-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=2cbfe03921cd9f82&from=serp-more
+                        - listitem [ref=e884]:
+                          - generic [ref=e885]:
+                            - text: See popular
+                            - link "questions & answers about Minga" [ref=e886] [cursor=pointer]:
+                              - /url: /cmp/Minga-4/faq
+              - listitem [ref=e888]:
+                - generic [ref=e890]:
+                  - generic:
+                    - generic [ref=e893]:
+                      - heading "full details of Director, Platform Partnerships & Activation" [level=2] [ref=e895]:
+                        - button "full details of Director, Platform Partnerships & Activation" [ref=e896] [cursor=pointer]: Director, Platform Partnerships & Activation
+                      - generic [ref=e897]:
+                        - generic [ref=e899]:
+                          - generic [ref=e901]: Environics Analytics
+                          - generic [ref=e902]: Toronto, ON M4W 3H1
+                        - list [ref=e904]:
+                          - listitem [ref=e905]:
+                            - generic [ref=e908]: $120,000–$150,000 a year
+                          - listitem [ref=e909]:
+                            - generic [ref=e912]: Full-time
+                        - generic [ref=e914]:
+                          - img [ref=e915]
+                          - generic [ref=e917]: Easily apply
+                      - button "Save job Toggle" [ref=e921] [cursor=pointer]:
+                        - img [ref=e922]
+                    - generic [ref=e924]:
+                      - list [ref=e926]:
+                        - listitem [ref=e927]: As the Director, Platform Partnerships & Activation for the Media (MED) team, you will own strategic relationships with media activation platforms to maximize…
+                      - list [ref=e931]:
+                        - listitem [ref=e932]:
+                          - generic [ref=e933]:
+                            - text: View all
+                            - link "Environics Analytics jobs" [ref=e934] [cursor=pointer]:
+                              - /url: /q-environics-analytics-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e935] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Director of Partnerships jobs in Toronto, ON" [ref=e936] [cursor=pointer]:
+                              - /url: /q-director-of-partnerships-l-toronto,-on-jobs.html
+                        - listitem [ref=e937]:
+                          - generic [ref=e938]:
+                            - text: "Salary Search:"
+                            - link "Director, Platform Partnerships & Activation salaries in Toronto, ON" [ref=e939] [cursor=pointer]:
+                              - /url: /career/director-of-partnerships/salaries/Toronto--ON-M4W-3H1?campaignid=serp-more&fromjk=8b47a0ab449fc560&from=serp-more
+                        - listitem [ref=e940]:
+                          - generic [ref=e941]:
+                            - text: See popular
+                            - link "questions & answers about Environics Analytics" [ref=e942] [cursor=pointer]:
+                              - /url: /cmp/Environics-Analytics/faq
+              - listitem [ref=e944]:
+                - generic [ref=e946]:
+                  - generic:
+                    - generic [ref=e949]:
+                      - generic [ref=e950]:
+                        - heading "full details of Senior Product Manager, Admissions Assessment (Casper)" [level=2] [ref=e951]:
+                          - button "full details of Senior Product Manager, Admissions Assessment (Casper)" [ref=e952] [cursor=pointer]: Senior Product Manager, Admissions Assessment (Casper)
+                        - generic [ref=e956]: Often responds within 4 days
+                      - generic [ref=e957]:
+                        - generic [ref=e959]:
+                          - generic [ref=e961]: Acuity Insights
+                          - generic [ref=e962]: Toronto, ON
+                        - list [ref=e964]:
+                          - listitem [ref=e965]:
+                            - generic [ref=e968]: $150,000–$164,000 a year
+                          - listitem [ref=e969]:
+                            - generic [ref=e972]: Full-time
+                          - listitem [ref=e973]:
+                            - generic [ref=e976]: Stock options
+                        - generic [ref=e978]:
+                          - img [ref=e979]
+                          - generic [ref=e981]: Easily apply
+                      - button "Save job Toggle" [ref=e985] [cursor=pointer]:
+                        - img [ref=e986]
+                    - generic [ref=e988]:
+                      - list [ref=e990]:
+                        - listitem [ref=e991]: Six to twelve months in, success looks like clarity, momentum, and trust.
+                        - listitem [ref=e992]: Product, Research, Engineering, and GTM partners are aligned on priorities, success…
+                      - list [ref=e996]:
+                        - listitem [ref=e997]:
+                          - generic [ref=e998]:
+                            - text: View all
+                            - link "Acuity Insights jobs" [ref=e999] [cursor=pointer]:
+                              - /url: /q-acuity-insights-jobs.html
+                            - text: "-"
+                            - link "Toronto jobs" [ref=e1000] [cursor=pointer]:
+                              - /url: /l-toronto,-on-jobs.html
+                            - text: "-"
+                            - link "Senior Product Manager jobs in Toronto, ON" [ref=e1001] [cursor=pointer]:
+                              - /url: /q-senior-product-manager-l-toronto,-on-jobs.html
+                        - listitem [ref=e1002]:
+                          - generic [ref=e1003]:
+                            - text: "Salary Search:"
+                            - link "Senior Product Manager, Admissions Assessment (Casper) salaries in Toronto, ON" [ref=e1004] [cursor=pointer]:
+                              - /url: /career/senior-product-manager/salaries/Toronto--ON?campaignid=serp-more&fromjk=a767eaa22b9d8d21&from=serp-more
+              - listitem
+            - navigation "pagination" [ref=e1006]:
+              - list [ref=e1007]:
+                - listitem [ref=e1008]:
+                  - link "1" [ref=e1009] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e1010]:
+                  - link "2" [ref=e1011] [cursor=pointer]:
+                    - /url: /jobs?q=Director+Student+Success&l=Toronto%2C+ON&radius=25&start=10
+                - listitem [ref=e1012]:
+                  - link "3" [ref=e1013] [cursor=pointer]:
+                    - /url: /jobs?q=Director+Student+Success&l=Toronto%2C+ON&radius=25&start=20
+                - listitem [ref=e1014]:
+                  - link "4" [ref=e1015] [cursor=pointer]:
+                    - /url: /jobs?q=Director+Student+Success&l=Toronto%2C+ON&radius=25&start=30
+                - listitem [ref=e1016]:
+                  - link "5" [ref=e1017] [cursor=pointer]:
+                    - /url: /jobs?q=Director+Student+Success&l=Toronto%2C+ON&radius=25&start=40
+                - listitem [ref=e1018]:
+                  - link "Next page" [ref=e1019] [cursor=pointer]:
+                    - /url: /jobs?q=Director+Student+Success&l=Toronto%2C+ON&radius=25&start=10
+                    - img [ref=e1020]
+            - generic [ref=e1026]:
+              - generic [ref=e1027]:
+                - generic [ref=e1029]:
+                  - text: Get email updates for the latest
+                  - strong [ref=e1030]: Director Student Success
+                  - text: jobs in
+                  - strong [ref=e1031]: Toronto, ON
+                - generic [ref=e1032] [cursor=pointer]:
+                  - switch [ref=e1033]
+                  - img [ref=e1036]
+              - paragraph [ref=e1039]:
+                - text: By creating a job alert, you agree to our
+                - link "Terms (opens in a new tab)" [ref=e1040] [cursor=pointer]:
+                  - /url: /legal?hl=en
+                  - text: Terms
+                  - img [ref=e1041]
+                - text: . You can change your consent settings at any time by unsubscribing or as detailed in our terms.
+            - generic [ref=e1044]:
+              - heading "Career Resources:" [level=2] [ref=e1045]
+              - list [ref=e1046]:
+                - text: "-"
+                - listitem [ref=e1047]:
+                  - link "Explore High Paying Jobs" [ref=e1048] [cursor=pointer]:
+                    - /url: /explorer/
+          - generic "Job Post Details" [ref=e1050]:
+            - button "Return to Search Result" [ref=e1051]
+            - heading "Job Post Details" [level=2] [ref=e1052]
+            - generic [ref=e1056]:
+              - generic [ref=e1058]:
+                - generic [ref=e1059]:
+                  - img "Tutor Me Education logo" [ref=e1060]
+                  - img "Tutor Me Education logo" [ref=e1061]
+                - generic [ref=e1062]:
+                  - heading "Educational Case Manager - job post" [level=2] [ref=e1064]:
+                    - generic [ref=e1065]:
+                      - text: Educational Case Manager
+                      - generic [ref=e1066]: "- job post"
+                  - generic [ref=e1070]:
+                    - generic [ref=e1071]:
+                      - link "Tutor Me Education (opens in a new tab)" [ref=e1074] [cursor=pointer]:
+                        - /url: https://ca.indeed.com/cmp/Tutor-Me-Education?campaignid=mobvjcmp&from=mobviewjob&tk=1jkrftoktgc34800&fromjk=3af5ff38f31b2a1b
+                        - text: Tutor Me Education
+                        - img [ref=e1075]
+                      - generic [ref=e1077]:
+                        - generic [ref=e1078]: · 4.1
+                        - generic [ref=e1079]: 4.1 out of 5 stars
+                        - img [ref=e1080]
+                    - generic [ref=e1083]: Toronto, ON•Remote
+                - generic [ref=e1086]: Full-time
+                - generic [ref=e1088]:
+                  - button "Apply now opens in a new tab" [ref=e1096] [cursor=pointer]:
+                    - generic [ref=e1098]: Apply now
+                  - button "Save job" [ref=e1102] [cursor=pointer]:
+                    - img "save-icon" [ref=e1103]
+                  - button "Share job" [ref=e1105] [cursor=pointer]
+              - generic [ref=e1108]:
+                - generic [ref=e1109]:
+                  - generic [ref=e1115]:
+                    - generic [ref=e1116]:
+                      - heading "Job details" [level=2] [ref=e1118]
+                      - group "Job type" [ref=e1120]:
+                        - img [ref=e1121]
+                        - generic [ref=e1124]:
+                          - heading "Job type" [level=3] [ref=e1125]
+                          - list [ref=e1127]:
+                            - listitem [ref=e1128]:
+                              - generic [ref=e1133]: Full-time
+                    - separator [ref=e1134]:
+                      - generic [ref=e1135]: "&nbsp;"
+                  - generic [ref=e1136]:
+                    - heading "Benefits Pulled from the full job description" [level=2] [ref=e1137]:
+                      - text: Benefits
+                      - generic [ref=e1138]: Pulled from the full job description
+                    - list [ref=e1142]:
+                      - listitem [ref=e1143]: Paid time off
+                    - separator [ref=e1144]:
+                      - generic [ref=e1145]: "&nbsp;"
+                  - heading "Full job description" [level=2] [ref=e1147]
+                  - generic [ref=e1149]:
+                    - paragraph [ref=e1150]: This job is fully Remote! Clear and excellent English communication skills, technology skills, and organization skills, required.
+                    - paragraph [ref=e1151]: Responsibilities
+                    - list [ref=e1152]:
+                      - listitem [ref=e1153]: The Educational Case Manager is integral to the success of Tutor Me Education by doing intakes with families/students, ,coordinating instructors, tracking student progress, and providing quality customer service
+                      - listitem [ref=e1154]: Actively support Tutor Me Education Regional Operations
+                      - listitem [ref=e1155]: Provide outstanding academic services to students and their families
+                      - listitem [ref=e1156]: Operate seamlessly in a virtual operating environment
+                      - listitem [ref=e1157]: Maintain Tutor Me Education operating standards including people, financial, and academic standards
+                      - listitem [ref=e1158]: Ensure delivery of programs and initiatives for our students and school district partners
+                      - listitem [ref=e1159]: Meet operational excellence standards
+                      - listitem [ref=e1160]: Provide virtual administrative support to Regional Operations including answering phones, managing daily business data, and creating/ managing schedules with students and teachers
+                      - listitem [ref=e1161]: Manage class schedules to effectively staff sessions and meet company efficiency and usage targets
+                      - listitem [ref=e1162]: Manage virtual tutoring sessions
+                      - listitem [ref=e1163]: Monitor all students’ academic progress
+                      - listitem [ref=e1164]: Help ensure flawless execution of programs and initiatives
+                      - listitem [ref=e1165]: Manage your own time in compliance with company and regulatory requirements
+                      - listitem [ref=e1166]: Conduct conferences with partner program directors to review progress, adjust academic plans, and renew enrollments
+                      - listitem [ref=e1167]: Other responsibilities – as required by the business
+                      - listitem [ref=e1168]: Relish building relationships with students and their families
+                      - listitem [ref=e1169]: Dedicated to meeting the expectations and requirements of internal and external customers
+                      - listitem [ref=e1170]: Fosters an environment of open communication with students and parents to ensure positive and effective conflict resolution
+                    - text: Requirements
+                    - paragraph [ref=e1171]: Qualifications
+                    - list [ref=e1172]:
+                      - listitem [ref=e1173]: Time management, planning, and prioritization
+                      - listitem [ref=e1174]: Ability to organize and manage multiple responsibilities successfully
+                      - listitem [ref=e1175]: Exhibits professional and approachable demeanor
+                      - listitem [ref=e1176]: Ability to prioritize and focus on key objectives, which may change from month to month
+                      - listitem [ref=e1177]: Effective communications both in virtual environments
+                      - listitem [ref=e1178]: Proficient in using all communication media including in person, phone, and video
+                      - listitem [ref=e1179]: Ability to build engagement and trust in virtual relationships, whether with customers or with team members
+                      - listitem [ref=e1180]: Works Well With Others
+                      - listitem [ref=e1181]: Learning agility – able to adapt to changes in work environment by changing behaviors as required
+                      - listitem [ref=e1182]: Able to acquire new skills as required
+                      - listitem [ref=e1183]: Ability to engage, manage and grow virtual relationships with customers, employees, and business partners (e.g. local schools)
+                      - listitem [ref=e1184]: Ability to manage remote teachers
+                      - listitem [ref=e1185]: Ability to work independently
+                      - listitem [ref=e1186]: High tolerance for ambiguity
+                      - listitem [ref=e1187]: Bachelor’s Degree required
+                      - listitem [ref=e1188]: 2-3 years progressive career growth
+                      - listitem [ref=e1189]: Experience working in a virtual operations and team environment
+                      - listitem [ref=e1190]: Bilingual in English and Spanish beneficial
+                      - listitem [ref=e1191]: Proficient in Microsoft Office and Google applications
+                    - text: Benefits
+                    - paragraph [ref=e1192]: Fully Remote!
+                    - paragraph [ref=e1193]: PTO
+                    - paragraph [ref=e1194]: Etc.
+                  - separator [ref=e1195]:
+                    - generic [ref=e1196]: "&nbsp;"
+                - button "Report job" [ref=e1203] [cursor=pointer]: Report job
+            - button "Return to Search Result" [ref=e1205]
+      - contentinfo [ref=e1210]:
+        - generic [ref=e1211]:
+          - list [ref=e1212]:
+            - listitem [ref=e1213]:
+              - link "Hiring Lab" [ref=e1215] [cursor=pointer]:
+                - /url: https://www.hiringlab.org/en-ca/
+            - listitem [ref=e1216]:
+              - link "Career advice" [ref=e1218] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career-advice
+            - listitem [ref=e1219]:
+              - link "Browse jobs" [ref=e1221] [cursor=pointer]:
+                - /url: https://ca.indeed.com/browsejobs
+            - listitem [ref=e1222]:
+              - link "Browse companies" [ref=e1224] [cursor=pointer]:
+                - /url: https://ca.indeed.com/companies/browse-companies
+            - listitem [ref=e1225]:
+              - link "Salaries" [ref=e1227] [cursor=pointer]:
+                - /url: https://ca.indeed.com/career/salaries
+            - listitem [ref=e1228]:
+              - link "Indeed Events" [ref=e1230] [cursor=pointer]:
+                - /url: https://www.indeedevents.com/en-ca/
+            - listitem [ref=e1231]:
+              - link "Work at Indeed" [ref=e1233] [cursor=pointer]:
+                - /url: https://ca.indeed.com/cmp/Indeed/about
+            - listitem [ref=e1234]:
+              - link "Countries" [ref=e1236] [cursor=pointer]:
+                - /url: https://ca.indeed.com/worldwide
+            - listitem [ref=e1237]:
+              - link "About" [ref=e1239] [cursor=pointer]:
+                - /url: https://ca.indeed.com/about
+            - listitem [ref=e1240]:
+              - link "Help" [ref=e1242] [cursor=pointer]:
+                - /url: https://ca.indeed.com/help
+            - listitem [ref=e1243]:
+              - link "ESG at Indeed" [ref=e1245] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg?from=gnav-jobsearch--indeedmobile
+          - list [ref=e1246]:
+            - listitem [ref=e1247]: © 2026 Indeed
+            - listitem [ref=e1248]:
+              - link "Accessibility at Indeed" [ref=e1250] [cursor=pointer]:
+                - /url: https://ca.indeed.com/esg/accessibility?hl=en
+            - listitem [ref=e1251]:
+              - link "Privacy Centre and Ad Choices" [ref=e1253] [cursor=pointer]:
+                - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+            - listitem [ref=e1254]:
+              - link "Terms" [ref=e1256] [cursor=pointer]:
+                - /url: https://ca.indeed.com/legal?hl=en
+          - list:
+            - listitem

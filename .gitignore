@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Build outputs
+*.log
+*.tmp
+.cache/
+
+# Claude Code state files
+.claude/plugins/applypilot-plugin/.omc/
+.claude/plugins/applypilot-plugin/state/
+.omc/state/sessions/
+
+# Legacy plugin (superseded by jobos)
+.claude/plugins/applypilot-plugin/
+
+# Local state (user-specific)
+state/jobs/
+state/logs/
+state/outputs/
+state/queues/*.jsonl
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+job-search-state/
+test-install/

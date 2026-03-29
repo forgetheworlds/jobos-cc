@@ -1,0 +1,225 @@
+# =============================================================================
+# CANDIDATE PROFILE
+# =============================================================================
+# This file stores your core professional information that the system uses
+# to tailor job applications. Think of it as your "master resume" that contains
+# everything you might ever want to include in an application.
+#
+# HOW TO USE THIS FILE:
+# - Fill in all sections honestly and completely
+# - The system will pull relevant pieces for each job application
+# - Update this file as your experience grows
+# - Comments (lines starting with #) explain what each field means
+#
+# TIPS:
+# - Be specific about achievements — "2,000+ students" beats "many students"
+# - Include metrics where possible — numbers make claims credible
+# - Don't worry about length — this is the source, not the final resume
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# IDENTITY SECTION
+# -----------------------------------------------------------------------------
+# Basic contact information and work preferences
+
+identity:
+  full_name: Dr. Mohamed Sambul              # Your complete name as it appears on documents
+  preferred_name: Mohamed                      # What you like to be called
+  title_prefix: Dr.                            # Professional title (Dr., Mr., Ms., etc.)
+  email: mohamed.sambul@gmail.com              # Primary email address
+  phone: '6472280736'                          # Contact number (include country code if applying internationally)
+  linkedin_url: ''                             # Optional: your LinkedIn profile URL
+  location: Mississauga, ON                    # Current city and state/province
+
+  # WORK PREFERENCES
+  # These help filter jobs that match your lifestyle needs
+
+  relocation_willingness: open                # Options: "open", "regional_only", "no_relocation"
+                                               # "open" = willing to move anywhere
+                                               # "regional_only" = only certain areas (list below)
+                                               # "no_relocation" = local only
+
+  work_arrangement_preference: flexible         # Options: "remote", "hybrid", "onsite", "flexible"
+                                               # "remote" = work from home
+                                               # "hybrid" = some days in office, some remote
+                                               # "onsite" = full-time at workplace
+                                               # "flexible" = open to different arrangements
+
+  work_authorization: Citizen                   # Options: "Citizen", "Permanent Resident", "Work Permit", "Sponsorship Required"
+  citizenship: ''                              # Your citizenship (if relevant to applications)
+
+# -----------------------------------------------------------------------------
+# PROFESSIONAL NARRATIVE
+# -----------------------------------------------------------------------------
+# This section helps create consistent "about me" statements across applications
+
+professional_narrative:
+  # ONE SENTENCE: Your professional identity in a nutshell
+  # Used for: cover letter openings, email signatures, quick introductions
+  one_sentence: 'Experienced higher education leader and educator with over 20 years
+    of experience in program coordination, curriculum development, and academic leadership
+    across higher education and community-based initiatives.'
+
+  # THREE THEMES: What you're known for
+  # These become the foundation of your professional story
+  three_strongest_themes:
+  - Academic program management and coordination in postsecondary settings
+  - First-year student success, transition programming, and retention
+  - Multicultural education, inclusive practice, and community-academic partnerships
+
+  # TARGET ROLES: What positions you're seeking
+  # These guide the system when matching you to jobs
+  most_aligned_roles:
+  - Academic program coordination and management
+  - First-year experience and transition program leadership
+  - Student advising and success initiatives
+
+  # CAREER DIRECTION: What you want more/less of in your next role
+  work_to_do_more_of:
+  - Strategic program leadership in higher education
+  - Faculty development and coordination
+  - Student success and retention initiatives
+
+  work_to_avoid:
+  - Sales-oriented education roles                # Roles focused on enrollment/sales targets
+  - Purely K-12 without leadership component       # Teaching-only roles outside higher ed
+  - Highly technical instructional technology roles # Deep tech development, not program management
+
+  # KEY POINTS: What employers should remember about you
+  three_things_to_remember:
+  - 20+ years of educational leadership and teaching experience
+  - Deep expertise in first-year programming, advising, and multicultural education
+  - Doctoral-level academic with strong curriculum development skills
+
+# -----------------------------------------------------------------------------
+# EDUCATION SECTION
+# -----------------------------------------------------------------------------
+# Your degrees and credentials — listed most recent first
+
+education:
+  degrees:
+  - level: Doctorate                            # Degree type: Doctorate, Master's, Bachelor's, Certificate, Diploma
+    field: Education                             # Field of study
+    institution: Ohio University                  # School name
+    year: ''                                     # Graduation year (optional)
+  - level: Master's
+    field: Community and Agency Counseling
+    institution: Ohio University
+    year: ''
+  - level: Master's
+    field: International Studies
+    institution: Ohio University
+    year: ''
+  - level: Bachelor's
+    field: Secondary Education
+    institution: Kenyatta University
+    year: ''
+
+  certifications: []                            # List any professional certifications
+
+  # LANGUAGES: Your communication abilities
+  # Include proficiency level: Native, Fluent, Professional, Conversational, Basic
+  languages:
+  - language: English
+    proficiency: Fluent
+  - language: Arabic
+    proficiency: Professional
+  - language: Somali
+    proficiency: Native
+  - language: Swahili
+    proficiency: Professional
+
+# -----------------------------------------------------------------------------
+# SKILLS INVENTORY
+# -----------------------------------------------------------------------------
+# Your capabilities with evidence — this is the heart of your resume content
+#
+# RATING SYSTEM:
+#   "strong"     = You have extensive, documented experience and can lead with this
+#   "moderate"   = You have solid experience but it's not your primary strength
+#   "developing" = You have some experience but would need support in this area
+#
+# EVIDENCE FIELD:
+#   Write 1-2 sentences describing a specific situation where you demonstrated
+#   this skill. Include: what you did, where, and what the result was.
+#   The system uses these as bullet points in tailored resumes.
+
+skills_inventory:
+  program_management:
+    rating: strong                               # Options: strong, moderate, developing
+    evidence: 'Directed first-year program serving 2,000+ students annually at Saudi
+      Electronic University (2016-2019), overseeing curriculum implementation, faculty
+      coordination, and student engagement.'
+  student_advising:
+    rating: strong
+    evidence: 'Coordinated academic advising services reducing student attrition
+      in first-year courses at Saudi Electronic University; mentored students in academic
+      development and career planning.'
+  faculty_coordination:
+    rating: strong
+    evidence: 'Designed faculty training sessions that improved teaching quality and
+      consistency across courses at Saudi Electronic University.'
+  curriculum_design:
+    rating: strong
+    evidence: 'Contributed to curriculum design and program assessment aligned with
+      accreditation standards and institutional goals at Saudi Electronic University.'
+  academic_operations:
+    rating: strong
+    evidence: 'Managed first-year program operations including scheduling, faculty
+      assignments, and student engagement tracking for 2,000+ students at SEU.'
+  workshop_facilitation:
+    rating: strong
+    evidence: 'Facilitated reflective practice sessions improving practicum students''
+      instructional techniques at Pathways to Education/York University partnership.'
+  training_and_mentoring:
+    rating: strong
+    evidence: 'Mentored students in academic development, research projects, and career
+      planning at SEU; supervised first-year placement students at Pathways to Education.'
+  policy_implementation:
+    rating: moderate
+    evidence: 'Led program evaluation initiatives resulting in estimated 15% improvement
+      in course completion rates at SEU.'
+  data_informed_evaluation:
+    rating: moderate
+    evidence: 'Led program evaluation initiatives and assessment frameworks at SEU;
+      conducted equity analysis of existing practices to inform program improvements.'
+  cross_cultural_communication:
+    rating: strong
+    evidence: 'Served as Community Scholar at York University''s Centre for Refugee
+      Studies; integrated experiential learning for multicultural education; multilingual
+      communicator (English, Arabic, Somali, Swahili).'
+  stakeholder_engagement:
+    rating: strong
+    evidence: 'Developed partnerships between academic institutions and community
+      organizations including York University-Pathways to Education practicum program.'
+  academic_writing:
+    rating: strong
+    evidence: 'Contributed research and training on refugee education as Community
+      Scholar at York University''s Centre for Refugee Studies; taught courses in
+      diaspora studies and education foundations.'
+  conflict_handling:
+    rating: moderate
+    evidence: 'Coordinated across multiple departments and faculty for first-year
+      program delivery at SEU, managing competing priorities and maintaining alignment.'
+  committee_support:
+    rating: moderate
+    evidence: 'Contributed to program assessment aligned with accreditation standards
+      and institutional goals at SEU.'
+  governance_support:
+    rating: moderate
+    evidence: 'Participated in institutional assessment and accreditation alignment
+      processes at Saudi Electronic University.'
+  institutional_systems:
+    rating: moderate
+    evidence: 'Used learning management systems and student information systems at
+      Saudi Electronic University for program delivery and student tracking.'
+  technology_comfort:
+    rating: moderate
+    evidence: 'Taught undergraduate and graduate courses at Saudi Electronic University,
+      a technology-driven institution requiring comfort with digital platforms and
+      online learning systems.'
+  public_speaking:
+    rating: strong
+    evidence: 'Taught courses at multiple institutions (SEU, York University, Centennial
+      College) for 20+ years; facilitated workshops, training sessions, and reflective
+      practice sessions.'

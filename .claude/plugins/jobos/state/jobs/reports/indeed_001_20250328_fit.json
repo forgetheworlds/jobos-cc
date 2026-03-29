@@ -1,0 +1,18 @@
+{
+  "job_id": "indeed_001_20250328",
+  "lane": "student_success",
+  "score": 7.5,
+  "rationale": "Strong match for Dr. Sambul's student services and program coordination experience. College setting aligns with his background in academic administration. Student success focus matches his expertise in first-year programs and retention.",
+  "cluster_match": "student_success",
+  "exclusion_triggered": null,
+  "confidence": 0.85,
+  "next_step": "tailor",
+  "verdict": "approved",
+  "scoring_factors": {
+    "role_alignment": 8,
+    "seniority_match": 7,
+    "credentials": 9,
+    "domain_knowledge": 8,
+    "mission_fit": 8
+  }
+}
