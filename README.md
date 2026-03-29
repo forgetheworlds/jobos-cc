@@ -4,18 +4,20 @@
 
 JobOS-CC helps higher education professionals find, evaluate, and apply for academic jobs. It searches across job boards, scores opportunities by fit, creates tailored application materials, and manages your entire job search pipeline.
 
+**🌐 GitHub:** https://github.com/forgetheworlds/jobos-cc
+
 ## One-Line Installation
 
 ### macOS / Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/jobos-cc/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/forgetheworlds/jobos-cc/main/install.sh | bash
 ```
 
 Or manually:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/jobos-cc.git
+git clone https://github.com/forgetheworlds/jobos-cc.git
 cd jobos-cc
 ./install.sh
 ```
@@ -24,7 +26,7 @@ cd jobos-cc
 
 ```powershell
 # Download and run
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/YOUR_USERNAME/jobos-cc/main/install.ps1 -OutFile install.ps1
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/forgetheworlds/jobos-cc/main/install.ps1 -OutFile install.ps1
 .\install.ps1
 ```
 
